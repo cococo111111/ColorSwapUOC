@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df69f35339710d04ab8b9aae5f31c692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_GUISpeed: 1
+  m_GUISpeed: 6
   m_AutoAnimation: 1
   m_AnimationMode: 4
-  m_IdleTime: 1.5
+  m_IdleTime: 0
