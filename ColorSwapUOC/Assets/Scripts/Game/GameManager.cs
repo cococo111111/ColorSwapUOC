@@ -39,10 +39,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         GlobalInfo.score = 0;
-        for (int i = 1; i < 26; i++)
-        {
-            gridColors.Add(GameObject.Find("Cell" + i));
-        }
+
         InvokeRepeating("GenerateColorsGoal", 1.0f, 2.0f);
     }
 
@@ -63,6 +60,14 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void GetColors()
+    {
+        for (int i = 1; i < 26; i++)
+        {
+            gridColors.Add(GameObject.Find("Cell" + i));
+        }
+    }
+
     private void ShowPoints()
     {
         //score.text = GlobalInfo.score.ToString("#,#");
@@ -70,7 +75,7 @@ public class GameManager : MonoBehaviour
 
     private void ShowLevel()
     {
-        level.text = GlobalInfo.level.ToString();
+        //level.text = GlobalInfo.level.ToString();
         if (GlobalInfo.level > 1)
         {
             GlobalInfo.score = GlobalInfo.score + 1000;
@@ -327,10 +332,10 @@ public class GameManager : MonoBehaviour
         count++;
         if (count % 2 == 0)
         {
-            GameObject.Find("UIController").GetComponent<PlayEffects>().NewColorSound1();
+            //GameObject.Find("UIController").GetComponent<PlayEffects>().NewColorSound1();
         } else
         {
-            GameObject.Find("UIController").GetComponent<PlayEffects>().NewColorSound2();
+            //GameObject.Find("UIController").GetComponent<PlayEffects>().NewColorSound2();
         }        
         
         //Fem una llista per posar els colors del array
@@ -432,10 +437,13 @@ public class GameManager : MonoBehaviour
     {
         //Generem un numero aleatori entre els colors secundaris per asignar-lo
         //int color = Random.Range(0, secondaryColors.Count);
-        colorBloc.GetComponent<Transform>().localScale = new Vector2(0.20f, 0.20f);
+        colorBloc.GetComponent<Transform>().localScale = new Vector2(0.53f, 0.53f);
         colorBloc.GetComponent<SpriteRenderer>().sprite = blankCell;
+
         //instantiate the game object, at position pos, with rotation set to identity
-        GameObject cO = Instantiate(colorBloc, GlobalInfo.resultPositions[position], Quaternion.identity) as GameObject;
+        Vector3 newPosition = new Vector3(GlobalInfo.resultPositions[position].x, GlobalInfo.resultPositions[position].y - 0.01f, GlobalInfo.resultPositions[position].z);
+        GameObject cO = Instantiate(colorBloc, newPosition, Quaternion.identity) as GameObject;
+
         //Asignem al script de la casella, el color i la quantitat
         cO.GetComponent<ColorGoal>().color = 10;
         cO.GetComponent<ColorGoal>().quantity = 1;

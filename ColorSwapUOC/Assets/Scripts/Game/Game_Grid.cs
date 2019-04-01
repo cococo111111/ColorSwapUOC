@@ -71,6 +71,7 @@ public class Game_Grid : MonoBehaviour
                 //set the parent of the cell to GRID so you can move the cells together with the grid;
                 cO.transform.parent = transform;
             }
-        }        
+        }
+        GameManager.Instance.GetColors();
     }
 }

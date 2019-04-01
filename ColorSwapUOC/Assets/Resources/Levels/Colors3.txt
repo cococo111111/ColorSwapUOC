@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "levelNum": 3,
+    "GoalType1": "PRI",
+    "GoalNum1": 2,
+    "GoalType2": "SEC",
+    "GoalNum2": 2,
+    "GoalType3": "PRI",
+    "GoalNum3": 1,
+    "GoalType4": "SEC",
+    "GoalNum4": 1,
+    "GoalType5": "",
+    "GoalNum5": 0,
+    "Speed": 1,
+    "Grids": 4
+}
