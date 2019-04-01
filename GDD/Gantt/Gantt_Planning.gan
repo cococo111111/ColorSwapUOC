@@ -37,8 +37,8 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Create GitHub repo" color="#8cb6ce" meeting="false" start="2019-03-25" duration="1" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
-        <task id="21" name="Unity Connect" color="#8cb6ce" meeting="false" start="2019-03-25" duration="1" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true">
+        <task id="0" name="Create GitHub repo" color="#8cb6ce" meeting="false" start="2019-03-25" duration="1" complete="100" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
+        <task id="21" name="Unity Connect" color="#8cb6ce" meeting="false" start="2019-03-25" duration="1" complete="100" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Configuration and link in Unity Connect]]></notes>
         </task>
         <task id="49" name="Memory" color="#8cb6ce" meeting="false" start="2019-03-25" duration="84" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
@@ -48,10 +48,10 @@
         <task id="14" name="Youtube video" color="#8cb6ce" meeting="false" start="2019-03-25" duration="35" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Youtube video with an explanation of game operation]]></notes>
         </task>
-        <task id="47" name="Search Colors Information" color="#8cb6ce" meeting="false" start="2019-03-25" duration="4" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
-        <task id="38" name="Create Scenes" color="#8cb6ce" meeting="false" start="2019-03-26" duration="48" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true">
+        <task id="47" name="Search Colors Information" color="#8cb6ce" meeting="false" start="2019-03-25" duration="4" complete="100" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
+        <task id="38" name="Create Scenes" color="#8cb6ce" meeting="false" start="2019-03-26" duration="48" complete="2" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Create the scenes: Splash - Menu - Game - Pause - GameOver - Config]]></notes>
-            <task id="42" name="Splash Scene" color="#8cb6ce" meeting="false" start="2019-03-26" duration="1" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
+            <task id="42" name="Splash Scene" color="#8cb6ce" meeting="false" start="2019-03-26" duration="1" complete="100" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
             <task id="45" name="Init Menu" color="#8cb6ce" meeting="false" start="2019-03-26" duration="1" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
             <task id="65" name="Game Over Scene" color="#8cb6ce" meeting="false" start="2019-05-09" duration="4" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true"/>
             <task id="51" name="Game Scene" color="#8cb6ce" meeting="false" start="2019-03-27" duration="33" complete="0" thirdDate="2019-03-25" thirdDate-constraint="0" expand="true">

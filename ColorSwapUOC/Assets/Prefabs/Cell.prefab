@@ -84,7 +84,7 @@ GameObject:
   - component: {fileID: 6193829895647434708}
   - component: {fileID: 1298974800759279542}
   - component: {fileID: 6093851405155369158}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: CellManager
   m_TagString: Cell
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ MonoBehaviour:
   isColored: 0
   color: 20
   messages: {fileID: 0}
-  initPosition: {x: 1.9263815, y: 1.7299712, z: 0}
+  initPosition: {x: 0, y: 0, z: 0}
   sameColor: 0
   newColor: 0
   newColorNumber: 0
