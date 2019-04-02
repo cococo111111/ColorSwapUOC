@@ -332,10 +332,10 @@ public class GameManager : MonoBehaviour
         count++;
         if (count % 2 == 0)
         {
-            //GameObject.Find("UIController").GetComponent<PlayEffects>().NewColorSound1();
+            GameObject.Find("UIController").GetComponent<PlayEffects>().NewColorSound1();
         } else
         {
-            //GameObject.Find("UIController").GetComponent<PlayEffects>().NewColorSound2();
+            GameObject.Find("UIController").GetComponent<PlayEffects>().NewColorSound2();
         }        
         
         //Fem una llista per posar els colors del array

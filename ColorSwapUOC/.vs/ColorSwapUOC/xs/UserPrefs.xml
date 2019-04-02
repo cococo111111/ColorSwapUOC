@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{89010D85-CFB5-98EB-01FA-CEB7F8DB5042}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game/CellCollision.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayEffects.cs">
     <Files>
       <File FileName="Assets/Scripts/General/AppVersion.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/LoadScene.cs" Line="13" Column="68" />
@@ -8,7 +8,9 @@
       <File FileName="Assets/Scripts/GlobalInfo.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Game/Levels.cs" Line="33" Column="1" />
       <File FileName="Assets/Scripts/Game/Cell.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Game/CellCollision.cs" Line="19" Column="27" />
+      <File FileName="Assets/Scripts/Game/CellCollision.cs" Line="43" Column="69" />
+      <File FileName="Assets/Scripts/Game/ColorGoal.cs" Line="41" Column="62" />
+      <File FileName="Assets/Scripts/PlayEffects.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
