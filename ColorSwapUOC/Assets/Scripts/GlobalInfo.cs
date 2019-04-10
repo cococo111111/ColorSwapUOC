@@ -32,5 +32,5 @@ public class GlobalInfo : MonoBehaviour
     public static int level;
 
     //Posició dels goalsResult
-    public static Vector3[] resultPositions = new[] { new Vector3(-1.78f, 3f, 0f), new Vector3(-0.88f, 3f, 0f), new Vector3(0.02f, 3f, 0f), new Vector3(0.92f, 3f, 0f), new Vector3(1.82f, 3f, 0f) };
+    public static Vector3[] resultPositions = new[] { new Vector3(-1.78f, 2.7f, 0f), new Vector3(-0.88f, 2.7f, 0f), new Vector3(0.02f, 2.7f, 0f), new Vector3(0.92f, 2.7f, 0f), new Vector3(1.82f, 2.7f, 0f) };
 }

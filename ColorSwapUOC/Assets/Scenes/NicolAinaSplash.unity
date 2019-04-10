@@ -201,8 +201,8 @@ MonoBehaviour:
     Done: 0
     ScaleBegin: {x: 200, y: 200, z: 0}
     EaseType: 11
-    Time: 1.5
-    Delay: 0
+    Time: 10
+    Delay: 10
     Sounds:
       m_Begin: {fileID: 0}
       m_AfterDelay: {fileID: 0}
@@ -349,8 +349,8 @@ MonoBehaviour:
     Done: 0
     Fade: 0
     EaseType: 21
-    Time: 3
-    Delay: 0.5
+    Time: 15
+    Delay: 15
     FadeChildren: 0
     Sounds:
       m_Begin: {fileID: 0}

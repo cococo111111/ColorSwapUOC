@@ -56,6 +56,7 @@ public class GameManager : MonoBehaviour
             Debug.Log("LEVEL COMPLETED");
             GlobalInfo.levelNum++;
             levelGenerated = false;
+            PlayEffects.Instance.ShowLevel(GlobalInfo.levelNum.ToString());
             return;
         }
     }
@@ -75,7 +76,6 @@ public class GameManager : MonoBehaviour
 
     private void ShowLevel()
     {
-        //level.text = GlobalInfo.level.ToString();
         if (GlobalInfo.level > 1)
         {
             GlobalInfo.score = GlobalInfo.score + 1000;
