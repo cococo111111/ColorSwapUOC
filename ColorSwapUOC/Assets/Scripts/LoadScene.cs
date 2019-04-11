@@ -1,15 +1,12 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class LoadScene : MonoBehaviour
 {
-
-    public void LoadStartScene()
+    public void LoadTitleScene()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Title");
     }
 
-    public void LoadGameScene()
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
-    }
 }
