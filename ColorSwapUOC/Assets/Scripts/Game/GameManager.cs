@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public AudioClip newGoalsSound;
     public Text score;
     public Text level;
+    public bool gameOver = false;
 
     bool levelGenerated = false;
     //Fem una llista per posar els Grids sense color
@@ -53,7 +54,6 @@ public class GameManager : MonoBehaviour
         }
         if (GlobalInfo.numberGrids == 0 && levelGenerated)
         {
-            Debug.Log("LEVEL COMPLETED");
             GlobalInfo.levelNum++;
             levelGenerated = false;
             PlayEffects.Instance.ShowLevel(GlobalInfo.levelNum.ToString());
@@ -329,28 +329,32 @@ public class GameManager : MonoBehaviour
 
     void GenerateLevel()
     {
-        count++;
-        if (count % 2 == 0)
+        if (!gameOver)
         {
-            GameObject.Find("UIController").GetComponent<PlayEffects>().NewColorSound1();
-        } else
-        {
-            GameObject.Find("UIController").GetComponent<PlayEffects>().NewColorSound2();
-        }        
-        
-        //Fem una llista per posar els colors del array
-        List<Sprite> getPrimaryColors = new List<Sprite>();
-        for (int i = 0; i < 3; i++)
-        {
-            getPrimaryColors.Add(colors[i]);
-        }
+            count++;
+            if (count % 2 == 0)
+            {
+                GameObject.Find("UIController").GetComponent<PlayEffects>().NewColorSound1();
+            }
+            else
+            {
+                GameObject.Find("UIController").GetComponent<PlayEffects>().NewColorSound2();
+            }
 
-        int colored = Random.Range(0, gridColors.Count);
-        int coloring = Random.Range(0, getPrimaryColors.Count);
-        gridColors[colored].GetComponentInChildren<Cell>().isColored = true;
-        gridColors[colored].GetComponentInChildren<SpriteRenderer>().sprite = getPrimaryColors[coloring];
-        gridColors[colored].GetComponentInChildren<Cell>().color = coloring;
-        RemoveGridColored();
+            //Fem una llista per posar els colors del array
+            List<Sprite> getPrimaryColors = new List<Sprite>();
+            for (int i = 0; i < 3; i++)
+            {
+                getPrimaryColors.Add(colors[i]);
+            }
+
+            int colored = Random.Range(0, gridColors.Count);
+            int coloring = Random.Range(0, getPrimaryColors.Count);
+            gridColors[colored].GetComponentInChildren<Cell>().isColored = true;
+            gridColors[colored].GetComponentInChildren<SpriteRenderer>().sprite = getPrimaryColors[coloring];
+            gridColors[colored].GetComponentInChildren<Cell>().color = coloring;
+            RemoveGridColored();
+        }
     }
 
     void RemoveGridColored()
@@ -376,6 +380,10 @@ public class GameManager : MonoBehaviour
                     gridColors.Add(GameObject.Find("Cell" + i));
                 }
             }
+        }
+        if (gridColors.Count == 0)
+        {
+            GameOver();
         }
     }
 
@@ -464,5 +472,11 @@ public class GameManager : MonoBehaviour
         GameObject.Find(nameGrid).GetComponentInChildren<Cell>().newColor = false;
         GameObject.Find(nameGrid).GetComponentInChildren<Cell>().originalSprite = null;
         GameObject.Find(nameGrid).GetComponentInChildren<Cell>().color = newColorNumber;
+    }
+
+    public void GameOver()
+    {
+        gameOver = true;
+        PlayEffects.Instance.GameOver();
     }
 }

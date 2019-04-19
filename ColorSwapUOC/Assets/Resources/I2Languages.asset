@@ -55,7 +55,7 @@ MonoBehaviour:
       Description: 
       Languages:
       - Language
-      - Idioma
+      - PROPOSITO DEL JUEGO
       - Llenguatge
       - "L\xEDngua"
       - La Langue
@@ -70,6 +70,162 @@ MonoBehaviour:
       - So
       - Som
       - Du Son
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: The purpose of the game is to achieve the combination of colors that appears
+        at the top of the screen. Each time a color is completed it will be marked
+        with a check. When all of them are completed, you will be taken to the next
+        level automatically. The purpose is to get the highest possible score.
+      TermType: 0
+      Description: 
+      Languages:
+      - The purpose of the game is to achieve the combination of colors that appears
+        at the top of the screen. Each time a color is completed it will be marked
+        with a cross. When all of them are completed, you will be taken to the next
+        level automatically. The purpose is to get the highest possible score.
+      - "El prop\xF3sito del juego es lograr la combinaci\xF3n de colores que aparece
+        en la parte superior de la pantalla. Cada vez que se completa un color se
+        marcar\xE1 con un aspa. Cuando todos hayan finalizado, pasar\xE1 autom\xE1ticamente
+        al siguiente nivel. El prop\xF3sito es obtener la mayor puntuaci\xF3n posible."
+      - "El prop\xF2sit del joc \xE9s aconseguir la combinaci\xF3 de colors que apareix
+        a la part superior de la pantalla. Cada vegada que es completa un color, es
+        marcar\xE0 amb una creu. Quan s\u2019acabin tots, passar\xE0 al seg\xFCent
+        nivell autom\xE0ticament. El prop\xF2sit \xE9s obtenir la m\xE0xima puntuaci\xF3
+        possible."
+      - "O objetivo do jogo \xE9 conseguir a combina\xE7\xE3o de cores que aparece
+        no topo da tela. Cada vez que uma cor \xE9 completada, ela ser\xE1 marcada
+        com uma cruz. Quando todos estiverem conclu\xEDdos, voc\xEA ser\xE1 levado
+        ao pr\xF3ximo n\xEDvel automaticamente. O objetivo \xE9 obter a maior pontua\xE7\xE3o
+        poss\xEDvel."
+      - "Le but du jeu est de r\xE9aliser la combinaison de couleurs qui appara\xEEt
+        en haut de l\u2019\xE9cran. Chaque fois qu'une couleur est compl\xE9t\xE9e,
+        elle sera marqu\xE9e d'une croix. Lorsque tous sont termin\xE9s, vous passerez
+        automatiquement au niveau suivant. Le but est d'obtenir le score le plus \xE9lev\xE9
+        possible."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: PROPOSITO DEL JUEGO
+      TermType: 0
+      Description: 
+      Languages:
+      - Purpose Of The Game
+      - "Prop\xF3sito Del Juego"
+      - "Prop\xF2sit Del Joc"
+      - Objetivo Do Jogo
+      - But Du Jeu
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: El Grid
+      TermType: 0
+      Description: 
+      Languages:
+      - The Grid
+      - El Grid
+      - El Grid
+      - A Grade
+      - La Grille
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: "Comenzaremos con un grid vac\xEDo que se ir\xE1 llenando de colores primarios
+        (azul, amarillo y rojo) para poder formar las combinaciones, cuidado, si el
+        grid se llena completamente, perder\xE1s la partida."
+      TermType: 0
+      Description: 
+      Languages:
+      - We will start with an empty grid that will be filled with primary colors (blue,
+        yellow and red) to be able to form combinations, beware, if the grid is completely
+        filled, you will lose the game.
+      - "Comenzaremos con un grid vac\xEDo que se ir\xE1 llenando de colores primarios
+        (azul, amarillo y rojo) para poder formar las combinaciones, cuidado, si el
+        grid se llena completamente, perder\xE1s la partida."
+      - "Comen\xE7arem amb una graella buida que s'anir\xE0 omplint de colors primaris
+        (blau, groc i vermell) per poder formar les combinacions, compte, si el grid
+        s'omple completament, perdr\xE0s la partida."
+      - "Vamos come\xE7ar com uma grade vazia que ser\xE1 preenchida com cores prim\xE1rias
+        (azul, amarelo e vermelho) para poder formar combina\xE7\xF5es, cuidado, se
+        a grade estiver completamente preenchida, voc\xEA perder\xE1 o jogo."
+      - "Nous allons commencer avec une grille vide qui sera remplie de couleurs primaires
+        (bleu, jaune et rouge) pour pouvoir former des combinaisons. Attention, si
+        la grille est compl\xE8tement remplie, vous perdrez la partie."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Arrastrando Colores
+      TermType: 0
+      Description: 
+      Languages:
+      - Dragging Colors
+      - Arrastrando Colores
+      - Arrossegant Colors
+      - Arrastando Cores
+      - Glisser Les Couleurs
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: "Arrastra colores diferentes, uno encima del otro, para formar otros necesarios
+        para completar la combinaci\xF3n requerida."
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag different colors, one on top of the other, to form the necessary ones
+        to complete the required combination.
+      - "Arrastra colores diferentes, uno encima del otro, para formar los necesarios
+        para completar la combinaci\xF3n requerida."
+      - "Arrossega colors diferents, un sobre l'altre, per formar els necessaris per
+        completar la combinaci\xF3 requerida."
+      - "Arraste cores diferentes, uma sobre a outra, para formar as precisas para
+        completar a combina\xE7\xE3o requerida."
+      - "Faites glisser diff\xE9rentes couleurs, les unes sur les autres, pour former
+        les couleurs n\xE9cessaires \xE0 la combinaison souhait\xE9e."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: "Tambi\xE9n puedes arrastrar las casillas del mismo color para ganar espacio
+        libre en el grid y adem\xE1s conseguir puntos por ello."
+      TermType: 0
+      Description: 
+      Languages:
+      - You can also drag the boxes of the same color to gain free space in the grid
+        and, in addition, get points for it.
+      - "Tambi\xE9n puedes arrastrar las casillas del mismo color para ganar espacio
+        libre en el grid y, adem\xE1s, conseguir puntos por ello."
+      - "Tamb\xE9 pots arrossegar les caselles del mateix color per guanyar espai
+        lliure en el grid i, a m\xE9s, aconseguir punts per aix\xF2."
+      - "Voc\xEA tamb\xE9m pode arrastar as caixas da mesma cor para ganhar espa\xE7o
+        livre na grade e, al\xE9m disso, obter pontos."
+      - "Vous pouvez \xE9galement faire glisser les cases de la m\xEAme couleur pour
+        obtenir un espace libre dans la grille et obtenir des points."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: "Si el grid se llena o se acaba el tiempo, la partida finalizar\xE1. Intenta
+        resolver la combinaci\xF3n de colores requerida en el m\xEDnimo tiempo posible
+        para ganar segundos extra en el siguiente nivel."
+      TermType: 0
+      Description: 
+      Languages:
+      - If the grid is full or time runs out, the game will end. Try to solve the
+        required color combination in the minimum possible time to earn extra seconds
+        at the next level.
+      - "Si el grid se llena o se acaba el tiempo, la partida finalizar\xE1. Intenta
+        resolver la combinaci\xF3n de colores requerida en el m\xEDnimo tiempo posible
+        para ganar segundos extra en el siguiente nivel."
+      - "Si el grid s'omple o s'acaba el temps, la partida finalitzar\xE0. Intenta
+        resoldre la combinaci\xF3 de colors requerida en el m\xEDnim temps possible
+        per guanyar segons extra en el seg\xFCent nivell."
+      - "Se a grade estiver cheia ou o tempo acabar, o jogo terminar\xE1. Tente resolver
+        a combina\xE7\xE3o de cores necess\xE1ria no menor tempo poss\xEDvel para
+        ganhar segundos extras no pr\xF3ximo n\xEDvel."
+      - "Si la grille est pleine ou que le temps est \xE9coul\xE9, la partie se termine.
+        Essayez de r\xE9soudre la combinaison de couleurs requise le plus rapidement
+        possible pour gagner des secondes suppl\xE9mentaires au niveau suivant."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Fin de Partida
+      TermType: 0
+      Description: 
+      Languages:
+      - Game Over
+      - Fin de Partida
+      - Fi de Partida
+      - Fim da partida
+      - Fin du jeu
       Flags: 0000000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0

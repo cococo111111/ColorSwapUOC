@@ -17,6 +17,7 @@ public class PlayEffects : MonoBehaviour
     public GAui dos;
     public GAui uno;
     public GAui start;
+    public GAui gameOver;
 
     public GameObject grid;
     public GameObject gridBackGround;
@@ -27,6 +28,7 @@ public class PlayEffects : MonoBehaviour
 
     private void Awake()
     {
+        gameOver.gameObject.SetActive(false);
         Instance = this;
         GSui.Instance.m_AutoAnimation = false;
     }
@@ -60,6 +62,12 @@ public class PlayEffects : MonoBehaviour
         grid.SetActive(true);
         gridBackGround.SetActive(true);
         gridResult.SetActive(true);
+    }
+    public void GameOver()
+    {
+        gameOver.gameObject.SetActive(true);
+        GSui.Instance.PlayInAnims(gameOver.transform, true);
+        StartCoroutine(GoToMainMenu());
     }
 
     public void NewGoalsSound()
@@ -122,6 +130,12 @@ public class PlayEffects : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         GetComponent<AudioSource>().clip = clip;
         GetComponent<AudioSource>().PlayOneShot(clip,0.7f);
+    }
+
+    IEnumerator GoToMainMenu()
+    {
+        yield return new WaitForSeconds(2f);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
     }
 
 }
