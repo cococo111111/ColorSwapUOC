@@ -231,6 +231,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 28f17f783b514b3f629a48727fee1793 Assembly-CSharp.dll:I2.Loc.LanguageSource
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:TMPro.Examples.SimpleScript
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AdsManager
 931f489e44eadf809e9310429c99dde5 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioListenerExtension
 fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
@@ -309,4 +310,3 @@ c2bba42ccf8a6ae3dd81706fc48382d6 Assembly-CSharp.dll:I2.Loc.LocalizeTarget_Unity
 32280b797839f393633d2652c0400d85 Assembly-CSharp.dll:EasyMobile.Demo.GameServicesDemo_SavedGames
 9fb38f8221186a370ce2b029aa6043aa Assembly-CSharp.dll:EasyMobile.Demo.GifDemo
 6a1940227f2a2b66d557f3d62a2d86c7 Assembly-CSharp.dll:EasyMobile.Demo.AdvertisingDemo
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AdsManager

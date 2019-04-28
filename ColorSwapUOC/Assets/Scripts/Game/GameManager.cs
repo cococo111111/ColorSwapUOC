@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         GlobalInfo.score = 0;
-
+        GlobalInfo.levelNum = 1;
         InvokeRepeating("GenerateColorsGoal", 1.0f, 2.0f);
     }
 

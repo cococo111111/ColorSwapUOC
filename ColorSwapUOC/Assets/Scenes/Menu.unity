@@ -922,7 +922,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "C\xF3mo Jugar"
+  m_Text: How To Play
 --- !u!222 &312209463
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1837,7 +1837,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fi de Partida
+  m_Text: Game Over
 --- !u!222 &546168628
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2017,7 +2017,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ajustes
+  m_Text: SETTINGS
 --- !u!222 &593954512
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2770,7 +2770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 2015993085}
+  mTarget: {fileID: 1620355556}
 --- !u!114 &898341233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3347,11 +3347,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "El prop\xF2sit del joc \xE9s aconseguir la combinaci\xF3 de colors que
-    apareix a la part superior de la pantalla. Cada vegada que es completa un color,
-    es marcar\xE0 amb una creu. Quan s\u2019acabin tots, passar\xE0 al seg\xFCent
-    nivell autom\xE0ticament. El prop\xF2sit \xE9s obtenir la m\xE0xima puntuaci\xF3
-    possible."
+  m_Text: The purpose of the game is to achieve the combination of colors that appears
+    at the top of the screen. Each time a color is completed it will be marked with
+    a cross. When all of them are completed, you will be taken to the next level automatically.
+    The purpose is to get the highest possible score.
 --- !u!222 &1034538592
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3870,7 +3869,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jugar
+  m_Text: Play
 --- !u!222 &1058353440
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4106,9 +4105,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Comen\xE7arem amb una graella buida que s'anir\xE0 omplint de colors primaris
-    (blau, groc i vermell) per poder formar les combinacions, compte, si el grid s'omple
-    completament, perdr\xE0s la partida."
+  m_Text: We will start with an empty grid that will be filled with primary colors
+    (blue, yellow and red) to be able to form combinations, beware, if the grid is
+    completely filled, you will lose the game.
 --- !u!222 &1069449734
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4316,8 +4315,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Arrossega colors diferents, un sobre l'altre, per formar els necessaris
-    per completar la combinaci\xF3 requerida."
+  m_Text: Drag different colors, one on top of the other, to form the necessary ones
+    to complete the required combination.
 --- !u!222 &1154545719
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4608,7 +4607,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Prop\xF2sit Del Joc"
+  m_Text: Purpose Of The Game
 --- !u!222 &1423932113
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5386,7 +5385,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: El Grid
+  m_Text: The Grid
 --- !u!222 &1604614924
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5573,8 +5572,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tamb\xE9 pots arrossegar les caselles del mateix color per guanyar espai
-    lliure en el grid i, a m\xE9s, aconseguir punts per aix\xF2."
+  m_Text: You can also drag the boxes of the same color to gain free space in the
+    grid and, in addition, get points for it.
 --- !u!222 &1619808050
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5712,7 +5711,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Arrossegant Colors
+  m_Text: Dragging Colors
 --- !u!222 &1620355557
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5961,7 +5960,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Idioma
+  m_Text: Language
 --- !u!222 &1747284395
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6415,9 +6414,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Si el grid s'omple o s'acaba el temps, la partida finalitzar\xE0. Intenta
-    resoldre la combinaci\xF3 de colors requerida en el m\xEDnim temps possible per
-    guanyar segons extra en el seg\xFCent nivell."
+  m_Text: If the grid is full or time runs out, the game will end. Try to solve the
+    required color combination in the minimum possible time to earn extra seconds
+    at the next level.
 --- !u!222 &1916703660
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6513,7 +6512,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sonido
+  m_Text: Sound
 --- !u!222 &1953647013
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6908,7 +6907,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Arrossegant Colors
+  m_Text: Dragging Colors
 --- !u!114 &2015993086
 MonoBehaviour:
   m_ObjectHideFlags: 0
