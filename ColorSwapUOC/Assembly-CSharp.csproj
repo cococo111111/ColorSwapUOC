@@ -468,6 +468,7 @@
     <Compile Include="Assets\I2\Localization\Scripts\Utils\SetLanguageDropdown.cs" />
     <Compile Include="Assets\I2\Localization\Scripts\Utils\StringObfuscator.cs" />
     <Compile Include="Assets\Scripts\AdsManager.cs" />
+    <Compile Include="Assets\Scripts\Decryptor.cs" />
     <Compile Include="Assets\Scripts\Game\BackGround_Grid.cs" />
     <Compile Include="Assets\Scripts\Game\Cell.cs" />
     <Compile Include="Assets\Scripts\Game\CellCollision.cs" />

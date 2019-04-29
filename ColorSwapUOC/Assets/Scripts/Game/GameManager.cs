@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviour
 
     void PlaySound()
     {
-        if (GlobalInfo.soundPlay == true)
+        if (GlobalInfo.soundPlay == "true")
         {
             StartCoroutine(SoundEffects(newGoalsSound));            
         }        

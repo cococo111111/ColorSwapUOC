@@ -4,13 +4,13 @@ public class GlobalInfo : MonoBehaviour
 {
     public static string configFile = "ColorSwapCfg";
 
-    public static bool gameFirstTime;
-    public static bool playFirstTime;
+    public static string gameFirstTime;
+    public static string playFirstTime;
     public static string language;
-    public static bool soundPlay = true;
-    public static int sessionsCount;
-    public static int maxScore;
-    public static int coins;
+    public static string soundPlay = "true";
+    //public static int sessionsCount;
+    public static string maxScore;
+    public static string coins;
 
     //Actual Level
     public static int version;

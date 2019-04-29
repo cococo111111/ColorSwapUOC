@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/david/Documents/Proyectos Unity/ColorSwapUOC/APK/ColorSwap.apk
+/Users/david/Documents/Proyectos Unity/ColorSwapUOC/APK/ColorSwap_test.apk
 SceneListBegin?
 Assets/Scenes/NicolAinaSplash.unity
 Assets/Scenes/Title.unity

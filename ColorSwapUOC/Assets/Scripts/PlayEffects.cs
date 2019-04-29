@@ -72,7 +72,7 @@ public class PlayEffects : MonoBehaviour
 
     public void NewGoalsSound()
     {
-        if (GlobalInfo.soundPlay == true)
+        if (GlobalInfo.soundPlay == "true")
         {
             StartCoroutine(SoundEffects(newGoalsSound));
         }
@@ -95,7 +95,7 @@ public class PlayEffects : MonoBehaviour
 
     public void NewColorSound1()
     {
-       if (GlobalInfo.soundPlay == true)
+       if (GlobalInfo.soundPlay == "true")
        {
             StartCoroutine(SoundEffects(newColorSound1));            
        }   
@@ -103,7 +103,7 @@ public class PlayEffects : MonoBehaviour
 
     public void NewColorSound2()
     {
-        if (GlobalInfo.soundPlay == true)
+        if (GlobalInfo.soundPlay == "true")
         {
             StartCoroutine(SoundEffects(newColorSound2));            
         }
@@ -111,7 +111,7 @@ public class PlayEffects : MonoBehaviour
 
     public void DragDropSound()
     {
-        if (GlobalInfo.soundPlay == true)
+        if (GlobalInfo.soundPlay == "true")
         {
             StartCoroutine(SoundEffects(dragDropSound));            
         }
@@ -119,7 +119,7 @@ public class PlayEffects : MonoBehaviour
 
     public void DragDropGoalSound()
     {
-        if (GlobalInfo.soundPlay == true)
+        if (GlobalInfo.soundPlay == "true")
         {
             StartCoroutine(SoundEffects(dragDropGoalSound));
         }
