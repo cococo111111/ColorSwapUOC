@@ -24,11 +24,20 @@ public class Cell : MonoBehaviour
     public GameObject otherGrid;
     public bool onGoal = false;
     public int value;
+    public int typeColor;
 
 
     private void Awake()
     {
         Instance = this;
+    }
+
+    private void Update()
+    {
+        if (color == 20)
+        {
+            typeColor = 0;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -152,5 +161,6 @@ public class Cell : MonoBehaviour
         newSprite = null;
         isColored = false;
         onGoal = false;
+        typeColor = 0;
     }
 }

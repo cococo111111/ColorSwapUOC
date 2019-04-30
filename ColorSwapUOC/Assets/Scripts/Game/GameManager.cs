@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
     public Sprite[] colors = new Sprite[12];
+    public static GameObject ShowScore;
+    public static GameObject GridCards;
     public GameObject colorBloc;
     public GameObject parentColorBlocs;
     public Sprite cellEmpty;
@@ -33,12 +35,16 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        ShowScore = GameObject.Find("ScoreBox");
+        GridCards = GameObject.Find("Cards");
         Instance = this;
     }
 
     // Start is called before the first frame update
     void Start()
     {
+        GridCards.SetActive(false);
+        ShowScore.SetActive(false);
         GlobalInfo.score = 0;
         GlobalInfo.levelNum = 1;
         InvokeRepeating("GenerateColorsGoal", 1.0f, 2.0f);
@@ -71,7 +77,14 @@ public class GameManager : MonoBehaviour
 
     private void ShowPoints()
     {
-        //score.text = GlobalInfo.score.ToString("#,#");
+        if (GlobalInfo.score == 0)
+        {
+            score.text = "0";
+        }
+        else
+        {
+            score.text = GlobalInfo.score.ToString("#,#");
+        }
     }
 
     private void ShowLevel()
@@ -353,6 +366,7 @@ public class GameManager : MonoBehaviour
             gridColors[colored].GetComponentInChildren<Cell>().isColored = true;
             gridColors[colored].GetComponentInChildren<SpriteRenderer>().sprite = getPrimaryColors[coloring];
             gridColors[colored].GetComponentInChildren<Cell>().color = coloring;
+            gridColors[colored].GetComponentInChildren<Cell>().typeColor = 1;
             RemoveGridColored();
         }
     }
@@ -472,6 +486,26 @@ public class GameManager : MonoBehaviour
         GameObject.Find(nameGrid).GetComponentInChildren<Cell>().newColor = false;
         GameObject.Find(nameGrid).GetComponentInChildren<Cell>().originalSprite = null;
         GameObject.Find(nameGrid).GetComponentInChildren<Cell>().color = newColorNumber;
+    }
+
+    public void UpdateTypeColor(string otherNameGrid, string thisNameGrid)
+    {
+        int numberOther = GameObject.Find(otherNameGrid).GetComponentInChildren<Cell>().typeColor;
+        int numberThis = GameObject.Find(thisNameGrid).GetComponentInChildren<Cell>().typeColor;
+        if (numberOther == numberThis && numberOther != 0)
+        {
+            GameObject.Find(otherNameGrid).GetComponentInChildren<Cell>().typeColor = 2;
+            GlobalInfo.score = GlobalInfo.score + 20; 
+            return;
+        }
+        if (numberOther != numberThis)
+        {
+            GameObject.Find(otherNameGrid).GetComponentInChildren<Cell>().typeColor = 3;
+            GlobalInfo.score = GlobalInfo.score + 50;
+            return;
+        }
+
+
     }
 
     public void GameOver()

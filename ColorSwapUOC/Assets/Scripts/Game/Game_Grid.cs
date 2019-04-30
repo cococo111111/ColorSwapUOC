@@ -60,7 +60,8 @@ public class Game_Grid : MonoBehaviour
                 cell.GetComponentInChildren<Cell>().x = col;
                 cell.GetComponentInChildren<Cell>().y = row;
                 cell.GetComponentInChildren<Cell>().isColored = false;
-                cell.GetComponentInChildren<Cell>().color = 20;  
+                cell.GetComponentInChildren<Cell>().color = 20;
+                cell.GetComponentInChildren<Cell>().typeColor = 0;
 
                 //instantiate the game object, at position pos, with rotation set to identity
                 GameObject cO = Instantiate(cell, pos, Quaternion.identity) as GameObject;

@@ -29,7 +29,7 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
             }
             if (this.GetComponentInChildren<Cell>().onGoal)
             {
-                GlobalInfo.score += 95;
+                GlobalInfo.score += 100;
                 this.GetComponentInChildren<Cell>().ResetGrid();
             }
         }
@@ -57,13 +57,14 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
             {
 
                 GameManager.Instance.ChangeColor(this.GetComponentInChildren<Cell>().otherGrid.name, this.GetComponentInChildren<Cell>().newSprite, this.GetComponentInChildren<Cell>().newColorNumber);
+                GameManager.Instance.UpdateTypeColor(this.GetComponentInChildren<Cell>().otherGrid.name, this.name);
                 transform.position = initPosition;
                 GameManager.Instance.ResetGrid(this.name);
                 this.GetComponentInChildren<Cell>().otherGrid = null;
                 this.GetComponentInChildren<Cell>().originalSprite = null;
                 this.GetComponentInChildren<Cell>().newSprite = null;
                 GameObject.Find("UIController").GetComponent<PlayEffects>().DragDropSound();
-                GlobalInfo.score = GlobalInfo.score + 10;
+                //GlobalInfo.score = GlobalInfo.score + 10;
             }
             else
             {
