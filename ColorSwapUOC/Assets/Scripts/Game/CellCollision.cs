@@ -41,10 +41,17 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
         {
             if (this.GetComponentInChildren<Cell>().sameColor)
             {
+                string theOther = this.GetComponentInChildren<Cell>().otherGrid.name;
                 transform.position = initPosition;
                 GameManager.Instance.ResetGrid(this.name);
                 this.GetComponentInChildren<Cell>().originalSprite = null;
                 this.GetComponentInChildren<Cell>().sameColor = false;
+                Debug.Log(this.GetComponentInChildren<DiamondManager>().diamond);
+                Debug.Log(GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond);
+                if (this.GetComponentInChildren<DiamondManager>().diamond || GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond)
+                {
+                    Debug.Log("MUERTE AL DIAMANTE");
+                }
                 GameObject.Find("UIController").GetComponent<PlayEffects>().DragDropSound();
                 GlobalInfo.score = GlobalInfo.score + 5;
             }
@@ -64,7 +71,6 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
                 this.GetComponentInChildren<Cell>().originalSprite = null;
                 this.GetComponentInChildren<Cell>().newSprite = null;
                 GameObject.Find("UIController").GetComponent<PlayEffects>().DragDropSound();
-                //GlobalInfo.score = GlobalInfo.score + 10;
             }
             else
             {

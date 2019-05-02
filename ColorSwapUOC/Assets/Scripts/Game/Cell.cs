@@ -52,6 +52,7 @@ public class Cell : MonoBehaviour
             if (other.gameObject.GetComponentInChildren<SpriteRenderer>().sprite == this.gameObject.GetComponent<SpriteRenderer>().sprite)
             {
                 sameColor = true;
+                this.gameObject.GetComponent<Cell>().otherGrid = other.gameObject;
             }
             int colorOther = other.gameObject.GetComponentInChildren<Cell>().color;
             int colorThis = this.gameObject.GetComponent<Cell>().color;

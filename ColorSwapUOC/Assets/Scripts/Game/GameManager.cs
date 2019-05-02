@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     public Text score;
     public Text level;
     public bool gameOver = false;
+    public static bool diamond = false;
 
     bool levelGenerated = false;
     //Fem una llista per posar els Grids sense color
@@ -478,6 +479,7 @@ public class GameManager : MonoBehaviour
         GameObject.Find(name).GetComponentInChildren<SpriteRenderer>().sprite = cellEmpty;
         GameObject.Find(name).GetComponentInChildren<Cell>().color = 20;
         GameObject.Find(name).GetComponentInChildren<Cell>().isColored = false;
+        GameObject.Find(name).GetComponentInChildren<Cell>().otherGrid = null;
     }
 
     public void ChangeColor(string nameGrid, Sprite newSprite, int newColorNumber)

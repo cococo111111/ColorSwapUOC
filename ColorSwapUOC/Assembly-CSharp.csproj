@@ -473,6 +473,7 @@
     <Compile Include="Assets\Scripts\Game\Cell.cs" />
     <Compile Include="Assets\Scripts\Game\CellCollision.cs" />
     <Compile Include="Assets\Scripts\Game\ColorGoal.cs" />
+    <Compile Include="Assets\Scripts\Game\DiamondManager.cs" />
     <Compile Include="Assets\Scripts\Game\Game_Grid.cs" />
     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
     <Compile Include="Assets\Scripts\Game\Levels.cs" />
