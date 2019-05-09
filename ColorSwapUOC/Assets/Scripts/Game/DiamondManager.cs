@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class DiamondManager : MonoBehaviour
 {
+    public static DiamondManager Instance;
     public GameObject diamondGrid;
     public Sprite redDiamond;
     public Sprite greenDiamond;
     public Sprite yellowDiamond;
     public bool diamond = false;
 
-
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Start()
     {
@@ -22,17 +26,16 @@ public class DiamondManager : MonoBehaviour
         diamondGrid.GetComponent<SpriteRenderer>().flipX = !diamondGrid.GetComponent<SpriteRenderer>().flipX;
         if (GetComponentInParent<Cell>().typeColor == 3 && !GameManager.diamond)
         {
-            Debug.Log("Lanzamos dados para ver si hay diamante");
-            int appears = Random.Range(1, 20);
+            int appears = Random.Range(1, 40);
             if (appears == 1)
             {
-                Debug.Log("HAY DIAMANTE");
                 int typeDiamond = Random.Range(1, 10);
                 if (typeDiamond == 1)
                 {
                     diamondGrid.GetComponent<SpriteRenderer>().sprite = yellowDiamond;
                     diamond = true;
                     GameManager.diamond = true;
+                    GameManager.Instance.typeDiamond = "Yellow";
                     return;
                 }
                 if (typeDiamond == 2 || typeDiamond == 3 || typeDiamond == 4)
@@ -40,6 +43,7 @@ public class DiamondManager : MonoBehaviour
                     diamondGrid.GetComponent<SpriteRenderer>().sprite = redDiamond;
                     diamond = true;
                     GameManager.diamond = true;
+                    GameManager.Instance.typeDiamond = "Red";
                     return;
                 }
                 if (typeDiamond != 1 && typeDiamond != 2 && typeDiamond != 3 && typeDiamond != 4)
@@ -47,9 +51,17 @@ public class DiamondManager : MonoBehaviour
                     diamondGrid.GetComponent<SpriteRenderer>().sprite = greenDiamond;
                     diamond = true;
                     GameManager.diamond = true;
+                    GameManager.Instance.typeDiamond = "Green";
                     return;
                 }
             }
+        }
+    }
+    private void Update()
+    {
+        if (!diamond)
+        {
+            diamondGrid.GetComponent<SpriteRenderer>().sprite = null;
         }
     }
 

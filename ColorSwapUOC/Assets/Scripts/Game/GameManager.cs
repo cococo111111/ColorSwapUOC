@@ -18,6 +18,10 @@ public class GameManager : MonoBehaviour
     public Text level;
     public bool gameOver = false;
     public static bool diamond = false;
+    public string typeDiamond;
+    public GameObject textPoints;
+    public Material[] pointsMaterial = new Material[6];
+    public Material[] diamondMaterial = new Material[3];
 
     bool levelGenerated = false;
     //Fem una llista per posar els Grids sense color
@@ -102,20 +106,20 @@ public class GameManager : MonoBehaviour
     {
         if (GlobalInfo.soundPlay == "true")
         {
-            StartCoroutine(SoundEffects(newGoalsSound));            
-        }        
+            StartCoroutine(SoundEffects(newGoalsSound));
+        }
     }
 
     IEnumerator SoundEffects(AudioClip clip)
     {
         yield return new WaitForSeconds(0.1f);
         GetComponent<AudioSource>().clip = clip;
-        GetComponent<AudioSource>().PlayOneShot(clip,0.7f);
+        GetComponent<AudioSource>().PlayOneShot(clip, 0.7f);
     }
 
     void GenerateColorsGoal()
     {
-        
+
         primaryColors.Clear();
         primaryColors.Add(colors[0]);
         primaryColors.Add(colors[1]);
@@ -156,7 +160,7 @@ public class GameManager : MonoBehaviour
         {
             if (!levelGenerated)
             {
-                GlobalInfo.level++;                
+                GlobalInfo.level++;
                 ShowLevel();
                 //Llegim el fitxer de nivells
                 if (GlobalInfo.levelNum < 1)
@@ -497,17 +501,54 @@ public class GameManager : MonoBehaviour
         if (numberOther == numberThis && numberOther != 0)
         {
             GameObject.Find(otherNameGrid).GetComponentInChildren<Cell>().typeColor = 2;
-            GlobalInfo.score = GlobalInfo.score + 20; 
+            Vector3 otherPosition = GameObject.Find(otherNameGrid).transform.position;
+            ParticlePoints(otherPosition, 1, 20);
             return;
         }
         if (numberOther != numberThis)
         {
             GameObject.Find(otherNameGrid).GetComponentInChildren<Cell>().typeColor = 3;
-            GlobalInfo.score = GlobalInfo.score + 50;
+            Vector3 otherPosition = GameObject.Find(otherNameGrid).transform.position;
+            ParticlePoints(otherPosition, 2, 50);
             return;
         }
+    }
 
+    public void ParticlePoints(Vector3 position, int numberMaterial, int points)
+    {
+        Debug.Log("AQUI ParticlePoints");
+        GameObject cO = Instantiate(textPoints, position, transform.rotation) as GameObject;
+        cO.GetComponent<Transform>().rotation = Quaternion.Euler(-90, 0, 0);
+        cO.GetComponent<Renderer>().material = pointsMaterial[numberMaterial];
+        cO.GetComponent<ParticleSystem>().Play();
+        GlobalInfo.score = GlobalInfo.score + points;
+        StartCoroutine(EraseParticlePoints(cO));
 
+    }
+
+    public void ParticleDiamondPoints(Vector3 position, int numberMaterial, int points, int typeDiamond)
+    {
+        Debug.Log("AQUI ParticleDiamondPoints");
+        diamond = false;
+        GameObject cO = Instantiate(textPoints, position, transform.rotation) as GameObject;
+        cO.GetComponent<Transform>().rotation = Quaternion.Euler(-90, 0, 0);
+        cO.GetComponent<Renderer>().material = pointsMaterial[numberMaterial];
+        GameObject c1 = Instantiate(textPoints, position, transform.rotation) as GameObject;
+        c1.GetComponent<Transform>().rotation = Quaternion.Euler(-90, 0, 0);
+        c1.GetComponent<Renderer>().material = diamondMaterial[typeDiamond];
+        var main = c1.GetComponent<ParticleSystem>().main;
+        main.startSpeed = 2.0f;
+        cO.GetComponent<ParticleSystem>().Play();
+        c1.GetComponent<ParticleSystem>().Play();
+        GlobalInfo.score = GlobalInfo.score + points;
+        StartCoroutine(EraseParticlePoints(cO));
+        StartCoroutine(EraseParticlePoints(c1));
+    }
+
+    IEnumerator EraseParticlePoints(GameObject particle)
+    {
+        yield return new WaitForSeconds(1.0f);
+        Destroy(particle);
     }
 
     public void GameOver()

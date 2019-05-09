@@ -25,6 +25,7 @@ public class Cell : MonoBehaviour
     public bool onGoal = false;
     public int value;
     public int typeColor;
+    public Vector3 positionGoal;
 
 
     private void Awake()

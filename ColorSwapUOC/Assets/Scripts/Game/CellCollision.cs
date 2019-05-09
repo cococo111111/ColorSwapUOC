@@ -8,6 +8,8 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
     private Vector3 screenPoint;
     private Vector3 scanPos;
     private Vector3 initPosition;
+    private bool onGoal = false;
+    private bool onDiamond = false;
 
     private void Start()
     {
@@ -29,8 +31,10 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
             }
             if (this.GetComponentInChildren<Cell>().onGoal)
             {
-                GlobalInfo.score += 100;
+                Vector3 otherPosition = this.GetComponentInChildren<Cell>().positionGoal;
+                GameManager.Instance.ParticlePoints(otherPosition, 3, 100);
                 this.GetComponentInChildren<Cell>().ResetGrid();
+                onGoal = true;
             }
         }
     }
@@ -42,18 +46,49 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
             if (this.GetComponentInChildren<Cell>().sameColor)
             {
                 string theOther = this.GetComponentInChildren<Cell>().otherGrid.name;
+                Vector3 otherPosition = GameObject.Find(theOther).transform.position;
                 transform.position = initPosition;
                 GameManager.Instance.ResetGrid(this.name);
                 this.GetComponentInChildren<Cell>().originalSprite = null;
                 this.GetComponentInChildren<Cell>().sameColor = false;
-                Debug.Log(this.GetComponentInChildren<DiamondManager>().diamond);
-                Debug.Log(GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond);
                 if (this.GetComponentInChildren<DiamondManager>().diamond || GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond)
                 {
-                    Debug.Log("MUERTE AL DIAMANTE");
+                    onDiamond = true;
+                    if (GameManager.Instance.typeDiamond == "Green")
+                    {
+                        Debug.Log("AQUI GreenDiamond");
+                        GameManager.Instance.ParticleDiamondPoints(otherPosition, 3, 100, 0);
+                        this.GetComponentInChildren<DiamondManager>().diamond = false;
+                        GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond = false;
+                        onDiamond = false;
+                    }
+                    if (GameManager.Instance.typeDiamond == "Red")
+                    {
+                        Debug.Log("AQUI RedDiamond");
+                        GameManager.Instance.ParticleDiamondPoints(otherPosition, 4, 300, 1);
+                        this.GetComponentInChildren<DiamondManager>().diamond = false;
+                        GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond = false;
+                        onDiamond = false;
+                
+                    }
+                    if (GameManager.Instance.typeDiamond == "Yellow")
+                    {
+                        Debug.Log("AQUI YellowDiamond");
+                        GameManager.Instance.ParticleDiamondPoints(otherPosition, 5, 1000, 2);
+                        this.GetComponentInChildren<DiamondManager>().diamond = false;
+                        GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond = false;
+                        onDiamond = false;
+                    }
+                    return;
+                }
+                if (!onGoal && !onDiamond)
+                {
+                    Debug.Log("NO DIAMOND");
+                    otherPosition = GameObject.Find(theOther).transform.position;
+                    GameManager.Instance.ParticlePoints(otherPosition, 0, 5);
                 }
                 GameObject.Find("UIController").GetComponent<PlayEffects>().DragDropSound();
-                GlobalInfo.score = GlobalInfo.score + 5;
+                onGoal = false;
             }
             else
             {
@@ -62,7 +97,7 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
 
             if (this.GetComponentInChildren<Cell>().newColor)
             {
-
+                string theOther = this.GetComponentInChildren<Cell>().otherGrid.name;
                 GameManager.Instance.ChangeColor(this.GetComponentInChildren<Cell>().otherGrid.name, this.GetComponentInChildren<Cell>().newSprite, this.GetComponentInChildren<Cell>().newColorNumber);
                 GameManager.Instance.UpdateTypeColor(this.GetComponentInChildren<Cell>().otherGrid.name, this.name);
                 transform.position = initPosition;

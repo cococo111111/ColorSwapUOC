@@ -2837,6 +2837,20 @@ MonoBehaviour:
   score: {fileID: 1543881593}
   level: {fileID: 0}
   gameOver: 0
+  typeDiamond: 
+  textPoints: {fileID: 7565297122679531958, guid: 20e767a136f0a4008b36b7f814b510e1,
+    type: 3}
+  pointsMaterial:
+  - {fileID: 2100000, guid: 3b4fc307fc97e47e99d2949bba7a03d7, type: 2}
+  - {fileID: 2100000, guid: 83a358a1b2a89475ea649e73b7b55077, type: 2}
+  - {fileID: 2100000, guid: 21dcd10ab3a264392b728adaeebd33d0, type: 2}
+  - {fileID: 2100000, guid: e02247ed3473041e08ff423d6d40d0f0, type: 2}
+  - {fileID: 2100000, guid: 63b26228ffc3f4426bd9897ea4a53c63, type: 2}
+  - {fileID: 2100000, guid: a2c4f673eccc3445f846316b58ec77c0, type: 2}
+  diamondMaterial:
+  - {fileID: 2100000, guid: 01b9c526981d14117b84e4a46e85b0b2, type: 2}
+  - {fileID: 2100000, guid: 89318eb650096497fb42e1cedf107d54, type: 2}
+  - {fileID: 2100000, guid: d5311b82450d94202a7ac3bd58666cf8, type: 2}
 --- !u!4 &1494851312
 Transform:
   m_ObjectHideFlags: 0
