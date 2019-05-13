@@ -20,8 +20,17 @@ public class GameManager : MonoBehaviour
     public static bool diamond = false;
     public string typeDiamond;
     public GameObject textPoints;
+    public GameObject effectCell;
     public Material[] pointsMaterial = new Material[6];
     public Material[] diamondMaterial = new Material[3];
+
+    //Timer
+    public static Text time;
+    int minutes;
+    int seconds;
+    public static float timer;
+    public static float initialTimeLevel;
+    public static bool playing;
 
     bool levelGenerated = false;
     //Fem una llista per posar els Grids sense color
@@ -40,6 +49,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        playing = false;
+        time = GameObject.Find("TimeText").GetComponent<Text>();
         ShowScore = GameObject.Find("ScoreBox");
         GridCards = GameObject.Find("Cards");
         Instance = this;
@@ -48,16 +59,20 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        timer = 62;
+        initialTimeLevel = 60;
+        time.gameObject.SetActive(false);
         GridCards.SetActive(false);
         ShowScore.SetActive(false);
         GlobalInfo.score = 0;
         GlobalInfo.levelNum = 1;
-        InvokeRepeating("GenerateColorsGoal", 1.0f, 2.0f);
+        InvokeRepeating("GenerateColorsGoal", 0.0f, 2.0f);
     }
 
     // Update is called once per frame
     void Update()
     {
+        CountDown();
         ShowPoints();
         if (gridColors.Count == 0)
         {
@@ -69,6 +84,68 @@ public class GameManager : MonoBehaviour
             levelGenerated = false;
             PlayEffects.Instance.ShowLevel(GlobalInfo.levelNum.ToString());
             return;
+        }
+    }
+
+    public void CountDown()
+    {
+        if (playing)
+        {
+            if (timer > 0.0f)
+            {
+                minutes = Mathf.FloorToInt(timer / 60F);
+                seconds = Mathf.FloorToInt(timer - minutes * 60);
+                //minutes = Mathf.Floor(timer / 60).ToString("00");
+                //seconds = (timer % 60).ToString("00");
+                timer -= Time.deltaTime;
+                //time.text = minutes + ":" + seconds;
+                time.text = string.Format("{0:0}:{1:00}", minutes, seconds);
+            }
+            else
+            {
+                timer = 0;
+                minutes = Mathf.FloorToInt(timer / 60F);
+                seconds = Mathf.FloorToInt(timer - minutes * 60);
+                timer -= Time.deltaTime;
+                time.text = string.Format("{0:0}:{1:00}", minutes, seconds);
+                //minutes = Mathf.Floor(timer / 60).ToString("00");
+                //seconds = (timer % 60).ToString("00");
+                //time.text = minutes + ":" + seconds;
+                GameOver();
+            }
+        }
+    }
+
+    public void GenerateTimeForLevel()
+    {
+        Debug.Log(initialTimeLevel);
+        if (timer > initialTimeLevel / 2)
+        {
+            timer = timer / 2;
+            if (GlobalInfo.level >= 7)
+            {
+                timer = timer + 80;
+                initialTimeLevel = 80;
+            }
+            else
+            {
+                timer = timer + 60;
+                initialTimeLevel = 60;
+            }
+
+        }
+        else
+        {
+            if (GlobalInfo.level >= 7)
+            {
+                timer = 80;
+                initialTimeLevel = 80;
+            }
+            else
+            {
+                timer = 60;
+                initialTimeLevel = 60;
+            }
         }
     }
 
@@ -92,11 +169,19 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void GameOver()
+    {
+        playing = false;
+        gameOver = true;
+        PlayEffects.Instance.GameOver();
+    }
+
     private void ShowLevel()
     {
         if (GlobalInfo.level > 1)
         {
             GlobalInfo.score = GlobalInfo.score + 1000;
+            GenerateTimeForLevel();
         }
         PlaySound();
         ShowPoints();
@@ -502,33 +587,39 @@ public class GameManager : MonoBehaviour
         {
             GameObject.Find(otherNameGrid).GetComponentInChildren<Cell>().typeColor = 2;
             Vector3 otherPosition = GameObject.Find(otherNameGrid).transform.position;
-            ParticlePoints(otherPosition, 1, 20);
+            ParticlePoints(otherPosition, 1, 20, false);
             return;
         }
         if (numberOther != numberThis)
         {
             GameObject.Find(otherNameGrid).GetComponentInChildren<Cell>().typeColor = 3;
             Vector3 otherPosition = GameObject.Find(otherNameGrid).transform.position;
-            ParticlePoints(otherPosition, 2, 50);
+            ParticlePoints(otherPosition, 2, 50, false);
             return;
         }
     }
 
-    public void ParticlePoints(Vector3 position, int numberMaterial, int points)
+    public void ParticlePoints(Vector3 position, int numberMaterial, int points, bool onGoalDiamond)
     {
-        Debug.Log("AQUI ParticlePoints");
         GameObject cO = Instantiate(textPoints, position, transform.rotation) as GameObject;
+        GameObject c2 = Instantiate(effectCell, position, transform.rotation) as GameObject;
         cO.GetComponent<Transform>().rotation = Quaternion.Euler(-90, 0, 0);
         cO.GetComponent<Renderer>().material = pointsMaterial[numberMaterial];
+        if (onGoalDiamond)
+        {
+            var main = cO.GetComponent<ParticleSystem>().main;
+            main.startSpeed = 0.5f;
+        }
         cO.GetComponent<ParticleSystem>().Play();
         GlobalInfo.score = GlobalInfo.score + points;
+        GameObject.Find("UIController").GetComponent<PlayEffects>().DragDropSound();
         StartCoroutine(EraseParticlePoints(cO));
+        StartCoroutine(EraseParticlePoints(c2));
 
     }
 
     public void ParticleDiamondPoints(Vector3 position, int numberMaterial, int points, int typeDiamond)
     {
-        Debug.Log("AQUI ParticleDiamondPoints");
         diamond = false;
         GameObject cO = Instantiate(textPoints, position, transform.rotation) as GameObject;
         cO.GetComponent<Transform>().rotation = Quaternion.Euler(-90, 0, 0);
@@ -541,6 +632,7 @@ public class GameManager : MonoBehaviour
         cO.GetComponent<ParticleSystem>().Play();
         c1.GetComponent<ParticleSystem>().Play();
         GlobalInfo.score = GlobalInfo.score + points;
+        GameObject.Find("UIController").GetComponent<PlayEffects>().DragDropSound();
         StartCoroutine(EraseParticlePoints(cO));
         StartCoroutine(EraseParticlePoints(c1));
     }
@@ -549,11 +641,5 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1.0f);
         Destroy(particle);
-    }
-
-    public void GameOver()
-    {
-        gameOver = true;
-        PlayEffects.Instance.GameOver();
     }
 }

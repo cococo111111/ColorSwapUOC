@@ -64,6 +64,8 @@ public class PlayEffects : MonoBehaviour
         gridResult.SetActive(true);
         GameManager.ShowScore.SetActive(true);
         GameManager.GridCards.SetActive(true);
+        GameManager.time.gameObject.SetActive(true);
+        GameManager.playing = true;
     }
     public void GameOver()
     {

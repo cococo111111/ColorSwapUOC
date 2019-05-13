@@ -246,7 +246,7 @@ bd3f0ca738703903e759f77536ed74fd Assembly-CSharp.dll:TMPro.Examples.TMP_FrameRat
 a1ca1237bad0f30ea5ba8f4060929114 Assembly-CSharp.dll:TMPro.Examples.TMP_TextSelector_B
 151605bed37fc2725ba82aa58f652b4a Assembly-CSharp.dll:I2.Loc.CustomLocalizeCallback
 4b52bf19d8c527479b96511688ca4103 Assembly-CSharp.dll:I2.Loc.LocalizeTarget_UnityStandard_SpriteRenderer
-7103974a5e851237baa54a47ef05fcda Assembly-CSharp.dll:.GameManager
+951ad25ebe8b6d221eaea1b20887319c Assembly-CSharp.dll:.GameManager
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Levels
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:EasyMobile.Giphy

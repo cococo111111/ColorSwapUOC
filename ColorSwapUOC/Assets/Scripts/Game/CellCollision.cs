@@ -32,7 +32,33 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
             if (this.GetComponentInChildren<Cell>().onGoal)
             {
                 Vector3 otherPosition = this.GetComponentInChildren<Cell>().positionGoal;
-                GameManager.Instance.ParticlePoints(otherPosition, 3, 100);
+                if (this.GetComponentInChildren<DiamondManager>().diamond)
+                {
+                    if (GameManager.Instance.typeDiamond == "Green")
+                    {
+                        GameManager.Instance.ParticleDiamondPoints(otherPosition, 3, 100, 0);
+                        GameManager.Instance.ParticlePoints(otherPosition, 3, 100, true);
+                        this.GetComponentInChildren<DiamondManager>().diamond = false;
+                    }
+                    if (GameManager.Instance.typeDiamond == "Red")
+                    {
+                        GameManager.Instance.ParticleDiamondPoints(otherPosition, 4, 300, 1);
+                        GameManager.Instance.ParticlePoints(otherPosition, 3, 100, true);
+                        this.GetComponentInChildren<DiamondManager>().diamond = false;
+
+                    }
+                    if (GameManager.Instance.typeDiamond == "Yellow")
+                    {
+                        GameManager.Instance.ParticleDiamondPoints(otherPosition, 5, 1000, 2);
+                        GameManager.Instance.ParticlePoints(otherPosition, 3, 100, true);
+                        this.GetComponentInChildren<DiamondManager>().diamond = false;
+                    }
+                    this.GetComponentInChildren<DiamondManager>().diamond = false;
+                }
+                else
+                {
+                    GameManager.Instance.ParticlePoints(otherPosition, 3, 100, false);
+                }
                 this.GetComponentInChildren<Cell>().ResetGrid();
                 onGoal = true;
             }
@@ -56,38 +82,36 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
                     onDiamond = true;
                     if (GameManager.Instance.typeDiamond == "Green")
                     {
-                        Debug.Log("AQUI GreenDiamond");
                         GameManager.Instance.ParticleDiamondPoints(otherPosition, 3, 100, 0);
                         this.GetComponentInChildren<DiamondManager>().diamond = false;
                         GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond = false;
+                        GameManager.Instance.ResetGrid(theOther);
                         onDiamond = false;
                     }
                     if (GameManager.Instance.typeDiamond == "Red")
                     {
-                        Debug.Log("AQUI RedDiamond");
                         GameManager.Instance.ParticleDiamondPoints(otherPosition, 4, 300, 1);
                         this.GetComponentInChildren<DiamondManager>().diamond = false;
                         GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond = false;
+                        GameManager.Instance.ResetGrid(theOther);
                         onDiamond = false;
                 
                     }
                     if (GameManager.Instance.typeDiamond == "Yellow")
                     {
-                        Debug.Log("AQUI YellowDiamond");
                         GameManager.Instance.ParticleDiamondPoints(otherPosition, 5, 1000, 2);
                         this.GetComponentInChildren<DiamondManager>().diamond = false;
                         GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond = false;
+                        GameManager.Instance.ResetGrid(theOther);
                         onDiamond = false;
                     }
                     return;
                 }
                 if (!onGoal && !onDiamond)
                 {
-                    Debug.Log("NO DIAMOND");
                     otherPosition = GameObject.Find(theOther).transform.position;
-                    GameManager.Instance.ParticlePoints(otherPosition, 0, 5);
+                    GameManager.Instance.ParticlePoints(otherPosition, 0, 5, false);
                 }
-                GameObject.Find("UIController").GetComponent<PlayEffects>().DragDropSound();
                 onGoal = false;
             }
             else
