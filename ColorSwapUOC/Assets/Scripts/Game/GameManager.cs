@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     public static float timer;
     public static float initialTimeLevel;
     public static bool playing;
+    public static bool timeEnding;
 
     bool levelGenerated = false;
     //Fem una llista per posar els Grids sense color
@@ -59,14 +60,26 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timer = 62;
+        GlobalInfo.score = 0;
+        timer = 60;
         initialTimeLevel = 60;
         time.gameObject.SetActive(false);
         GridCards.SetActive(false);
         ShowScore.SetActive(false);
         GlobalInfo.score = 0;
         GlobalInfo.levelNum = 1;
-        InvokeRepeating("GenerateColorsGoal", 0.0f, 2.0f);
+    }
+
+    public void StartGame()
+    {
+        PlayEffects.Instance.grid.SetActive(true);
+        PlayEffects.Instance.gridBackGround.SetActive(true);
+        PlayEffects.Instance.gridResult.SetActive(true);
+        ShowScore.SetActive(true);
+        GridCards.SetActive(true);
+        time.gameObject.SetActive(true);
+        Invoke("GenerateColorsGoal", 1.0f);
+        InvokeRepeating("GenerateLevel", 2.0f, 2.0f);
     }
 
     // Update is called once per frame
@@ -83,6 +96,7 @@ public class GameManager : MonoBehaviour
             GlobalInfo.levelNum++;
             levelGenerated = false;
             PlayEffects.Instance.ShowLevel(GlobalInfo.levelNum.ToString());
+            GenerateColorsGoal();
             return;
         }
     }
@@ -91,7 +105,7 @@ public class GameManager : MonoBehaviour
     {
         if (playing)
         {
-            if (timer > 0.0f)
+            if (timer > 0.9f)
             {
                 minutes = Mathf.FloorToInt(timer / 60F);
                 seconds = Mathf.FloorToInt(timer - minutes * 60);
@@ -100,9 +114,22 @@ public class GameManager : MonoBehaviour
                 timer -= Time.deltaTime;
                 //time.text = minutes + ":" + seconds;
                 time.text = string.Format("{0:0}:{1:00}", minutes, seconds);
+                if (timer < 10.0f && !timeEnding)
+                {
+                    time.GetComponent<Text>().color = Color.red;
+                    PlayEffects.Instance.TimeEnding();
+                    timeEnding = true;
+                }
+                if (timer > 10.0f && timeEnding)
+                {
+                    time.GetComponent<Text>().color = Color.white;
+                    PlayEffects.Instance.TimeEndingStop();
+                    timeEnding = false;
+                }
             }
             else
             {
+                PlayEffects.Instance.TimeEndingStop();
                 timer = 0;
                 minutes = Mathf.FloorToInt(timer / 60F);
                 seconds = Mathf.FloorToInt(timer - minutes * 60);
@@ -118,33 +145,36 @@ public class GameManager : MonoBehaviour
 
     public void GenerateTimeForLevel()
     {
-        Debug.Log(initialTimeLevel);
-        if (timer > initialTimeLevel / 2)
+        if (GlobalInfo.levelNum > 1)
         {
-            timer = timer / 2;
-            if (GlobalInfo.level >= 7)
+            Debug.Log(initialTimeLevel);
+            if (timer > initialTimeLevel / 2)
             {
-                timer = timer + 80;
-                initialTimeLevel = 80;
-            }
-            else
-            {
-                timer = timer + 60;
-                initialTimeLevel = 60;
-            }
+                timer = timer / 2;
+                if (GlobalInfo.levelNum >= 7)
+                {
+                    timer = timer + 80;
+                    initialTimeLevel = 80;
+                }
+                else
+                {
+                    timer = timer + 60;
+                    initialTimeLevel = 60;
+                }
 
-        }
-        else
-        {
-            if (GlobalInfo.level >= 7)
-            {
-                timer = 80;
-                initialTimeLevel = 80;
             }
             else
             {
-                timer = 60;
-                initialTimeLevel = 60;
+                if (GlobalInfo.levelNum >= 7)
+                {
+                    timer = 80;
+                    initialTimeLevel = 80;
+                }
+                else
+                {
+                    timer = 60;
+                    initialTimeLevel = 60;
+                }
             }
         }
     }
@@ -178,7 +208,7 @@ public class GameManager : MonoBehaviour
 
     private void ShowLevel()
     {
-        if (GlobalInfo.level > 1)
+        if (GlobalInfo.levelNum > 1)
         {
             GlobalInfo.score = GlobalInfo.score + 1000;
             GenerateTimeForLevel();
@@ -204,7 +234,6 @@ public class GameManager : MonoBehaviour
 
     void GenerateColorsGoal()
     {
-
         primaryColors.Clear();
         primaryColors.Add(colors[0]);
         primaryColors.Add(colors[1]);
@@ -245,7 +274,7 @@ public class GameManager : MonoBehaviour
         {
             if (!levelGenerated)
             {
-                GlobalInfo.level++;
+                //GlobalInfo.level++;
                 ShowLevel();
                 //Llegim el fitxer de nivells
                 if (GlobalInfo.levelNum < 1)
@@ -260,6 +289,7 @@ public class GameManager : MonoBehaviour
                     {
                         Destroy(goal);
                     }
+                    playing = false;
                     Levels.LoadLevel(GlobalInfo.levelNum);
                 }
 
@@ -426,12 +456,13 @@ public class GameManager : MonoBehaviour
                 }
                 levelGenerated = true;
             }
-            GenerateLevel();
+            //GenerateLevel();
         }
     }
 
     void GenerateLevel()
     {
+        playing = true;
         if (!gameOver)
         {
             count++;

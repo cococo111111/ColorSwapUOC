@@ -424,7 +424,7 @@ MonoBehaviour:
   PlayOutAnimsFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1993445861}
+      - m_Target: {fileID: 1494851311}
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -2295,18 +2295,7 @@ MonoBehaviour:
       PublicKeyToken=null
   PlayInAnimsFinished:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1993445861}
-        m_MethodName: LevelOut
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: GUIAnimator.cPlayAnimsEvent, GUIAnimator, Version=1.0.0.0, Culture=neutral,
       PublicKeyToken=null
   PlayIdleAnimsStarted:
@@ -2798,6 +2787,7 @@ GameObject:
   - component: {fileID: 1486039008}
   - component: {fileID: 1486039007}
   - component: {fileID: 1486039006}
+  - component: {fileID: 1486039009}
   m_Layer: 5
   m_Name: TimeText
   m_TagString: Untagged
@@ -2872,7 +2862,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 00:00
+  m_Text: 1:00
 --- !u!222 &1486039008
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2881,6 +2871,241 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486039004}
   m_CullTransparentMesh: 0
+--- !u!114 &1486039009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486039004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82362f9d56a99804bb9a7c059a85dcba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MoveIn:
+    Enable: 0
+    Began: 0
+    Animating: 0
+    Done: 0
+    MoveFrom: 7
+    BeginPos: {x: 0, y: 0, z: 0}
+    EndPos: {x: 0, y: 0, z: 0}
+    Position: {x: 0, y: 0, z: 0}
+    EaseType: 0
+    Time: 3
+    Delay: 2
+    Sounds:
+      m_Begin: {fileID: 0}
+      m_AfterDelay: {fileID: 0}
+      m_End: {fileID: 0}
+  m_RotationIn:
+    Enable: 0
+    Began: 0
+    Animating: 0
+    Done: 0
+    BeginRotation: {x: 0, y: 0, z: 0}
+    EndRotation: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0}
+    EaseType: 27
+    Time: 1
+    Delay: 0
+    Sounds:
+      m_Begin: {fileID: 0}
+      m_AfterDelay: {fileID: 0}
+      m_End: {fileID: 0}
+  m_ScaleIn:
+    Enable: 1
+    Began: 0
+    Animating: 0
+    Done: 0
+    ScaleBegin: {x: 1, y: 1, z: 1}
+    EaseType: 27
+    Time: 2
+    Delay: 0
+    Sounds:
+      m_Begin: {fileID: 0}
+      m_AfterDelay: {fileID: 0}
+      m_End: {fileID: 0}
+  m_FadeIn:
+    Enable: 0
+    Began: 0
+    Animating: 0
+    Done: 0
+    Fade: 0
+    EaseType: 21
+    Time: 3
+    Delay: 4
+    FadeChildren: 0
+    Sounds:
+      m_Begin: {fileID: 0}
+      m_AfterDelay: {fileID: 0}
+      m_End: {fileID: 0}
+  m_PositionLoop:
+    Enable: 0
+    Began: 0
+    Animating: 0
+    IsOverriding: 0
+    IsOverridingDelayTimeCount: 0
+    Done: 0
+    m_PositionLast: {x: 0, y: 0, z: 0}
+    BeginPos: {x: 0, y: 0, z: 0}
+    EndPos: {x: 0, y: 0, z: 0}
+    m_PositionType: 0
+    From: 2
+    FromRectTransform: {x: 0, y: 0, z: 0}
+    To: 2
+    ToRectTransform: {x: 0, y: 0, z: 0}
+    Direction: {x: 0, y: 0}
+    m_ValueStart: 0
+    EaseType: 21
+    Time: 1
+    Delay: 0
+    Sound:
+      m_AudioClip: {fileID: 0}
+      m_Loop: 0
+      m_AudioSource: {fileID: 0}
+  m_RotationLoop:
+    Enable: 0
+    Began: 0
+    Animating: 0
+    IsOverriding: 0
+    IsOverridingDelayTimeCount: 0
+    Done: 0
+    m_RotationPreviousEulers: {x: 0, y: 0, z: 0}
+    m_RotationType: 0
+    Rotation: {x: 0, y: 0, z: 0}
+    EaseType: 21
+    Time: 1
+    Delay: 0
+    Sound:
+      m_AudioClip: {fileID: 0}
+      m_Loop: 0
+      m_AudioSource: {fileID: 0}
+  m_ScaleLoop:
+    Enable: 1
+    Began: 0
+    Animating: 0
+    IsOverriding: 0
+    IsOverridingDelayTimeCount: 0
+    Done: 0
+    m_ScaleLast: {x: 0, y: 0, z: 0}
+    Min: {x: 1, y: 1, z: 1}
+    Max: {x: 1.4, y: 1.4, z: 1.4}
+    EaseType: 21
+    Time: 2
+    Delay: 0
+    Sound:
+      m_AudioClip: {fileID: 8300000, guid: 8ffbf0db4af024fda98ef27812f466f7, type: 3}
+      m_Loop: 1
+      m_AudioSource: {fileID: 0}
+  m_FadeLoop:
+    Enable: 0
+    Began: 0
+    Animating: 0
+    IsOverriding: 0
+    IsOverridingDelayTimeCount: 0
+    Done: 0
+    m_FadeLast: 0
+    Min: 0
+    Max: 1
+    EaseType: 21
+    Time: 1
+    Delay: 0
+    FadeChildren: 0
+    Sound:
+      m_AudioClip: {fileID: 0}
+      m_Loop: 0
+      m_AudioSource: {fileID: 0}
+  m_MoveOut:
+    Enable: 0
+    Began: 0
+    Animating: 0
+    Done: 0
+    MoveTo: 2
+    BeginPos: {x: 0, y: 0, z: 0}
+    EndPos: {x: 0, y: 0, z: 0}
+    Position: {x: 0, y: 0, z: 0}
+    EaseType: 26
+    Time: 1
+    Delay: 0
+    Sounds:
+      m_Begin: {fileID: 0}
+      m_AfterDelay: {fileID: 0}
+      m_End: {fileID: 0}
+  m_RotationOut:
+    Enable: 0
+    Began: 0
+    Animating: 0
+    Done: 0
+    BeginRotation: {x: 0, y: 0, z: 0}
+    EndRotation: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0, y: 0, z: 0}
+    EaseType: 26
+    Time: 1
+    Delay: 0
+    Sounds:
+      m_Begin: {fileID: 0}
+      m_AfterDelay: {fileID: 0}
+      m_End: {fileID: 0}
+  m_ScaleOut:
+    Enable: 0
+    Began: 0
+    Animating: 0
+    Done: 0
+    ScaleBegin: {x: 1, y: 1, z: 1}
+    ScaleEnd: {x: 0, y: 0, z: 0}
+    EaseType: 26
+    Time: 1
+    Delay: 0
+    Sounds:
+      m_Begin: {fileID: 0}
+      m_AfterDelay: {fileID: 0}
+      m_End: {fileID: 0}
+  m_FadeOut:
+    Enable: 0
+    Began: 0
+    Animating: 0
+    Done: 0
+    Fade: 0
+    EaseType: 21
+    Time: 1
+    Delay: 5
+    FadeChildren: 0
+    Sounds:
+      m_Begin: {fileID: 0}
+      m_AfterDelay: {fileID: 0}
+      m_End: {fileID: 0}
+  PlayInAnimsStarted:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: GUIAnimator.cPlayAnimsEvent, GUIAnimator, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  PlayInAnimsFinished:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: GUIAnimator.cPlayAnimsEvent, GUIAnimator, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  PlayIdleAnimsStarted:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: GUIAnimator.cPlayAnimsEvent, GUIAnimator, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  PlayIdleAnimsFinished:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: GUIAnimator.cPlayAnimsEvent, GUIAnimator, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  PlayOutAnimsStarted:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: GUIAnimator.cPlayAnimsEvent, GUIAnimator, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  PlayOutAnimsFinished:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: GUIAnimator.cPlayAnimsEvent, GUIAnimator, Version=1.0.0.0, Culture=neutral,
+      PublicKeyToken=null
 --- !u!1 &1494851310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2948,7 +3173,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 01b9c526981d14117b84e4a46e85b0b2, type: 2}
   - {fileID: 2100000, guid: 89318eb650096497fb42e1cedf107d54, type: 2}
   - {fileID: 2100000, guid: d5311b82450d94202a7ac3bd58666cf8, type: 2}
-  time: {fileID: 1486039007}
 --- !u!4 &1494851312
 Transform:
   m_ObjectHideFlags: 0
@@ -3722,6 +3946,7 @@ MonoBehaviour:
   gridBackGround: {fileID: 970195370}
   gridResult: {fileID: 73267801}
   level: {fileID: 1388227173}
+  time: {fileID: 1486039009}
   levelText: {fileID: 1388227175}
   energyCell: {fileID: 0}
 --- !u!4 &1993445862

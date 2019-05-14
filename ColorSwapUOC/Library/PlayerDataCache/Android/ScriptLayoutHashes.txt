@@ -152,7 +152,7 @@ db6e3c9f680fdf7dee07f18f62d9963d Assembly-CSharp.dll:EasyMobile.Demo.Racing3DCar
 0769963ca05483a9f7e743b9118b3fba Assembly-CSharp.dll:TMPro.TMP_TextEventHandler
 47930f3b40e24ef5b3b5e3d9ada7097a Assembly-CSharp.dll:TMPro.Examples.Benchmark01
 dde29d16786525fb2319b65b37c5d132 Assembly-CSharp.dll:I2.Loc.LanguageSourceAsset
-62e55cd9ad6594c808443b6b679eb928 Assembly-CSharp.dll:.PlayEffects
+e0cb7c3ae68515e9d915224cbd84b808 Assembly-CSharp.dll:.PlayEffects
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:GUIAnimatorDemo.GA_UUI_DemoBasicControlledByScripts
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LoadScene
 59469c11e49758e361f6b231a2a75bca Assembly-CSharp.dll:EasyMobile.Demo.PrivacyDemo

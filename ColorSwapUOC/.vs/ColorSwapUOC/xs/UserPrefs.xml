@@ -1,17 +1,15 @@
 ﻿<Properties StartupConfiguration="{89010D85-CFB5-98EB-01FA-CEB7F8DB5042}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game/GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayEffects.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayEffectsMenu.cs" Line="68" Column="1" />
-      <File FileName="Assets/Scripts/PlayEffects.cs" Line="67" Column="53" />
-      <File FileName="Assets/Scripts/GlobalInfo.cs" Line="28" Column="30" />
-      <File FileName="Assets/Scripts/Game/GameManager.cs" Line="63" Column="31" />
+      <File FileName="Assets/Scripts/PlayEffects.cs" Line="130" Column="11" />
+      <File FileName="Assets/Scripts/Game/GameManager.cs" Line="277" Column="1" />
+      <File FileName="Assets/Scripts/Game/Game_Grid.cs" Line="76" Column="42" />
+      <File FileName="Assets/Scripts/GlobalInfo.cs" Line="29" Column="35" />
       <File FileName="Assets/Scripts/Game/CellCollision.cs" Line="113" Column="83" />
-      <File FileName="Assets/Scripts/Game/ColorGoal.cs" Line="36" Column="63" />
-      <File FileName="Assets/Scripts/Game/Game_Grid.cs" Line="67" Column="91" />
+      <File FileName="Assets/Scripts/Game/ColorGoal.cs" Line="48" Column="32" />
       <File FileName="Assets/Scripts/PlayerInfo.cs" Line="16" Column="2" />
       <File FileName="Assets/Scripts/General/LoadConfig.cs" Line="20" Column="60" />
-      <File FileName="Assets/Scripts/Game/Levels.cs" Line="48" Column="20" />
-      <File FileName="Assets/Scripts/Game/Cell.cs" Line="28" Column="11" />
       <File FileName="Assets/Scripts/Game/DiamondManager.cs" Line="64" Column="62" />
       <File FileName="../../Color Swap/Assets/Scripts/UI/UI_Game.cs" Line="69" Column="39" />
     </Files>

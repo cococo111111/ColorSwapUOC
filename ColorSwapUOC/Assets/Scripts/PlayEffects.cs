@@ -23,6 +23,7 @@ public class PlayEffects : MonoBehaviour
     public GameObject gridBackGround;
     public GameObject gridResult;
     public GAui level;
+    public GAui time;
     public Text levelText;
     public GameObject energyCell;
 
@@ -57,18 +58,10 @@ public class PlayEffects : MonoBehaviour
     {
         GSui.Instance.PlayOutAnims(start.transform, true);
     }
-    public void StartGame()
-    {
-        grid.SetActive(true);
-        gridBackGround.SetActive(true);
-        gridResult.SetActive(true);
-        GameManager.ShowScore.SetActive(true);
-        GameManager.GridCards.SetActive(true);
-        GameManager.time.gameObject.SetActive(true);
-        GameManager.playing = true;
-    }
+
     public void GameOver()
     {
+        Debug.Log("AQUI");
         gameOver.gameObject.SetActive(true);
         GSui.Instance.PlayInAnims(gameOver.transform, true);
         StartCoroutine(GoToMainMenu());
@@ -87,6 +80,8 @@ public class PlayEffects : MonoBehaviour
         GSui.Instance.PlayInAnims(level.transform, true);
         levelText.text = "LEVEL " + numLevel;
     }
+
+
     public void LevelOut()
     {
         GSui.Instance.PlayOutAnims(level.transform, true);
@@ -127,6 +122,20 @@ public class PlayEffects : MonoBehaviour
         {
             StartCoroutine(SoundEffects(dragDropGoalSound));
         }
+    }
+
+    public void TimeEnding()
+    {
+        GSui.Instance.PlayInAnims(time.transform, true);
+        //time.GetComponent<GAui>().m_ScaleLoop.Enable = true;
+    }
+
+    public void TimeEndingStop()
+    {
+        GSui.Instance.PlayInAnims(time.transform, false);
+        //Parar el sonido del reloj
+        time.GetComponent<GAui>().m_ScaleLoop.Sound.m_AudioSource.Stop();
+        //time.GetComponent<GAui>().m_ScaleLoop.Enable = false;
     }
 
     IEnumerator SoundEffects(AudioClip clip)
