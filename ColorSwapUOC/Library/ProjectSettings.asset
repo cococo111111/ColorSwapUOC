@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: NicolAina Games
-  productName: Color Swap
+  productName: Combix
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -591,8 +591,8 @@ PlayerSettings:
   webGLThreadsSupport: 0
   scriptingDefineSymbols:
     1: TextMeshPro;EASY_MOBILE;EASY_MOBILE_PRO;EM_ADMOB
-    4: TextMeshPro;EASY_MOBILE;EASY_MOBILE_PRO;EM_ADMOB
-    7: TextMeshPro;EASY_MOBILE;EASY_MOBILE_PRO;EM_ADMOB
+    4: TextMeshPro;EASY_MOBILE;EASY_MOBILE_PRO;EM_ADMOB;NO_GPGS
+    7: TextMeshPro;EASY_MOBILE;EASY_MOBILE_PRO;EM_ADMOB;EM_GPGS
     13: TextMeshPro;EASY_MOBILE;EASY_MOBILE_PRO;EM_ADMOB
     14: EASY_MOBILE;EASY_MOBILE_PRO;EM_ADMOB
     19: TextMeshPro;EASY_MOBILE;EASY_MOBILE_PRO;EM_ADMOB

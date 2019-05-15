@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using EasyMobile;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class AppVersion : MonoBehaviour {
@@ -8,6 +9,7 @@ public class AppVersion : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
+        GameServices.ManagedInit();
         TextVersion.text = "Version: " + Application.version;
     }
 }

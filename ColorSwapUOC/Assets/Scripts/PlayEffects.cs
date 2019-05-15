@@ -12,6 +12,8 @@ public class PlayEffects : MonoBehaviour
     public AudioClip newColorSound2;
     public AudioClip dragDropSound;
     public AudioClip dragDropGoalSound;
+    public AudioClip timeEndSound;
+    AudioSource timeEnding;
 
     public GAui tres;
     public GAui dos;
@@ -32,6 +34,8 @@ public class PlayEffects : MonoBehaviour
         gameOver.gameObject.SetActive(false);
         Instance = this;
         GSui.Instance.m_AutoAnimation = false;
+        timeEnding = GameObject.Find("TimeText").GetComponent<AudioSource>();
+        
     }
     void Start()
     {
@@ -61,7 +65,6 @@ public class PlayEffects : MonoBehaviour
 
     public void GameOver()
     {
-        Debug.Log("AQUI");
         gameOver.gameObject.SetActive(true);
         GSui.Instance.PlayInAnims(gameOver.transform, true);
         StartCoroutine(GoToMainMenu());
@@ -127,15 +130,18 @@ public class PlayEffects : MonoBehaviour
     public void TimeEnding()
     {
         GSui.Instance.PlayInAnims(time.transform, true);
-        //time.GetComponent<GAui>().m_ScaleLoop.Enable = true;
+        timeEnding.clip = timeEndSound;
+        timeEnding.Play();
+        timeEnding.loop = true;
     }
 
     public void TimeEndingStop()
     {
-        GSui.Instance.PlayInAnims(time.transform, false);
         //Parar el sonido del reloj
-        time.GetComponent<GAui>().m_ScaleLoop.Sound.m_AudioSource.Stop();
-        //time.GetComponent<GAui>().m_ScaleLoop.Enable = false;
+        timeEnding.Stop();
+        timeEnding.loop = false;
+        GSui.Instance.PlayOutAnims(time.transform, true);
+
     }
 
     IEnumerator SoundEffects(AudioClip clip)

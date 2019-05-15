@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{89010D85-CFB5-98EB-01FA-CEB7F8DB5042}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayEffects.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Game/GameManager.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayEffectsMenu.cs" Line="68" Column="1" />
-      <File FileName="Assets/Scripts/PlayEffects.cs" Line="130" Column="11" />
-      <File FileName="Assets/Scripts/Game/GameManager.cs" Line="277" Column="1" />
+      <File FileName="Assets/Scripts/PlayEffects.cs" Line="67" Column="6" />
+      <File FileName="Assets/Scripts/Game/GameManager.cs" Line="203" Column="6" />
       <File FileName="Assets/Scripts/Game/Game_Grid.cs" Line="76" Column="42" />
       <File FileName="Assets/Scripts/GlobalInfo.cs" Line="29" Column="35" />
       <File FileName="Assets/Scripts/Game/CellCollision.cs" Line="113" Column="83" />
@@ -12,6 +12,7 @@
       <File FileName="Assets/Scripts/General/LoadConfig.cs" Line="20" Column="60" />
       <File FileName="Assets/Scripts/Game/DiamondManager.cs" Line="64" Column="62" />
       <File FileName="../../Color Swap/Assets/Scripts/UI/UI_Game.cs" Line="69" Column="39" />
+      <File FileName="Assets/Scripts/General/AppVersion.cs" Line="12" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

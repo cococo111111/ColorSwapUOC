@@ -175,14 +175,22 @@ MonoBehaviour:
         keys: []
         values: []
   mGameServiceSettings:
-    mAutoInit: 1
+    mAutoInit: 0
     mAutoInitDelay: 0
     mAndroidMaxLoginRequests: 0
     mGpgsDebugLogEnabled: 0
     mGpgsPopupGravity: 0
-    mLeaderboards: []
+    mLeaderboards:
+    - _name: THE BEST COMBIX
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQAQ
     mAchievements: []
-    mAndroidXmlResources: 
+    mAndroidXmlResources: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!--\nGoogle
+      Play game services IDs.\nSave this file as res/values/games-ids.xml in your
+      project.\n-->\n<resources>\n  <!-- app_id -->\n  <string name=\"app_id\" translatable=\"false\">805788407224</string>\n
+      \ <!-- package_name -->\n  <string name=\"package_name\" translatable=\"false\">com.NicolAina.ColorSwap</string>\n
+      \ <!-- leaderboard LOS MEJORES COMBIX -->\n  <string name=\"leaderboard_los_mejores_combix\"
+      translatable=\"false\">CgkIuKvt5bkXEAIQAQ</string>\n</resources>"
     mEnableMultiplayer: 0
     mEnableSavedGames: 0
     mAutoConflictResolutionStrategy: 0
@@ -249,7 +257,7 @@ MonoBehaviour:
     mIgnoreContraintsInDevelopment: 0
   mIsAdModuleEnable: 1
   mIsIAPModuleEnable: 0
-  mIsGameServiceModuleEnable: 0
+  mIsGameServiceModuleEnable: 1
   mIsNotificationModuleEnable: 0
-  mActiveModuleIndex: 0
+  mActiveModuleIndex: 2
   mIsSelectingModule: 0

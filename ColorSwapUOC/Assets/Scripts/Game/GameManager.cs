@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         GlobalInfo.score = 0;
-        timer = 60;
+        timer = 12;
         initialTimeLevel = 60;
         time.gameObject.SetActive(false);
         GridCards.SetActive(false);
@@ -129,16 +129,16 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                PlayEffects.Instance.TimeEndingStop();
-                timer = 0;
-                minutes = Mathf.FloorToInt(timer / 60F);
-                seconds = Mathf.FloorToInt(timer - minutes * 60);
-                timer -= Time.deltaTime;
-                time.text = string.Format("{0:0}:{1:00}", minutes, seconds);
-                //minutes = Mathf.Floor(timer / 60).ToString("00");
-                //seconds = (timer % 60).ToString("00");
-                //time.text = minutes + ":" + seconds;
-                GameOver();
+                if (!gameOver)
+                {
+                    PlayEffects.Instance.TimeEndingStop();
+                    timer = 0;
+                    minutes = Mathf.FloorToInt(timer / 60F);
+                    seconds = Mathf.FloorToInt(timer - minutes * 60);
+                    timer -= Time.deltaTime;
+                    time.text = string.Format("{0:0}:{1:00}", minutes, seconds);
+                    GameOver();
+                }
             }
         }
     }
