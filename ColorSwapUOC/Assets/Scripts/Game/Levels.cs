@@ -45,7 +45,7 @@ public class Levels : MonoBehaviour
         GlobalInfo.GoalNum4 = loadlevel.GoalNum4;
         GlobalInfo.GoalType5 = loadlevel.GoalType5;
         GlobalInfo.GoalNum5 = loadlevel.GoalNum5;
-        GlobalInfo.Speed = loadlevel.Speed;
+        GlobalInfo.speed = loadlevel.Speed;
         GlobalInfo.numberGrids = loadlevel.Grids;
 
         //ShowLevelInfo();

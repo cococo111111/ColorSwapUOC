@@ -416,6 +416,15 @@
     <Reference Include="Google.VersionHandler">
       <HintPath>/Users/david/Documents/Proyectos Unity/ColorSwapUOC/ColorSwapUOC/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
     </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.105.0">
+      <HintPath>/Users/david/Documents/Proyectos Unity/ColorSwapUOC/ColorSwapUOC/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.105.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.105.0">
+      <HintPath>/Users/david/Documents/Proyectos Unity/ColorSwapUOC/ColorSwapUOC/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.105.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.105.0">
+      <HintPath>/Users/david/Documents/Proyectos Unity/ColorSwapUOC/ColorSwapUOC/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.105.0.dll</HintPath>
+    </Reference>
     <Reference Include="GUIAnimator">
       <HintPath>/Users/david/Documents/Proyectos Unity/ColorSwapUOC/ColorSwapUOC/Assets/GUI Animator/GUI Animator for Unity UI/Plugins/GUIAnimator.dll</HintPath>
     </Reference>
@@ -445,15 +454,6 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>/Users/david/Documents/Proyectos Unity/ColorSwapUOC/ColorSwapUOC/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.JarResolver_v1.2.105.0">
-      <HintPath>/Users/david/Documents/Proyectos Unity/ColorSwapUOC/ColorSwapUOC/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.105.0.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.IOSResolver_v1.2.105.0">
-      <HintPath>/Users/david/Documents/Proyectos Unity/ColorSwapUOC/ColorSwapUOC/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.105.0.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandlerImpl_v1.2.105.0">
-      <HintPath>/Users/david/Documents/Proyectos Unity/ColorSwapUOC/ColorSwapUOC/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.105.0.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

@@ -648,6 +648,8 @@
     <Compile Include="Assets\Scripts\AdsManager.cs" />
     <Compile Include="Assets\Scripts\Decryptor.cs" />
     <Compile Include="Assets\Scripts\Game\BackGround_Grid.cs" />
+    <Compile Include="Assets\Scripts\Game\CardCollision.cs" />
+    <Compile Include="Assets\Scripts\Game\CardsManager.cs" />
     <Compile Include="Assets\Scripts\Game\Cell.cs" />
     <Compile Include="Assets\Scripts\Game\CellCollision.cs" />
     <Compile Include="Assets\Scripts\Game\ColorGoal.cs" />
@@ -665,6 +667,8 @@
     <Compile Include="Assets\Scripts\PlayEffects.cs" />
     <Compile Include="Assets\Scripts\PlayEffectsMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerInfo.cs" />
+    <Compile Include="Assets\Scripts\Rating.cs" />
+    <Compile Include="Assets\Scripts\Share.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

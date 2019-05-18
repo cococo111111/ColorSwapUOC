@@ -249,15 +249,15 @@ MonoBehaviour:
       mCancelButtonText: Cancel
       mFeedbackButtonText: Send Feedback
     mMinimumAcceptedStars: 4
-    mSupportEmail: 
+    mSupportEmail: nicolainagames@gmail.com
     mIosAppId: 
     mAnnualCap: 12
-    mDelayAfterInstallation: 10
-    mCoolingOffPeriod: 10
+    mDelayAfterInstallation: 5
+    mCoolingOffPeriod: 5
     mIgnoreContraintsInDevelopment: 0
   mIsAdModuleEnable: 1
   mIsIAPModuleEnable: 0
   mIsGameServiceModuleEnable: 1
   mIsNotificationModuleEnable: 0
-  mActiveModuleIndex: 2
+  mActiveModuleIndex: 5
   mIsSelectingModule: 0

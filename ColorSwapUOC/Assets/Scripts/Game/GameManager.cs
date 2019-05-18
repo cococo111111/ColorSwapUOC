@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
         playing = false;
         time = GameObject.Find("TimeText").GetComponent<Text>();
         ShowScore = GameObject.Find("ScoreBox");
-        GridCards = GameObject.Find("Cards");
+        GridCards = GameObject.Find("CardsManager");
         Instance = this;
     }
 
@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         GlobalInfo.score = 0;
-        timer = 12;
+        timer = 60;
         initialTimeLevel = 60;
         time.gameObject.SetActive(false);
         GridCards.SetActive(false);
@@ -72,6 +72,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        GlobalInfo.speed = 2.0f;
         PlayEffects.Instance.grid.SetActive(true);
         PlayEffects.Instance.gridBackGround.SetActive(true);
         PlayEffects.Instance.gridResult.SetActive(true);
@@ -79,7 +80,7 @@ public class GameManager : MonoBehaviour
         GridCards.SetActive(true);
         time.gameObject.SetActive(true);
         Invoke("GenerateColorsGoal", 1.0f);
-        InvokeRepeating("GenerateLevel", 2.0f, 2.0f);
+        InvokeRepeating("GenerateLevel", 2.0f, GlobalInfo.speed);
     }
 
     // Update is called once per frame
@@ -147,7 +148,6 @@ public class GameManager : MonoBehaviour
     {
         if (GlobalInfo.levelNum > 1)
         {
-            Debug.Log(initialTimeLevel);
             if (timer > initialTimeLevel / 2)
             {
                 timer = timer / 2;
@@ -520,6 +520,41 @@ public class GameManager : MonoBehaviour
         {
             GameOver();
         }
+        OptimizeGrid();
+    }
+
+
+    //Aquesta funcio busca en tot el grid per caselles que tenen un numero de color pero en realitat son buides 
+    //(arregla posibles bugs de caselles no netejades)
+    void OptimizeGrid()
+    {
+        for (int i = 1; i < 26; i++)
+        {
+            if (GameObject.Find("Cell" + i).GetComponentInChildren<Cell>().color != 20 && GameObject.Find("Cell" + i).GetComponentInChildren<SpriteRenderer>() == cellEmpty && GameObject.Find("Cell" + i).GetComponentInChildren<Cell>().isColored)
+            {
+                Debug.Log("LIMPIO");
+                GameObject gridColored = GameObject.Find("Cell" + i);
+                gridColored.GetComponentInChildren<SpriteRenderer>().sprite = cellEmpty;
+                gridColored.GetComponentInChildren<Cell>().color = 20;
+                gridColored.GetComponentInChildren<Cell>().isColored = false;
+                gridColored.GetComponentInChildren<Cell>().otherGrid = null;
+            }
+        }
+    }
+
+    public void ClearGrid()
+    {
+        for (int i = 1; i < 26; i++)
+        {
+            if (GameObject.Find("Cell" + i).GetComponentInChildren<Cell>().isColored)
+            {
+                GameObject gridColored = GameObject.Find("Cell" + i);
+                gridColored.GetComponentInChildren<SpriteRenderer>().sprite = cellEmpty;
+                gridColored.GetComponentInChildren<Cell>().color = 20;
+                gridColored.GetComponentInChildren<Cell>().isColored = false;
+                gridColored.GetComponentInChildren<Cell>().otherGrid = null;
+            }
+        }
     }
 
     void PRIColors(int position, int goalNum)
@@ -666,6 +701,19 @@ public class GameManager : MonoBehaviour
         GameObject.Find("UIController").GetComponent<PlayEffects>().DragDropSound();
         StartCoroutine(EraseParticlePoints(cO));
         StartCoroutine(EraseParticlePoints(c1));
+    }
+
+    public void ParticleCardsPoints(int numberMaterial, int points)
+    {
+        GameObject cO = Instantiate(textPoints, new Vector3 (0,0,0), transform.rotation) as GameObject;
+        var main = cO.GetComponent<ParticleSystem>().main;
+        main.startSize = 2;
+        cO.GetComponent<Transform>().rotation = Quaternion.Euler(-90, 0, 0);
+        cO.GetComponent<Renderer>().material = pointsMaterial[numberMaterial];
+        cO.GetComponent<ParticleSystem>().Play();
+        GlobalInfo.score = GlobalInfo.score + points;
+        GameObject.Find("UIController").GetComponent<PlayEffects>().DragDropSound();
+        StartCoroutine(EraseParticlePoints(cO));
     }
 
     IEnumerator EraseParticlePoints(GameObject particle)

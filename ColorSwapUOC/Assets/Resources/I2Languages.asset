@@ -228,6 +228,200 @@ MonoBehaviour:
       - Fin du jeu
       Flags: 0000000000
       Languages_Touch: []
+    - Term: UnityWhite
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Ei!, estic jugant a Combix i es una pasada!, te'l pots baixar a la google
+        store
+      TermType: 0
+      Description: 
+      Languages:
+      - Hey, I'm playing Combix and it's the last thing! You can download it in the
+        google store.
+      - "Oye, estoy jugando a Combix y es lo \xFAltimo! Puedes descargarlo en la tienda
+        google."
+      - Ei!, estic jugant a Combix i es una pasada!, te'l pots  descarregar a Google
+        Store
+      - "Ei, eu estou jogando Combix e \xE9 o \xFAltimo! Voc\xEA pode baix\xE1-lo
+        para a loja do google"
+      - "Hey, je joue \xE0 Combix et c'est une derni\xE8re! Vous pouvez le t\xE9l\xE9charger
+        sur le magasin Google"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Ei!, estic jugant a Combix i es una pasada!, te'l pots descarregar a Google
+        Store
+      TermType: 0
+      Description: 
+      Languages:
+      - Hey, I'm playing Combix and it's amazing! You can download it to the Google
+        Store
+      - Oye!, estoy jugando a Combix y es una pasada! Puedes descargarlo en Google
+        Store.
+      - "Ei!, estic jugant Combix i \xE9s una passada! Podeu descarregar-lo a la botiga
+        de Google"
+      - "Ei!, eu estou jogando Combix e \xE9 muito bom! Voc\xEA pode fazer o download
+        na Google Store"
+      - "Hey, je joue \xE0 Combix et c'est une derni\xE8re! Vous pouvez le t\xE9l\xE9charger
+        sur le Google Store."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Oye, estoy jugando a Combix y es una pasada! Puedes descargarlo en Google
+        Store.
+      TermType: 0
+      Description: 
+      Languages:
+      - "Ei, eu estou jogando Combix e \xE9 muito bom! Voc\xEA pode fazer o download
+        na Google Store"
+      - "Ei, eu estou jogando Combix y \xE9 muito bom! Voc\xEA pode fazer o descargar
+        en Google Store"
+      - "Ei, eu estou jogando Combix e \xE9 muito bom! Podeu descarregar-lo a Google
+        Store"
+      - "Ei, eu estou jogando Combix e \xE9 muito bom! Voc\xEA pode fazer o download
+        na Google Store"
+      - "Merci beaucoup, Combix e \xE9 muito est n\xE9! Voyez-vous sur le t\xE9l\xE9chargement
+        ou le t\xE9l\xE9chargement sur Google Store"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Button_Rating
+      TermType: 5
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: New Text
+      TermType: 0
+      Description: 
+      Languages:
+      - New Text
+      - Nuevo Texto
+      - Text Nou
+      - Novo Texto
+      - Nouveau Texte
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Text1
+      TermType: 4
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Rate
+      TermType: 0
+      Description: 
+      Languages:
+      - Rate
+      - Califica
+      - Qualifica
+      - Avalie
+      - Evaluez
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: How would you rate
+      TermType: 0
+      Description: 
+      Languages:
+      - How would you rate
+      - "C\xF3mo calificar\xEDas"
+      - Com qualificaria
+      - "Como voc\xEA avaliaria"
+      - "Comment \xE9valueriez-vous"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: That's bad. Would you like to give us some feedback instead?
+      TermType: 0
+      Description: 
+      Languages:
+      - That's bad. Would you like to give us some feedback instead?
+      - "Eso es malo. \xBFQuieres enviarnos un comentario en su lugar?"
+      - "Aix\xF2 \xE9s dolent. Voleu enviar-nos comentaris?"
+      - "Isso \xE9 ruim. Voc\xEA gostaria de nos dar algum feedback?"
+      - "C'est mauvais. Voulez-vous nous donner quelques commentaires \xE0 la place?"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Awesome! Let's do it!
+      TermType: 0
+      Description: 
+      Languages:
+      - Awesome! Let's do it!
+      - "\xA1Incre\xEDble! \xA1Vamos a hacerlo!"
+      - Impressionant! Fem-ho!
+      - Impressionante! Vamos fazer isso!
+      - Impressionnant! Faisons le!
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Not Now
+      TermType: 0
+      Description: 
+      Languages:
+      - Not Now
+      - Ahora No
+      - Ara No
+      - "Agora N\xE3o"
+      - Pas Maintenant
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Don't Ask Again
+      TermType: 0
+      Description: 
+      Languages:
+      - Don't Ask Again
+      - No Preguntes De Nuevo
+      - No Pregunteu De Nou
+      - "N\xE3o Pergunte De Novo"
+      - Ne Demande Plus
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Rate Now!
+      TermType: 0
+      Description: 
+      Languages:
+      - Rate Now!
+      - "\xA1Califica Ahora!"
+      - Qualifica Ara!
+      - Avalie Agora!
+      - "\xC9valuer Maintenant!"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Cancel
+      TermType: 0
+      Description: 
+      Languages:
+      - Cancel
+      - Cancelar
+      - "Cancel\xB7lar"
+      - Cancelar
+      - Annuler
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Send Feedback
+      TermType: 0
+      Description: 
+      Languages:
+      - Send Feedback
+      - Enviar Comentarios
+      - Enviar Comentaris
+      - "Enviar Coment\xE1rios"
+      - Envoyer Des Commentaires
+      Flags: 0000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 

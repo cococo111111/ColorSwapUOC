@@ -156,6 +156,7 @@ dde29d16786525fb2319b65b37c5d132 Assembly-CSharp.dll:I2.Loc.LanguageSourceAsset
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:GUIAnimatorDemo.GA_UUI_DemoBasicControlledByScripts
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LoadScene
 59469c11e49758e361f6b231a2a75bca Assembly-CSharp.dll:EasyMobile.Demo.PrivacyDemo
+2ad1e3626d2e6ef012f0ff4c9f0a0361 Assembly-CSharp.dll:.CardCollision
 33ae35ab191cc06a6df42ca81a768341 Assembly-CSharp.dll:I2.Loc.ResourceManager
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CellCollision
 f737daa636066cb5dcdf84ba1d41d922 Assembly-CSharp.dll:EasyMobile.Demo.Racing3DGameControl
@@ -277,15 +278,17 @@ e63944317d2f5958e31963668bb29158 Assembly-CSharp.dll:TMPro.Examples.VertexZoom
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:EasyMobile.Internal.RuntimeHelper
 d34103413f1163feaca3d8921142dd9e Assembly-CSharp.dll:I2.Loc.LocalizeTarget_UnityStandard_GUITexture
 0dc61040be1fc173ec3561dcd4573d17 Assembly-CSharp.dll:EasyMobile.Demo.ScrollableListItem
-9edea39d99e188f2c20be2e60884fbd7 Assembly-CSharp.dll:.PlayEffectsMenu
+0ce3fd390928acdba690f67e55d9f518 Assembly-CSharp.dll:.PlayEffectsMenu
 8419771a43c3088559eea801c53dde94 Assembly-CSharp.dll:GUIAnimator.GAui
 b9d3e77e5899f4e933b461b904f4eddc Assembly-CSharp.dll:.BackGround_Grid
+b4ac3715ef856a166a07c703871dfd85 Assembly-CSharp.dll:.CardsManager
 bfc3e3a0afdc0562a9f9e58a77998dcd Assembly-CSharp.dll:EasyMobile.Demo.GameServicesDemo_Multiplayer_TurnbasedKitchenSink
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:EasyMobile.Advertising
 fefb468d0ed403c583ac8876634b46be Assembly-CSharp.dll:I2.Loc.LocalizeTarget_UnityStandard_TextMesh
 e80c1450883443c68d6c2dade213536f Assembly-CSharp.dll:TMPro.Examples.TMPro_InstructionOverlay
 5edb0056ed9ab11b65e93f830e75d6ed Assembly-CSharp.dll:I2.Loc.LocalizationParamsManager
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:GooglePlayGames.OurUtils.PlayGamesHelperObject
 ebd95eb01891ebeef710ba0bd1174f7e Assembly-CSharp.dll:EasyMobile.Demo.InAppPurchasingDemo
 04fc0e46cec8b4aacc2c731d311292a6 Assembly-CSharp.dll:GUIAnimatorDemo.GAUUIEasingsRandomTest
 e6d3ce620ee62a1c64290803fb486ff8 Assembly-CSharp.dll:EasyMobile.Demo.NotificationsDemo
@@ -311,4 +314,5 @@ c2bba42ccf8a6ae3dd81706fc48382d6 Assembly-CSharp.dll:I2.Loc.LocalizeTarget_Unity
 32280b797839f393633d2652c0400d85 Assembly-CSharp.dll:EasyMobile.Demo.GameServicesDemo_SavedGames
 9fb38f8221186a370ce2b029aa6043aa Assembly-CSharp.dll:EasyMobile.Demo.GifDemo
 6a1940227f2a2b66d557f3d62a2d86c7 Assembly-CSharp.dll:EasyMobile.Demo.AdvertisingDemo
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:GooglePlayGames.OurUtils.PlayGamesHelperObject
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Share
+bac4814fd57ed9578b1462fbaaa32242 Assembly-CSharp.dll:.Rating

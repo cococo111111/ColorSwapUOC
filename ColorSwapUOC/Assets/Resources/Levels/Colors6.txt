@@ -11,6 +11,6 @@
     "GoalNum4": 6,
     "GoalType5": "TER",
     "GoalNum5": 4,
-    "Speed": 0.4,
+    "Speed": 1.4,
     "Grids": 5
 }
