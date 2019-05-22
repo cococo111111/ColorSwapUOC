@@ -26,18 +26,20 @@ MonoBehaviour:
       - Jugar
       - Jogar
       - Jouer
-      Flags: 0000000000
+      - Abspielen
+      Flags: 000000000000
       Languages_Touch: []
     - Term: SETTINGS
       TermType: 0
       Description: 
       Languages:
       - SETTINGS
-      - Ajustes
-      - "Configuraci\xF3"
-      - "Defini\xE7\xF5es"
-      - "R\xE9glages"
-      Flags: 0000000000
+      - AJUSTES
+      - "CONFIGURACI\xD3"
+      - "DEFINI\xC7OES"
+      - "R\xC9GLAGES"
+      - EINSTELLUNGEN
+      Flags: 000000000000
       Languages_Touch: []
     - Term: HOW TO PLAY
       TermType: 0
@@ -48,7 +50,8 @@ MonoBehaviour:
       - Com Jugar
       - Como Jogar
       - Comment Jouer
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: LANGUAGE
       TermType: 0
@@ -56,10 +59,11 @@ MonoBehaviour:
       Languages:
       - Language
       - Idioma
-      - Llenguatge
+      - Idioma
       - "L\xEDngua"
       - La Langue
-      Flags: 0000000000
+      - Sprache
+      Flags: 000000000000
       Languages_Touch: []
     - Term: SOUND
       TermType: 0
@@ -70,7 +74,8 @@ MonoBehaviour:
       - So
       - Som
       - Du Son
-      Flags: 0000000000
+      - Klingen
+      Flags: 000000000000
       Languages_Touch: []
     - Term: The purpose of the game is to achieve the combination of colors that appears
         at the top of the screen. Each time a color is completed it will be marked
@@ -102,7 +107,8 @@ MonoBehaviour:
         elle sera marqu\xE9e d'une croix. Lorsque tous sont termin\xE9s, vous passerez
         automatiquement au niveau suivant. Le but est d'obtenir le score le plus \xE9lev\xE9
         possible."
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: PROPOSITO DEL JUEGO
       TermType: 0
@@ -113,7 +119,8 @@ MonoBehaviour:
       - "Prop\xF2sit Del Joc"
       - Objetivo Do Jogo
       - But Du Jeu
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: El Grid
       TermType: 0
@@ -124,7 +131,8 @@ MonoBehaviour:
       - El Grid
       - A Grade
       - La Grille
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: "Comenzaremos con un grid vac\xEDo que se ir\xE1 llenando de colores primarios
         (azul, amarillo y rojo) para poder formar las combinaciones, cuidado, si el
@@ -147,7 +155,8 @@ MonoBehaviour:
       - "Nous allons commencer avec une grille vide qui sera remplie de couleurs primaires
         (bleu, jaune et rouge) pour pouvoir former des combinaisons. Attention, si
         la grille est compl\xE8tement remplie, vous perdrez la partie."
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Arrastrando Colores
       TermType: 0
@@ -158,7 +167,8 @@ MonoBehaviour:
       - Arrossegant Colors
       - Arrastando Cores
       - Glisser Les Couleurs
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: "Arrastra colores diferentes, uno encima del otro, para formar otros necesarios
         para completar la combinaci\xF3n requerida."
@@ -175,7 +185,8 @@ MonoBehaviour:
         completar a combina\xE7\xE3o requerida."
       - "Faites glisser diff\xE9rentes couleurs, les unes sur les autres, pour former
         les couleurs n\xE9cessaires \xE0 la combinaison souhait\xE9e."
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: "Tambi\xE9n puedes arrastrar las casillas del mismo color para ganar espacio
         libre en el grid y adem\xE1s conseguir puntos por ello."
@@ -192,7 +203,8 @@ MonoBehaviour:
         livre na grade e, al\xE9m disso, obter pontos."
       - "Vous pouvez \xE9galement faire glisser les cases de la m\xEAme couleur pour
         obtenir un espace libre dans la grille et obtenir des points."
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: "Si el grid se llena o se acaba el tiempo, la partida finalizar\xE1. Intenta
         resolver la combinaci\xF3n de colores requerida en el m\xEDnimo tiempo posible
@@ -215,7 +227,8 @@ MonoBehaviour:
       - "Si la grille est pleine ou que le temps est \xE9coul\xE9, la partie se termine.
         Essayez de r\xE9soudre la combinaison de couleurs requise le plus rapidement
         possible pour gagner des secondes suppl\xE9mentaires au niveau suivant."
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Fin de Partida
       TermType: 0
@@ -226,7 +239,8 @@ MonoBehaviour:
       - Fi de Partida
       - Fim da partida
       - Fin du jeu
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: UnityWhite
       TermType: 0
@@ -237,7 +251,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Ei!, estic jugant a Combix i es una pasada!, te'l pots baixar a la google
         store
@@ -254,7 +269,8 @@ MonoBehaviour:
         para a loja do google"
       - "Hey, je joue \xE0 Combix et c'est une derni\xE8re! Vous pouvez le t\xE9l\xE9charger
         sur le magasin Google"
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Ei!, estic jugant a Combix i es una pasada!, te'l pots descarregar a Google
         Store
@@ -271,7 +287,9 @@ MonoBehaviour:
         na Google Store"
       - "Hey, je joue \xE0 Combix et c'est une derni\xE8re! Vous pouvez le t\xE9l\xE9charger
         sur le Google Store."
-      Flags: 0000000000
+      - "Hey, ich spiele Combix und es ist unglaublich! Sie k\xF6nnen es in den Google
+        Store herunterladen"
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Oye, estoy jugando a Combix y es una pasada! Puedes descargarlo en Google
         Store.
@@ -288,7 +306,8 @@ MonoBehaviour:
         na Google Store"
       - "Merci beaucoup, Combix e \xE9 muito est n\xE9! Voyez-vous sur le t\xE9l\xE9chargement
         ou le t\xE9l\xE9chargement sur Google Store"
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Button_Rating
       TermType: 5
@@ -299,7 +318,8 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: New Text
       TermType: 0
@@ -310,7 +330,8 @@ MonoBehaviour:
       - Text Nou
       - Novo Texto
       - Nouveau Texte
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Text1
       TermType: 4
@@ -321,29 +342,32 @@ MonoBehaviour:
       - 
       - 
       - 
-      Flags: 0000000000
+      - 
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Rate
       TermType: 0
       Description: 
       Languages:
-      - Rate
-      - Califica
-      - Qualifica
-      - Avalie
-      - Evaluez
-      Flags: 0000000000
+      - 'Rate '
+      - 'Califica '
+      - 'Qualifica '
+      - 'Avalie '
+      - 'Evaluez '
+      - 'Bewertung '
+      Flags: 000000000000
       Languages_Touch: []
     - Term: How would you rate
       TermType: 0
       Description: 
       Languages:
-      - How would you rate
-      - "C\xF3mo calificar\xEDas"
-      - Com qualificaria
-      - "Como voc\xEA avaliaria"
-      - "Comment \xE9valueriez-vous"
-      Flags: 0000000000
+      - 'How would you rate '
+      - "C\xF3mo calificar\xEDas "
+      - 'Com qualificaria '
+      - "Como voc\xEA avaliaria "
+      - "Comment \xE9valueriez-vous "
+      - 'Wie beurteilen Sie '
+      Flags: 000000000000
       Languages_Touch: []
     - Term: That's bad. Would you like to give us some feedback instead?
       TermType: 0
@@ -354,7 +378,8 @@ MonoBehaviour:
       - "Aix\xF2 \xE9s dolent. Voleu enviar-nos comentaris?"
       - "Isso \xE9 ruim. Voc\xEA gostaria de nos dar algum feedback?"
       - "C'est mauvais. Voulez-vous nous donner quelques commentaires \xE0 la place?"
-      Flags: 0000000000
+      - "Das ist schlecht. M\xF6chten Sie uns stattdessen ein Feedback geben?"
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Awesome! Let's do it!
       TermType: 0
@@ -365,7 +390,8 @@ MonoBehaviour:
       - Impressionant! Fem-ho!
       - Impressionante! Vamos fazer isso!
       - Impressionnant! Faisons le!
-      Flags: 0000000000
+      - Genial! Machen wir das!
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Not Now
       TermType: 0
@@ -376,7 +402,8 @@ MonoBehaviour:
       - Ara No
       - "Agora N\xE3o"
       - Pas Maintenant
-      Flags: 0000000000
+      - Nicht Jetzt
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Don't Ask Again
       TermType: 0
@@ -387,7 +414,8 @@ MonoBehaviour:
       - No Pregunteu De Nou
       - "N\xE3o Pergunte De Novo"
       - Ne Demande Plus
-      Flags: 0000000000
+      - Frag Nicht Nochmal
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Rate Now!
       TermType: 0
@@ -398,7 +426,8 @@ MonoBehaviour:
       - Qualifica Ara!
       - Avalie Agora!
       - "\xC9valuer Maintenant!"
-      Flags: 0000000000
+      - Jetzt Bewerten!
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Cancel
       TermType: 0
@@ -409,7 +438,8 @@ MonoBehaviour:
       - "Cancel\xB7lar"
       - Cancelar
       - Annuler
-      Flags: 0000000000
+      - Stornieren
+      Flags: 000000000000
       Languages_Touch: []
     - Term: Send Feedback
       TermType: 0
@@ -420,7 +450,128 @@ MonoBehaviour:
       - Enviar Comentaris
       - "Enviar Coment\xE1rios"
       - Envoyer Des Commentaires
-      Flags: 0000000000
+      - Feedback Abschicken
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: POINTS
+      TermType: 0
+      Description: 
+      Languages:
+      - POINTS
+      - PUNTOS
+      - PUNTS
+      - PONTOS
+      - POINTS
+      - PUNKTE
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SCORE
+      TermType: 0
+      Description: 
+      Languages:
+      - SCORE
+      - "PUNTUACI\xD3N"
+      - "PUNTUACI\xD3"
+      - PONTO
+      - BUT
+      - ERGEBNIS
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 1 MINUTE
+      TermType: 0
+      Description: 
+      Languages:
+      - 1 MINUTE
+      - 1 MINUTO
+      - 1 MINUT
+      - 1 MINUTO
+      - 1 MINUTE
+      - 1 MINUTE
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MORE
+      TermType: 0
+      Description: 
+      Languages:
+      - MORE
+      - "M\xC1S"
+      - "M\xC9S"
+      - MAIS
+      - PLUS
+      - MEHR
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: DOUBLE
+      TermType: 0
+      Description: 
+      Languages:
+      - DOUBLE
+      - DOBLE
+      - DOBLE
+      - DOBRE
+      - DOUBLE
+      - DOPPELT
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: CLEAN
+      TermType: 0
+      Description: 
+      Languages:
+      - CLEAN
+      - LIMPIA
+      - NETEJA
+      - LIMPA
+      - NETTOYER
+      - SAUBER
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: THE GRID
+      TermType: 0
+      Description: 
+      Languages:
+      - THE GRID
+      - LA PARRILLA
+      - LA GRAELLA
+      - A GRADE
+      - LA GRILLE
+      - DAS GITTER
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LEVEL 1
+      TermType: 0
+      Description: 
+      Languages:
+      - LEVEL 1
+      - NIVEL 1
+      - NIVELL 1
+      - "N\xCDVEL 1"
+      - NIVEAU 1
+      - LEVEL 1
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SPEED
+      TermType: 0
+      Description: 
+      Languages:
+      - SPEED
+      - VELOCIDAD
+      - VELOCITAT
+      - VELOCIDADE
+      - VITESSE
+      - GESCHWINDIGKEIT
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SHOP
+      TermType: 0
+      Description: 
+      Languages:
+      - Shop
+      - Tienda
+      - Botiga
+      - Fazer Compras
+      - Boutique
+      - "Gesch\xE4ft"
+      Flags: 000000000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
@@ -440,6 +591,9 @@ MonoBehaviour:
       Flags: 0
     - Name: French
       Code: fr
+      Flags: 0
+    - Name: German
+      Code: de
       Flags: 0
     IgnoreDeviceLanguage: 0
     _AllowUnloadingLanguages: 0

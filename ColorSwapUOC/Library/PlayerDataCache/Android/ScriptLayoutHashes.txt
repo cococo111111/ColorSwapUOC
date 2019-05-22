@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/david/Documents/Proyectos Unity/ColorSwapUOC/APK/ColorSwap_test.apk
+/Users/david/Documents/Proyectos Unity/ColorSwapUOC/APK/Combix.apk
 SceneListBegin?
 Assets/Scenes/NicolAinaSplash.unity
 Assets/Scenes/Title.unity
@@ -161,6 +161,7 @@ dde29d16786525fb2319b65b37c5d132 Assembly-CSharp.dll:I2.Loc.LanguageSourceAsset
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CellCollision
 f737daa636066cb5dcdf84ba1d41d922 Assembly-CSharp.dll:EasyMobile.Demo.Racing3DGameControl
 eef3a293008e8a9aa7449e62f01da025 Assembly-CSharp.dll:I2.Loc.LocalizeTarget_UnityStandard_MeshRenderer
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Share
 31582186ebece284a729fdc8d85c2208 Assembly-CSharp.dll:EasyMobile.Demo.DemoUtils
 6363f1e4e428ceb5d0586f35c2b5ab7a Assembly-CSharp.dll:.LoadingBar
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
@@ -259,6 +260,7 @@ e0b614b39f8fd5b4de14ca722f48e79f Assembly-CSharp.dll:I2.Loc.SetLanguage
 90162e5e5a9a203330c54e41b0391434 Assembly-CSharp.dll:EasyMobile.Internal.Privacy.EditorConsentDialogButtonUI
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 fe2d355deb0ca31d59a0a7cf4d141fc3 Assembly-CSharp.dll:TMPro.Examples.Benchmark04
+bac4814fd57ed9578b1462fbaaa32242 Assembly-CSharp.dll:.Rating
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.LoadConfig
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:GUIAnimatorDemo.OpenOtherScene
 4d16cfbaa8e821a2b370e80844a0e9bc Assembly-CSharp.dll:TMPro.Examples.TextMeshSpawner
@@ -314,5 +316,4 @@ c2bba42ccf8a6ae3dd81706fc48382d6 Assembly-CSharp.dll:I2.Loc.LocalizeTarget_Unity
 32280b797839f393633d2652c0400d85 Assembly-CSharp.dll:EasyMobile.Demo.GameServicesDemo_SavedGames
 9fb38f8221186a370ce2b029aa6043aa Assembly-CSharp.dll:EasyMobile.Demo.GifDemo
 6a1940227f2a2b66d557f3d62a2d86c7 Assembly-CSharp.dll:EasyMobile.Demo.AdvertisingDemo
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Share
-bac4814fd57ed9578b1462fbaaa32242 Assembly-CSharp.dll:.Rating
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ShowLeadersBoard
