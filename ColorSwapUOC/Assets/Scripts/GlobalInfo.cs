@@ -1,19 +1,21 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 public class GlobalInfo : MonoBehaviour
 {
-    public static string configFile = "ColorSwapCfg";
+    public static string configFile = "CombixCfg";
 
+
+    public static string version;
     public static string gameFirstTime;
-    public static string playFirstTime;
     public static string language;
     public static string soundPlay = "true";
     //public static int sessionsCount;
-    public static string maxScore;
-    public static string coins;
+    public static string maxScore = "0";
+    public static string coins= "0";
+    public static List<string> cards = new List<string>();
 
     //Actual Level
-    public static int version;
     public static int levelNum;
     public static string GoalType1;
     public static int GoalNum1;

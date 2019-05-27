@@ -104,4 +104,9 @@ public class DataSaver
         }
         return success;
     }
+
+    internal static T loadData<T>(object configFileName)
+    {
+        throw new NotImplementedException();
+    }
 }

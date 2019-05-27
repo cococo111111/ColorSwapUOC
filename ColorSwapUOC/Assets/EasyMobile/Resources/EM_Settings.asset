@@ -207,7 +207,7 @@ MonoBehaviour:
     mValidateGooglePlayReceipt: 1
     mProducts: []
   mNotificationSettings:
-    mAutoInit: 1
+    mAutoInit: 0
     mAutoInitDelay: 0
     mIosAuthOptions: 7
     mPushNotificationService: 0
@@ -229,13 +229,34 @@ MonoBehaviour:
       sound: 1
       soundName: 
       actionButtons: []
-    mUserCategories: []
+    mUserCategories:
+    - id: UserCategory_notification_category_test
+      groupId: 
+      name: UserCategory_notification_category_test
+      description: UserCategory_notification_category_test
+      importance: 0
+      enableBadge: 1
+      lights: 1
+      lightColor: {r: 1, g: 1, b: 1, a: 1}
+      vibration: 1
+      vibrationPattern: 
+      lockScreenVisibility: 2
+      sound: 1
+      soundName: 
+      actionButtons: []
   mPrivacySettings:
     mDefaultConsentDialog:
       mContent: 
       mTitle: Privacy Consent
       mToggles: []
-      mActionButtons: []
+      mActionButtons:
+      - id: 
+        title: 
+        interactable: 0
+        titleColor: {r: 0, g: 0, b: 0, a: 0}
+        backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+        uninteractableTitleColor: {r: 0, g: 0, b: 0, a: 0}
+        uninteractableBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
     mConsentDialogComposerSettings:
       mToggleSelectedIndex: 0
       mButtonSelectedIndex: 0
@@ -261,6 +282,6 @@ MonoBehaviour:
   mIsAdModuleEnable: 1
   mIsIAPModuleEnable: 0
   mIsGameServiceModuleEnable: 1
-  mIsNotificationModuleEnable: 0
+  mIsNotificationModuleEnable: 1
   mActiveModuleIndex: 2
   mIsSelectingModule: 0

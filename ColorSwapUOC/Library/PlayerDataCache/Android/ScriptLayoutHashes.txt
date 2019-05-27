@@ -6,6 +6,7 @@ Assets/Scenes/NicolAinaSplash.unity
 Assets/Scenes/Title.unity
 Assets/Scenes/Menu.unity
 Assets/Scenes/Game.unity
+Assets/Scenes/GameOverScene.unity
 SceneListEnd?
 f10ac67db067cde16cc4972b892b3c8a Assembly-CSharp.dll:EasyMobile.Internal.Privacy.EditorConsentDialogToggleUI
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -255,6 +256,7 @@ a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 27e5341178f188b89bdc6495710b590c Assembly-CSharp.dll:TMPro.Examples.Benchmark01_UGUI
 e0b614b39f8fd5b4de14ca722f48e79f Assembly-CSharp.dll:I2.Loc.SetLanguage
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ShowLeadersBoard
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:I2.Loc.CallbackNotification
 8a874a8207a7664bdf44e61f28717254 Assembly-CSharp.dll:TMPro.Examples.SkewTextExample
 90162e5e5a9a203330c54e41b0391434 Assembly-CSharp.dll:EasyMobile.Internal.Privacy.EditorConsentDialogButtonUI
@@ -280,7 +282,7 @@ e63944317d2f5958e31963668bb29158 Assembly-CSharp.dll:TMPro.Examples.VertexZoom
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:EasyMobile.Internal.RuntimeHelper
 d34103413f1163feaca3d8921142dd9e Assembly-CSharp.dll:I2.Loc.LocalizeTarget_UnityStandard_GUITexture
 0dc61040be1fc173ec3561dcd4573d17 Assembly-CSharp.dll:EasyMobile.Demo.ScrollableListItem
-0ce3fd390928acdba690f67e55d9f518 Assembly-CSharp.dll:.PlayEffectsMenu
+4d2c1c4894e942ccaabd973eb57381a9 Assembly-CSharp.dll:.PlayEffectsMenu
 8419771a43c3088559eea801c53dde94 Assembly-CSharp.dll:GUIAnimator.GAui
 b9d3e77e5899f4e933b461b904f4eddc Assembly-CSharp.dll:.BackGround_Grid
 b4ac3715ef856a166a07c703871dfd85 Assembly-CSharp.dll:.CardsManager
@@ -316,4 +318,20 @@ c2bba42ccf8a6ae3dd81706fc48382d6 Assembly-CSharp.dll:I2.Loc.LocalizeTarget_Unity
 32280b797839f393633d2652c0400d85 Assembly-CSharp.dll:EasyMobile.Demo.GameServicesDemo_SavedGames
 9fb38f8221186a370ce2b029aa6043aa Assembly-CSharp.dll:EasyMobile.Demo.GifDemo
 6a1940227f2a2b66d557f3d62a2d86c7 Assembly-CSharp.dll:EasyMobile.Demo.AdvertisingDemo
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ShowLeadersBoard
+97ace6213ad0f149b0917a4c669c6ca3 Assembly-CSharp.dll:Cubequad.SwipyMenuScrollRect
+6496237ca8a514da93443d373190a846 Assembly-CSharp.dll:Cubequad.SwipyMenuHeader
+94033f8f8cf857b8e626509703dfa5bb Assembly-CSharp.dll:Cubequad.ScrollRectNested
+f34322977a2c099f5e876d50c96816f8 Assembly-CSharp.dll:Cubequad.SwipyMenu
+f5e7b298077797d2725fb69274caee71 Assembly-CSharp.dll:Cubequad.SwipyMenuGenerator
+bfc2cb26e904e96751e7729272303663 Assembly-CSharp.dll:.MenuManager
+2f5b175de43bd0b17044cba974667bf7 Assembly-CSharp.dll:NiobiumStudios.TimedRewards
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.IntegrationDailyRewards
+7a0bd8acdab78a773d397f4cf47a5c88 Assembly-CSharp.dll:NiobiumStudios.TimedRewardsInterface
+d70e16b3d2b2dd395ae5890482842d1a Assembly-CSharp.dll:NiobiumStudios.DailyRewardsInterface
+47d38e14e6e17160b2d3753cb4e9e4da Assembly-CSharp.dll:NiobiumStudios.DailyRewards
+58a5cf97268fa81baad1e661cc9d3912 Assembly-CSharp.dll:NiobiumStudios.TimedRewardUI
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.IntegrationTimedRewards
+a92d1906f206bdc9b708bbc3ee7d9fc4 Assembly-CSharp.dll:NiobiumStudios.DailyRewardUI
+fb4a4cfa1113d7699fa3743c5aaa2b62 Assembly-CSharp.dll:.GameOverManager
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Rewards
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CallSaveData

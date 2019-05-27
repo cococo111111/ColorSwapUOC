@@ -4,57 +4,67 @@ using System;
 
 public class LoadConfig : MonoBehaviour {
 
+    public static LoadConfig Instance;
     private string configFileName;
     private string fileName;
 
 	// Use this for initialization
 	void Awake ()
     {
-        Debug.Log(Decryptor.Encrypt(true.ToString()));
+        DontDestroyOnLoad(this.gameObject);
+        Instance = this;
         configFileName = GlobalInfo.configFile;
         fileName = Path.Combine(Application.persistentDataPath, "data");
         fileName = Path.Combine(fileName, configFileName + ".txt");
         if (!File.Exists(fileName))
         {
             PlayerInfo saveData = new PlayerInfo();
-            saveData.gameDateFirstTime = Decryptor.Encrypt(DateTime.Now.ToBinary().ToString());
-            saveData.playDateFirstTime = Decryptor.Encrypt("");
-
             //Save data from PlayerInfo to a file named players
             DataSaver.saveData(saveData, configFileName);
             GlobalInfo.gameFirstTime = "true";
-            GlobalInfo.playFirstTime = "true";
-            GlobalInfo.language = Decryptor.Encrypt(saveData.language);
             GlobalInfo.soundPlay = "true";
-            //GlobalInfo.sessionsCount = 0;
             GlobalInfo.maxScore = 0.ToString();
             GlobalInfo.coins = 0.ToString();
-        } else
+        } 
+        else
         {
+            Debug.Log("AQUI");
             PlayerInfo loadedData = DataSaver.loadData<PlayerInfo>(configFileName);
             if (loadedData == null)
             {
                 return;
             }
-
+            GlobalInfo.version = Application.version;
+            GlobalInfo.maxScore = Decryptor.Decrypt(loadedData.maxScore);
+            Debug.Log("MaxScore:" + GlobalInfo.maxScore);
+            GlobalInfo.coins = Decryptor.Decrypt(loadedData.coins);
+            Debug.Log("Coins: " + GlobalInfo.coins);
+            GlobalInfo.soundPlay = Decryptor.Decrypt(loadedData.soundPlay);
+            Debug.Log("Sound: " + GlobalInfo.soundPlay);
             for (int i = 0; i < loadedData.cards.Count; i++)
             {
                 Debug.Log("Cards: " + loadedData.cards[i]);
+                GlobalInfo.cards.Add(loadedData.cards[i]);
             }
             
             GlobalInfo.gameFirstTime = "false";
-            if (Decryptor.Decrypt(loadedData.playDateFirstTime) != "")
+            if (Decryptor.Decrypt(loadedData.gameFirstTime) != "")
             {
-                GlobalInfo.playFirstTime = "false";
-            } else
-            {
-                GlobalInfo.playFirstTime = "true";
-            }
-            GlobalInfo.language = loadedData.language;
-            GlobalInfo.soundPlay = Decryptor.Decrypt(loadedData.soundPlay.ToString());
-            //GlobalInfo.sessionsCount = loadedData.sessionsCount;
-            GlobalInfo.maxScore = Decryptor.Decrypt(loadedData.maxScore.ToString());
-            GlobalInfo.coins = Decryptor.Decrypt(loadedData.coins.ToString());
+                GlobalInfo.gameFirstTime = "false";
+            } 
+
         }
     }
+
+    public void SaveDataGame()
+    {
+        PlayerInfo saveData = new PlayerInfo();
+        saveData.version = Decryptor.Encrypt(Application.version);
+        saveData.maxScore = Decryptor.Encrypt(GlobalInfo.maxScore);
+        saveData.coins = Decryptor.Encrypt(GlobalInfo.coins);
+        saveData.soundPlay = Decryptor.Encrypt(GlobalInfo.soundPlay);
+        saveData.cards = GlobalInfo.cards;
+        //Save data from PlayerInfo to a file named players
+        DataSaver.saveData(saveData, configFileName);
+}
 }

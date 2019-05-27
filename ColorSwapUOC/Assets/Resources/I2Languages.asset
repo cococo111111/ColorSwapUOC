@@ -472,9 +472,9 @@ MonoBehaviour:
       - SCORE
       - "PUNTUACI\xD3N"
       - "PUNTUACI\xD3"
-      - PONTO
-      - BUT
-      - ERGEBNIS
+      - "PUNTUA\xC7\xC3O"
+      - SCORE
+      - RATING
       Flags: 000000000000
       Languages_Touch: []
     - Term: 1 MINUTE
@@ -565,12 +565,283 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Shop
-      - Tienda
-      - Botiga
-      - Fazer Compras
-      - Boutique
-      - "Gesch\xE4ft"
+      - SHOP
+      - TIENDA
+      - BOTIGA
+      - LOJA
+      - BOUTIQUE
+      - SHOP
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: INVENTARIO
+      TermType: 0
+      Description: 
+      Languages:
+      - INVENTORY
+      - INVENTARIO
+      - INVENTARI
+      - "INVENT\xC1RIO"
+      - INVENTAIRE
+      - INVENTAR
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Echamos una partida?, estoy seguro de que quieres batir a tus amigos.
+        Vamos a batir un record!
+      TermType: 0
+      Description: 
+      Languages:
+      - Shall we play a game? I'm sure you want to beat your friends. Let's break
+        a record!
+      - "\xBFEchamos una partida?, estoy seguro de que quieres batir a tus amigos.
+        \xA1Vamos a batir un record!"
+      - "Fem una partida ?, estic segur de que vols batre als teus amics. Anem a batre
+        un r\xE8cord!"
+      - Vamos jogar um jogo? Tenho a certeza que queres bater os teus amigos. Vamos
+        bater um recorde!
+      - "On joue \xE0 un jeu ? Je suis s\xFBr que tu veux battre tes amis. Battons
+        un record !"
+      - Sollen wir ein Spiel spielen? Ich bin sicher, du willst deine Freunde schlagen.
+        Lasst uns einen Rekord brechen!
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Combix te reclama!
+      TermType: 0
+      Description: 
+      Languages:
+      - Combix wants you!
+      - "\xA1Combix te reclama!"
+      - Combix et reclama!
+      - "Combix reclama voc\xEA!"
+      - Combix veut vous voir!
+      - Combix will dich!
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Claim
+      TermType: 0
+      Description: 
+      Languages:
+      - Claim
+      - Reclamar
+      - Reclamar
+      - Reclamar
+      - "R\xE9clamer"
+      - Anspruch
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Close
+      TermType: 0
+      Description: 
+      Languages:
+      - CLOSE
+      - CERRAR
+      - TANCAR
+      - FECHAR
+      - FERMER
+      - SCHLIESSEN
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Daily Reward
+      TermType: 0
+      Description: 
+      Languages:
+      - DAILY REWARD
+      - RECOMPENSA DIARIA
+      - "RECOMPENSA DI\xC0RIA"
+      - "RECOMPENSA DI\xC1RIA"
+      - "R\xC9COMPENSE QUOTIDIENNE"
+      - "T\xC4GLICHE BELOHNUNG"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: You can claim your reward!
+      TermType: 0
+      Description: 
+      Languages:
+      - You can claim your reward!
+      - "\xA1Puedes reclamar tu recompensa!"
+      - Pots reclamar la teva recompensa!
+      - "Voc\xEA pode reivindicar sua recompensa!"
+      - "Vous pouvez r\xE9clamer votre r\xE9compense!"
+      - "Sie k\xF6nnen Ihre Belohnung einfordern!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Day 99
+      TermType: 0
+      Description: 
+      Languages:
+      - Day 99
+      - Dia 99
+      - Dia 99
+      - Dia 99
+      - Jour 99
+      - Tag 99
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 9.999
+      TermType: 0
+      Description: 
+      Languages:
+      - 9.999
+      - 9.999
+      - 9.999
+      - 9,999
+      - 9.999
+      - 9.999
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Day
+      TermType: 0
+      Description: 
+      Languages:
+      - Day
+      - "D\xEDa"
+      - Dia
+      - Dia
+      - Jour
+      - Tag
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 1MIN CARD
+      TermType: 0
+      Description: 
+      Languages:
+      - 1MIN CARD
+      - CARTA 1MIN
+      - CARTA 1MIN
+      - CARTA 1MIN
+      - CARTE 1MIN
+      - 1MIN KARTE
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Come back in
+      TermType: 0
+      Description: 
+      Languages:
+      - 'COME BACK IN '
+      - 'VUELVE EN '
+      - 'TORNA EN '
+      - 'VOLTE EN '
+      - 'REVIENS DANS '
+      - 'KOMM WIEDER REIN '
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: FOR YOUR NEXT REWARD.
+      TermType: 0
+      Description: 
+      Languages:
+      - FOR YOUR NEXT REWARD.
+      - "PARA SU PR\xD3XIMA RECOMPENSA."
+      - "PER LA TEVA PR\xD3XIMA RECOMPENSA."
+      - "PARA SUA PRO\xD3XIMA RECOMPENSA."
+      - "POUR VOTRE PROCHAINE R\xC9COMPENSE."
+      - "F\xDCR DEINE N\xC4CHSTE BELOHNUNG."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Come back in 23:59:59 for your next reward
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: YOU GOT
+      TermType: 0
+      Description: 
+      Languages:
+      - 'YOU GOT '
+      - 'TIENES '
+      - 'TENS '
+      - "VOC\xCA TEM "
+      - 'VOUS AVEZ '
+      - 'DU HAST '
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: SCORE TABLE
+      TermType: 0
+      Description: 
+      Languages:
+      - SCORE TABLE
+      - PUNTUACIONES
+      - PUNTUACIONS
+      - "PUNTUA\xC7\xD5ES"
+      - SCORES
+      - SCORE TABLE
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: BEST SCORE
+      TermType: 0
+      Description: 
+      Languages:
+      - BEST SCORE
+      - "MEJOR PUNTUACI\xD3N"
+      - "MILLOR PUNTUACI\xD3"
+      - "MELHOR PUNTUA\xC7\xC3O"
+      - MEILLEUR SCORE
+      - BESTE RATING
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: COINS
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: COMBI$
+      TermType: 0
+      Description: 
+      Languages:
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: TOTAL COMBI$
+      TermType: 0
+      Description: 
+      Languages:
+      - TOTAL COMBI$
+      - COMBI$ TOTALES
+      - COMBI$ TOTALS
+      - COMBIS TOTAIS
+      - TOTAL COMBI$
+      - GESAMTCOMBI$
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: YOUR BEST SCORE
+      TermType: 0
+      Description: 
+      Languages:
+      - YOUR BEST SCORE
+      - "TU MEJOR PUNTUACI\xD3N"
+      - "LA TEVA MILLOR PUNTUACI\xD3"
+      - "SUA MELHOR PUNTUA\xC7\xC3O"
+      - TON MEILLEUR SCORE
+      - DEINE BESTE PUNKTZAHL
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: "MEJOR PUNTUACI\xD3N ONLINE"
+      TermType: 0
+      Description: 
+      Languages:
+      - BEST ONLINE SCORE
+      - "MEJOR PUNTUACI\xD3N ONLINE"
+      - "MILLOR PUNTUACI\xD3 ONLINE"
+      - "MELHOR PUNTUA\xC7\xC3O ONLINE"
+      - MEILLEUR SCORE EN LIGNE
+      - BESTE ONLINE-PUNKTZAHL
       Flags: 000000000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0

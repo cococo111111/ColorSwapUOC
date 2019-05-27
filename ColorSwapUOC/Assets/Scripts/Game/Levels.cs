@@ -33,7 +33,7 @@ public class Levels : MonoBehaviour
         object resultValue = JsonUtility.FromJson<LevelInfo>(Encoding.ASCII.GetString(jsonTextFile.bytes));
         LevelInfo loadlevel = (LevelInfo)Convert.ChangeType(resultValue, typeof(LevelInfo));
 
-        GlobalInfo.version = loadlevel.version; 
+        //GlobalInfo.version = loadlevel.version; 
         GlobalInfo.levelNum = loadlevel.levelNum;
         GlobalInfo.GoalType1 = loadlevel.GoalType1;
         GlobalInfo.GoalNum1 = loadlevel.GoalNum1;

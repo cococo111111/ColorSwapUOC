@@ -154,7 +154,7 @@ public class PlayEffects : MonoBehaviour
     IEnumerator GoToMainMenu()
     {
         yield return new WaitForSeconds(2f);
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOverScene");
     }
 
 }

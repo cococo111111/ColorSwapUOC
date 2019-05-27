@@ -7,6 +7,7 @@ using I2.Loc;
 
 public class Rating : MonoBehaviour
 {
+    public static Rating Instance;
     public string YOUR_LOCALIZED_TITLE;
     public string YOUR_LOCALIZED_MESSAGE;
     public string YOUR_LOCALIZED_LOW_RATING_MESSAGE;
@@ -28,6 +29,7 @@ public class Rating : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this; 
         //texto1.GetComponent<Text>().text= YOUR_LOCALIZED_TITLE;
         //texto2.GetComponent<Text>().text = YOUR_LOCALIZED_MESSAGE;
         //texto3.GetComponent<Text>().text = YOUR_LOCALIZED_LOW_RATING_MESSAGE;

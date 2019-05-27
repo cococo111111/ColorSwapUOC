@@ -16,6 +16,8 @@ public class PlayEffectsMenu : MonoBehaviour
     public GAui buttonSocial;
     public GAui buttonRate;
     public GAui panelSettings;
+    public GAui panelShop;
+    public GAui panelCombis;
 
 
     private void Awake()
@@ -23,6 +25,8 @@ public class PlayEffectsMenu : MonoBehaviour
         GSui.Instance.m_AutoAnimation = false;
         GSui.Instance.m_IdleTime = 0;
         panelSettings.gameObject.SetActive(false);
+        panelCombis.gameObject.SetActive(false);
+        panelShop.gameObject.SetActive(false);
     }
     // Start is called before the first frame update
     void Start()
@@ -61,6 +65,56 @@ public class PlayEffectsMenu : MonoBehaviour
         GSui.Instance.PlayInAnims(buttonRate.transform, true);
     }
 
+    public void LoadShopPanel()
+    {
+        panelShop.gameObject.SetActive(true);
+        GSui.Instance.PlayOutAnims(buttonPlay.transform, true);
+        GSui.Instance.PlayOutAnims(buttonSettings.transform, true);
+        GSui.Instance.PlayOutAnims(buttonRanking.transform, true);
+        GSui.Instance.PlayOutAnims(buttonShop.transform, true);
+        GSui.Instance.PlayOutAnims(buttonCards.transform, true);
+        GSui.Instance.PlayOutAnims(buttonSocial.transform, true);
+        GSui.Instance.PlayOutAnims(buttonRate.transform, true);
+        GSui.Instance.PlayInAnims(panelShop.transform, true);
+    }
+
+    public void ExitShopPanel()
+    {
+        GSui.Instance.PlayOutAnims(panelShop.transform, true);
+        GSui.Instance.PlayInAnims(buttonPlay.transform, true);
+        GSui.Instance.PlayInAnims(buttonSettings.transform, true);
+        GSui.Instance.PlayInAnims(buttonRanking.transform, true);
+        GSui.Instance.PlayInAnims(buttonShop.transform, true);
+        GSui.Instance.PlayInAnims(buttonCards.transform, true);
+        GSui.Instance.PlayInAnims(buttonSocial.transform, true);
+        GSui.Instance.PlayInAnims(buttonRate.transform, true);
+    }
+
+    public void LoadCombisPanel()
+    {
+        panelCombis.gameObject.SetActive(true);
+        GSui.Instance.PlayOutAnims(buttonPlay.transform, true);
+        GSui.Instance.PlayOutAnims(buttonSettings.transform, true);
+        GSui.Instance.PlayOutAnims(buttonRanking.transform, true);
+        GSui.Instance.PlayOutAnims(buttonShop.transform, true);
+        GSui.Instance.PlayOutAnims(buttonCards.transform, true);
+        GSui.Instance.PlayOutAnims(buttonSocial.transform, true);
+        GSui.Instance.PlayOutAnims(buttonRate.transform, true);
+        GSui.Instance.PlayInAnims(panelCombis.transform, true);
+    }
+
+    public void ExitCombisPanel()
+    {
+        GSui.Instance.PlayOutAnims(panelCombis.transform, true);
+        GSui.Instance.PlayInAnims(buttonPlay.transform, true);
+        GSui.Instance.PlayInAnims(buttonSettings.transform, true);
+        GSui.Instance.PlayInAnims(buttonRanking.transform, true);
+        GSui.Instance.PlayInAnims(buttonShop.transform, true);
+        GSui.Instance.PlayInAnims(buttonCards.transform, true);
+        GSui.Instance.PlayInAnims(buttonSocial.transform, true);
+        GSui.Instance.PlayInAnims(buttonRate.transform, true);
+    }
+
     public void LoadGameScene()
     {
         GSui.Instance.PlayOutAnims(buttonPlay.transform, true);
@@ -70,7 +124,6 @@ public class PlayEffectsMenu : MonoBehaviour
         GSui.Instance.PlayOutAnims(buttonCards.transform, true);
         GSui.Instance.PlayOutAnims(buttonSocial.transform, true);
         GSui.Instance.PlayOutAnims(buttonRate.transform, true);
-        GSui.Instance.PlayInAnims(panelSettings.transform, true);
         StartCoroutine(GoPlayScene());
     }
 
