@@ -6,16 +6,24 @@ using UnityEngine;
 public class Rewards : MonoBehaviour
 {
 
-    bool oneTime;
+    bool oneTime = true;
 
     private void Start()
     {
-        oneTime = true;
+        InvokeRepeating("SetOneTime", 0f, 3.0f);
+    }
+
+    void SetOneTime()
+    {
+        if (!oneTime)
+        {
+            oneTime = true;
+        }
+
     }
 
     void OnEnable()
     {
-        Debug.Log("AQUI ON ENABLE");
         DailyRewards.GetInstance().onClaimPrize += OnClaimPrizeDailyRewards;
     }
 
@@ -37,8 +45,8 @@ public class Rewards : MonoBehaviour
         //Debug.Log(int.Parse(GlobalInfo.coins));
         if (myReward.unit == "1 MIN" && oneTime)
         {
-            Debug.Log("AQUI CARD");
-            GlobalInfo.cards.Add(myReward.unit);
+            var newCard = GlobalInfo.cards[3] + 1;
+            GlobalInfo.cards[3] = newCard;
             LoadConfig.Instance.SaveDataGame();
             oneTime = false;
         }

@@ -844,6 +844,78 @@ MonoBehaviour:
       - BESTE ONLINE-PUNKTZAHL
       Flags: 000000000000
       Languages_Touch: []
+    - Term: NOT ENOUGHT COMBI$
+      TermType: 0
+      Description: 
+      Languages:
+      - NOT ENOUGH COMBI$
+      - COMBI$ INSUFICIENTES
+      - COMBI$ INSUFICIENTS
+      - COMBI$ INSUFICIENTES
+      - COMBI$ INSUFFISANTES
+      - UNZUREICHENDE COMBI$
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: DOUBLE SCORE
+      TermType: 0
+      Description: 
+      Languages:
+      - DOUBLE SCORE
+      - DOBLE PUNTAJE
+      - "DOBLE PUNTUACI\xD3"
+      - "PONTUA\xC7\xC3O DUPLA"
+      - DOUBLE SCORE
+      - DOPPELTE SCHEIBE
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 1 MINUTE MORE
+      TermType: 0
+      Description: 
+      Languages:
+      - 1 MINUTE MORE
+      - "1 MINUTO M\xC1S"
+      - "1 MINUT M\xC9S"
+      - 1 MINUTO MAIS
+      - 1 MINUTE PLUS
+      - NOCH 1 MINUTE
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LEVEL 1 SPEED
+      TermType: 0
+      Description: 
+      Languages:
+      - LEVEL 1 SPEED
+      - VELOCIDAD NIVEL 1
+      - VELOCITAT NIVELL 1
+      - "VELOCIDADE N\xCDVEL 1"
+      - NIVEAU 1 VITESSE
+      - LEVEL 1 SPEED
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: CLEAN THE GRID
+      TermType: 0
+      Description: 
+      Languages:
+      - CLEAN THE GRID
+      - LIMPIA LA PARRILLA
+      - NETEJA LA GRAELLA
+      - LIMPA A GRADE
+      - NETTOYER LA GRILLE
+      - REINIGEN SIE DEN GRILL
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 1000 POINTS
+      TermType: 0
+      Description: 
+      Languages:
+      - 1000 POINTS
+      - 1000 PUNTOS
+      - 1000 PUNTS
+      - 1000 PONTOS
+      - 1000 POINTS
+      - 1000 PUNKTE
+      Flags: 000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 

@@ -22,7 +22,12 @@ public class CardsManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        TakeTheCards();
+    }
+
+    void TakeTheCards()
+    {
+        //Comprobem les cartas que hi han a la motxila
     }
 
     public void ActionCard(string card)

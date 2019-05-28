@@ -57,7 +57,6 @@ public class GameManager : MonoBehaviour
         Instance = this;
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         GlobalInfo.score = 0;
@@ -70,6 +69,7 @@ public class GameManager : MonoBehaviour
         GlobalInfo.levelNum = 1;
     }
 
+    //Se llama despues de la cuenta atras del Canvas
     public void StartGame()
     {
         GlobalInfo.speed = 2.0f;
@@ -83,7 +83,6 @@ public class GameManager : MonoBehaviour
         InvokeRepeating("GenerateLevel", 2.0f, GlobalInfo.speed);
     }
 
-    // Update is called once per frame
     void Update()
     {
         CountDown();
@@ -462,6 +461,7 @@ public class GameManager : MonoBehaviour
 
     void GenerateLevel()
     {
+        Debug.Log(GlobalInfo.speed);
         playing = true;
         if (!gameOver)
         {

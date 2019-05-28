@@ -9,7 +9,7 @@ public class PlayerInfo
     public string maxScore = Decryptor.Encrypt("0");
     public string coins = Decryptor.Encrypt("0");
     public string soundPlay = Decryptor.Encrypt("true");
-    public List<string> cards = new List<string>();
+    public List<int> cards = new List<int>();
 }
 
 

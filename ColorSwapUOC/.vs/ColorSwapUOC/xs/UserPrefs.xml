@@ -1,26 +1,21 @@
 ﻿<Properties StartupConfiguration="{89010D85-CFB5-98EB-01FA-CEB7F8DB5042}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MenuManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayEffectsMenu.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayEffectsMenu.cs" Line="115" Column="63" />
-      <File FileName="Assets/Scripts/PlayEffects.cs" Line="157" Column="77" />
-      <File FileName="Assets/Scripts/Game/GameManager.cs" Line="535" Column="37" />
-      <File FileName="Assets/Scripts/Game/CardsManager.cs" Line="48" Column="34" />
-      <File FileName="Assets/Scripts/Game/CardCollision.cs" Line="33" Column="10" />
-      <File FileName="Assets/Scripts/Game/CellCollision.cs" Line="19" Column="7" />
-      <File FileName="Assets/Scripts/GlobalInfo.cs" Line="10" Column="40" />
-      <File FileName="Assets/Scripts/PlayerInfo.cs" Line="9" Column="53" />
-      <File FileName="Assets/Scripts/General/LoadConfig.cs" Line="27" Column="45" />
-      <File FileName="Assets/Scripts/MenuManager.cs" Line="30" Column="92" />
-      <File FileName="Assets/Scripts/Game/DiamondManager.cs" Line="64" Column="62" />
-      <File FileName="../../Color Swap/Assets/Scripts/UI/UI_Game.cs" Line="69" Column="39" />
+      <File FileName="Assets/Scripts/PlayEffectsMenu.cs" Line="141" Column="6" />
+      <File FileName="Assets/Scripts/PlayEffects.cs" Line="137" Column="5" />
+      <File FileName="Assets/Scripts/Game/GameManager.cs" Line="464" Column="37" />
+      <File FileName="Assets/Scripts/Game/CardsManager.cs" Line="61" Column="6" />
+      <File FileName="Assets/Scripts/ShopMenu.cs" Line="147" Column="6" />
+      <File FileName="Assets/Scripts/GlobalInfo.cs" Line="16" Column="53" />
+      <File FileName="Assets/Scripts/PlayerInfo.cs" Line="12" Column="46" />
+      <File FileName="Assets/Scripts/General/LoadConfig.cs" Line="47" Column="14" />
+      <File FileName="Assets/Scripts/MenuManager.cs" Line="11" Column="2" />
       <File FileName="Assets/Scripts/AdsManager.cs" Line="3" Column="1" />
       <File FileName="Assets/Scripts/ShowLeadersBoard.cs" Line="19" Column="42" />
       <File FileName="Assets/EasyMobile/Scripts/Modules/GameServices/GameServices.cs" Line="462" Column="27" />
-      <File FileName="Assets/Scripts/Rating.cs" Line="44" Column="26" />
-      <File FileName="Assets/DailyRewards/Scripts/DailyRewards.cs" Line="132" Column="1" />
-      <File FileName="Assets/Scripts/Game/Rewards.cs" Line="48" Column="1" />
-      <File FileName="Assets/Scripts/Game/GameOverManager.cs" Line="44" Column="44" />
-      <File FileName="Assets/Scripts/General/CallSaveData.cs" Line="9" Column="9" />
+      <File FileName="Assets/Scripts/General/DataSaver.cs" Line="60" Column="1" />
+      <File FileName="Assets/Scripts/Game/Game_Grid.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Game/Levels.cs" Line="48" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

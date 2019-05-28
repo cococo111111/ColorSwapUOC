@@ -689,6 +689,7 @@
     <Compile Include="Assets\Scripts\PlayerInfo.cs" />
     <Compile Include="Assets\Scripts\Rating.cs" />
     <Compile Include="Assets\Scripts\Share.cs" />
+    <Compile Include="Assets\Scripts\ShopMenu.cs" />
     <Compile Include="Assets\Scripts\ShowLeadersBoard.cs" />
     <Compile Include="Assets\SwipyMenu\Scripts\ScrollRectNested.cs" />
     <Compile Include="Assets\SwipyMenu\Scripts\SwipyMenu.cs" />

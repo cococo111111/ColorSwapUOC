@@ -19,16 +19,21 @@ public class LoadConfig : MonoBehaviour {
         if (!File.Exists(fileName))
         {
             PlayerInfo saveData = new PlayerInfo();
+            for (int i = 0; i < 5; i++)
+            {
+                saveData.cards.Add(0);
+            }
             //Save data from PlayerInfo to a file named players
             DataSaver.saveData(saveData, configFileName);
             GlobalInfo.gameFirstTime = "true";
             GlobalInfo.soundPlay = "true";
             GlobalInfo.maxScore = 0.ToString();
             GlobalInfo.coins = 0.ToString();
+            GlobalInfo.cards = saveData.cards;
+            Debug.Log(GlobalInfo.cards);
         } 
         else
         {
-            Debug.Log("AQUI");
             PlayerInfo loadedData = DataSaver.loadData<PlayerInfo>(configFileName);
             if (loadedData == null)
             {
@@ -36,14 +41,10 @@ public class LoadConfig : MonoBehaviour {
             }
             GlobalInfo.version = Application.version;
             GlobalInfo.maxScore = Decryptor.Decrypt(loadedData.maxScore);
-            Debug.Log("MaxScore:" + GlobalInfo.maxScore);
             GlobalInfo.coins = Decryptor.Decrypt(loadedData.coins);
-            Debug.Log("Coins: " + GlobalInfo.coins);
             GlobalInfo.soundPlay = Decryptor.Decrypt(loadedData.soundPlay);
-            Debug.Log("Sound: " + GlobalInfo.soundPlay);
             for (int i = 0; i < loadedData.cards.Count; i++)
             {
-                Debug.Log("Cards: " + loadedData.cards[i]);
                 GlobalInfo.cards.Add(loadedData.cards[i]);
             }
             

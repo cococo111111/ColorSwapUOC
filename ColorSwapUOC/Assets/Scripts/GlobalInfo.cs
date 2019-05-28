@@ -13,7 +13,7 @@ public class GlobalInfo : MonoBehaviour
     //public static int sessionsCount;
     public static string maxScore = "0";
     public static string coins= "0";
-    public static List<string> cards = new List<string>();
+    public static List<int> cards = new List<int>();
 
     //Actual Level
     public static int levelNum;

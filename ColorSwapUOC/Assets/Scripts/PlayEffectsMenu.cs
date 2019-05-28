@@ -18,6 +18,7 @@ public class PlayEffectsMenu : MonoBehaviour
     public GAui panelSettings;
     public GAui panelShop;
     public GAui panelCombis;
+    public GAui panelGame;
 
 
     private void Awake()
@@ -124,7 +125,19 @@ public class PlayEffectsMenu : MonoBehaviour
         GSui.Instance.PlayOutAnims(buttonCards.transform, true);
         GSui.Instance.PlayOutAnims(buttonSocial.transform, true);
         GSui.Instance.PlayOutAnims(buttonRate.transform, true);
-        StartCoroutine(GoPlayScene());
+        GSui.Instance.PlayInAnims(panelGame.transform, true);
+        //StartCoroutine(GoPlayScene());
+    }
+    public void ExitGameScene()
+    {
+        GSui.Instance.PlayOutAnims(panelGame.transform, true);
+        GSui.Instance.PlayInAnims(buttonPlay.transform, true);
+        GSui.Instance.PlayInAnims(buttonSettings.transform, true);
+        GSui.Instance.PlayInAnims(buttonRanking.transform, true);
+        GSui.Instance.PlayInAnims(buttonShop.transform, true);
+        GSui.Instance.PlayInAnims(buttonCards.transform, true);
+        GSui.Instance.PlayInAnims(buttonSocial.transform, true);
+        GSui.Instance.PlayInAnims(buttonRate.transform, true);
     }
 
     IEnumerator GoStartScene()
