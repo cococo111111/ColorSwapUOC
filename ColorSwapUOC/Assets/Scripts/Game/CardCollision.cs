@@ -9,6 +9,7 @@ public class CardCollision : MonoBehaviour, IDragHandler, IEndDragHandler
     private Vector3 scanPos;
     private Vector3 initPosition;
     public bool onGrid;
+    public int position;
 
     private void Start()
     {
@@ -31,7 +32,7 @@ public class CardCollision : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         if (onGrid)
         {
-            CardsManager.Instance.ActionCard(this.name);
+            CardsManager.Instance.ActionCard(this.name, position);
             this.gameObject.SetActive(false);
         }
         else

@@ -1549,7 +1549,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 102.82501, y: -0.000027492535}
+  m_AnchoredPosition: {x: 102.82501, y: 0.000061035156}
   m_SizeDelta: {x: -205.65, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5779083945167520654
@@ -2471,6 +2471,7 @@ GameObject:
   - component: {fileID: 5779083945715759031}
   - component: {fileID: 5779083945715759030}
   - component: {fileID: 5779083945715759025}
+  - component: {fileID: 6980709090726684075}
   m_Layer: 0
   m_Name: Daily Rewards
   m_TagString: Untagged
@@ -2586,6 +2587,18 @@ MonoBehaviour:
   dailyRewardsGroup: {fileID: 5779083945167520654}
   scrollRect: {fileID: 5779083944711630417}
   textCanClaim: {fileID: 7622333113132405366}
+--- !u!114 &6980709090726684075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779083945715759024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4638f300bb3084372b880a0455f02aa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5779083945729237585
 GameObject:
   m_ObjectHideFlags: 0
@@ -3879,8 +3892,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5779083945430844673}
   m_HandleRect: {fileID: 5779083945430844675}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.99999994
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

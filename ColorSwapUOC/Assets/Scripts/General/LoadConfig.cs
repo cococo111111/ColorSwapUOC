@@ -22,6 +22,7 @@ public class LoadConfig : MonoBehaviour {
             for (int i = 0; i < 5; i++)
             {
                 saveData.cards.Add(0);
+                saveData.backPack.Add(0);
             }
             //Save data from PlayerInfo to a file named players
             DataSaver.saveData(saveData, configFileName);
@@ -30,6 +31,7 @@ public class LoadConfig : MonoBehaviour {
             GlobalInfo.maxScore = 0.ToString();
             GlobalInfo.coins = 0.ToString();
             GlobalInfo.cards = saveData.cards;
+            GlobalInfo.backPack = saveData.backPack;
             Debug.Log(GlobalInfo.cards);
         } 
         else
@@ -43,11 +45,8 @@ public class LoadConfig : MonoBehaviour {
             GlobalInfo.maxScore = Decryptor.Decrypt(loadedData.maxScore);
             GlobalInfo.coins = Decryptor.Decrypt(loadedData.coins);
             GlobalInfo.soundPlay = Decryptor.Decrypt(loadedData.soundPlay);
-            for (int i = 0; i < loadedData.cards.Count; i++)
-            {
-                GlobalInfo.cards.Add(loadedData.cards[i]);
-            }
-            
+            GlobalInfo.cards = loadedData.cards;
+            GlobalInfo.backPack = loadedData.backPack;
             GlobalInfo.gameFirstTime = "false";
             if (Decryptor.Decrypt(loadedData.gameFirstTime) != "")
             {
@@ -65,6 +64,7 @@ public class LoadConfig : MonoBehaviour {
         saveData.coins = Decryptor.Encrypt(GlobalInfo.coins);
         saveData.soundPlay = Decryptor.Encrypt(GlobalInfo.soundPlay);
         saveData.cards = GlobalInfo.cards;
+        saveData.backPack = GlobalInfo.backPack;
         //Save data from PlayerInfo to a file named players
         DataSaver.saveData(saveData, configFileName);
 }

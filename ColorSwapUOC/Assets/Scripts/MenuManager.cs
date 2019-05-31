@@ -19,7 +19,7 @@ public class MenuManager : MonoBehaviour
 
     private void Awake()
     {
-        dailyRewards.SetActive(false);
+        //dailyRewards.SetActive(false);
     }
 
     private void Start()
@@ -115,8 +115,8 @@ public class MenuManager : MonoBehaviour
         }
     }
 
-    public void LaunchDailyRewards()
-    {
-        dailyRewards.SetActive(true);
-    }
+    //public void LaunchDailyRewards()
+    //{
+    //    dailyRewards.SetActive(true);
+    //}
 }

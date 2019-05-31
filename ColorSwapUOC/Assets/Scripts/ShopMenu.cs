@@ -127,21 +127,26 @@ public class ShopMenu : MonoBehaviour
                 if(GlobalInfo.cards[i] > 1)
                 {
                     cardsInventory[i].GetComponent<Image>().sprite = spritesCards[i];
-                    Debug.Log(cardsInventory[i].transform.GetChild(0).name);
                     cardsInventory[i].transform.GetChild(0).gameObject.SetActive(true);
-                    cardsInventory[i].GetComponentInChildren<Text>().text = GlobalInfo.cards[i].ToString();
+                    cardsInventory[i].transform.GetChild(1).gameObject.SetActive(true);
+                    cardsInventory[i].transform.GetChild(2).gameObject.SetActive(true);
+                    cardsInventory[i].transform.GetChild(2).gameObject.GetComponentInChildren<Text>().text = GlobalInfo.cards[i].ToString();
 
                 }
                 else
                 {
                     cardsInventory[i].GetComponent<Image>().sprite = spritesCards[i];
-                    cardsInventory[i].transform.GetChild(0).gameObject.SetActive(false);
+                    cardsInventory[i].transform.GetChild(0).gameObject.SetActive(true);
+                    cardsInventory[i].transform.GetChild(1).gameObject.SetActive(true);
+                    cardsInventory[i].transform.GetChild(2).gameObject.SetActive(false);
                 }
             }
             else
             {
                 cardsInventory[i].GetComponent<Image>().sprite = spritesCards[5];
                 cardsInventory[i].transform.GetChild(0).gameObject.SetActive(false);
+                cardsInventory[i].transform.GetChild(1).gameObject.SetActive(false);
+                cardsInventory[i].transform.GetChild(2).gameObject.SetActive(false);
             }
         }
     }

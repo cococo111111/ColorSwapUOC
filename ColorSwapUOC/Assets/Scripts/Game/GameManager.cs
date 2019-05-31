@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using NiobiumStudios;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -461,7 +462,6 @@ public class GameManager : MonoBehaviour
 
     void GenerateLevel()
     {
-        Debug.Log(GlobalInfo.speed);
         playing = true;
         if (!gameOver)
         {
@@ -538,6 +538,8 @@ public class GameManager : MonoBehaviour
                 gridColored.GetComponentInChildren<Cell>().color = 20;
                 gridColored.GetComponentInChildren<Cell>().isColored = false;
                 gridColored.GetComponentInChildren<Cell>().otherGrid = null;
+                gridColored.GetComponentInChildren<Cell>().originalSprite = null;
+                gridColored.GetComponentInChildren<Cell>().newSprite = null;
             }
         }
     }
@@ -635,6 +637,7 @@ public class GameManager : MonoBehaviour
         GameObject.Find(name).GetComponentInChildren<Cell>().color = 20;
         GameObject.Find(name).GetComponentInChildren<Cell>().isColored = false;
         GameObject.Find(name).GetComponentInChildren<Cell>().otherGrid = null;
+        GameObject.Find(name).GetComponentInChildren<Cell>().originalSprite = null;
     }
 
     public void ChangeColor(string nameGrid, Sprite newSprite, int newColorNumber)

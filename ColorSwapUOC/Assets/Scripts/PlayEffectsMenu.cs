@@ -19,6 +19,8 @@ public class PlayEffectsMenu : MonoBehaviour
     public GAui panelShop;
     public GAui panelCombis;
     public GAui panelGame;
+    public GAui panelBackPack;
+    public GAui panelBackPackForGame;
 
 
     private void Awake()
@@ -26,8 +28,11 @@ public class PlayEffectsMenu : MonoBehaviour
         GSui.Instance.m_AutoAnimation = false;
         GSui.Instance.m_IdleTime = 0;
         panelSettings.gameObject.SetActive(false);
-        panelCombis.gameObject.SetActive(false);
         panelShop.gameObject.SetActive(false);
+        panelCombis.gameObject.SetActive(false);
+        panelGame.gameObject.SetActive(false);
+        panelBackPack.gameObject.SetActive(false);
+        panelBackPackForGame.gameObject.SetActive(false);
     }
     // Start is called before the first frame update
     void Start()
@@ -89,6 +94,7 @@ public class PlayEffectsMenu : MonoBehaviour
         GSui.Instance.PlayInAnims(buttonCards.transform, true);
         GSui.Instance.PlayInAnims(buttonSocial.transform, true);
         GSui.Instance.PlayInAnims(buttonRate.transform, true);
+        LoadConfig.Instance.SaveDataGame();
     }
 
     public void LoadCombisPanel()
@@ -116,8 +122,57 @@ public class PlayEffectsMenu : MonoBehaviour
         GSui.Instance.PlayInAnims(buttonRate.transform, true);
     }
 
+    public void LoadBackPackPanel()
+    {
+        panelBackPack.gameObject.SetActive(true);
+        GSui.Instance.PlayOutAnims(buttonPlay.transform, true);
+        GSui.Instance.PlayOutAnims(buttonSettings.transform, true);
+        GSui.Instance.PlayOutAnims(buttonRanking.transform, true);
+        GSui.Instance.PlayOutAnims(buttonShop.transform, true);
+        GSui.Instance.PlayOutAnims(buttonCards.transform, true);
+        GSui.Instance.PlayOutAnims(buttonSocial.transform, true);
+        GSui.Instance.PlayOutAnims(buttonRate.transform, true);
+        GSui.Instance.PlayInAnims(panelBackPack.transform, true);
+    }
+
+    public void ExitBackPackPanel()
+    {
+        GSui.Instance.PlayOutAnims(panelBackPack.transform, true);
+        GSui.Instance.PlayInAnims(buttonPlay.transform, true);
+        GSui.Instance.PlayInAnims(buttonSettings.transform, true);
+        GSui.Instance.PlayInAnims(buttonRanking.transform, true);
+        GSui.Instance.PlayInAnims(buttonShop.transform, true);
+        GSui.Instance.PlayInAnims(buttonCards.transform, true);
+        GSui.Instance.PlayInAnims(buttonSocial.transform, true);
+        GSui.Instance.PlayInAnims(buttonRate.transform, true);
+        LoadConfig.Instance.SaveDataGame();
+        StartCoroutine(DesactiveBackPackPanels());
+    }
+
+    public void LoadBackPackForGamePanel()
+    {
+        panelBackPackForGame.gameObject.SetActive(true);
+        GSui.Instance.PlayOutAnims(panelGame.transform, true);
+        GSui.Instance.PlayInAnims(panelBackPackForGame.transform, true);
+    }
+
+    public void ExitBackPackForGamePanel()
+    {
+        GSui.Instance.PlayOutAnims(panelBackPackForGame.transform, true);
+        GSui.Instance.PlayInAnims(buttonPlay.transform, true);
+        GSui.Instance.PlayInAnims(buttonSettings.transform, true);
+        GSui.Instance.PlayInAnims(buttonRanking.transform, true);
+        GSui.Instance.PlayInAnims(buttonShop.transform, true);
+        GSui.Instance.PlayInAnims(buttonCards.transform, true);
+        GSui.Instance.PlayInAnims(buttonSocial.transform, true);
+        GSui.Instance.PlayInAnims(buttonRate.transform, true);
+        LoadConfig.Instance.SaveDataGame();
+        StartCoroutine(DesactiveBackPackPanels());
+    }
+
     public void LoadGameScene()
     {
+        panelGame.gameObject.SetActive(true);
         GSui.Instance.PlayOutAnims(buttonPlay.transform, true);
         GSui.Instance.PlayOutAnims(buttonSettings.transform, true);
         GSui.Instance.PlayOutAnims(buttonRanking.transform, true);
@@ -140,6 +195,13 @@ public class PlayEffectsMenu : MonoBehaviour
         GSui.Instance.PlayInAnims(buttonRate.transform, true);
     }
 
+    public void LoadGame()
+    {
+        GSui.Instance.PlayOutAnims(panelBackPackForGame.transform, true);
+        LoadConfig.Instance.SaveDataGame();
+        StartCoroutine(GoPlayScene());
+    }
+
     IEnumerator GoStartScene()
     {
         yield return new WaitForSeconds(2f);
@@ -150,6 +212,13 @@ public class PlayEffectsMenu : MonoBehaviour
     {
         yield return new WaitForSeconds(1.5f);
         UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
+    }
+
+    IEnumerator DesactiveBackPackPanels()
+    {
+        yield return new WaitForSeconds(1.5f);
+        panelBackPackForGame.gameObject.SetActive(false);
+        panelBackPack.gameObject.SetActive(false);
     }
 
 }

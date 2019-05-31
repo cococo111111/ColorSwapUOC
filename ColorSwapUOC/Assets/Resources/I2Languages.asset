@@ -21,12 +21,12 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Play
-      - Jugar
-      - Jugar
-      - Jogar
-      - Jouer
-      - Abspielen
+      - PLAY
+      - JUGAR
+      - JUGAR
+      - JOGAR
+      - JOUER
+      - ABSPIELEN
       Flags: 000000000000
       Languages_Touch: []
     - Term: SETTINGS
@@ -914,6 +914,72 @@ MonoBehaviour:
       - 1000 PONTOS
       - 1000 POINTS
       - 1000 PUNKTE
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: MIRA UN VIDEO Y GANA 10.000 COMBI$
+      TermType: 0
+      Description: 
+      Languages:
+      - WATCH A VIDEO AND WIN 10.000 COMBI$
+      - MIRA UN VIDEO Y GANA 10.000 COMBI$
+      - MIRA UN VIDEO I GUANYA 10.000 COMBI$
+      - "ASSISTA UM V\xCDDEO E GANHE 10.000 COMBI$"
+      - "REGARDEZ UNE VID\xC9O ET GAGNEZ 10.000 COMBI$"
+      - EIN VIDEO ANSEHEN UND 10.000 COMBI$ GEWINNEN
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: BACKPACK
+      TermType: 0
+      Description: 
+      Languages:
+      - BACKPACK
+      - MOCHILA
+      - MOTXILLA
+      - MOCHILA
+      - BACKPACK
+      - RUCKSACK
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Para jugar la partida, puedes equipar tu mochila con hasta 5 cartas. Arrastra
+        estas del inventario a la mochila.
+      TermType: 0
+      Description: 
+      Languages:
+      - To play the game, you can equip your backpack with up to 5 cards. Drag these
+        from the inventory to the backpack.
+      - Para jugar la partida, puedes equipar tu mochila con hasta 5 cartas. Arrastra
+        estas del inventario a la mochila.
+      - Per jugar la partida, pots equipar la teva motxilla amb fins a 5 cartes. Arrossega
+        aquestes de l'inventari a la motxilla.
+      - "Para jogar o jogo, voc\xEA pode equipar sua mochila com at\xE9 5 cartas.
+        Arraste-os do invent\xE1rio para a mochila."
+      - "Pour jouer au jeu, vous pouvez \xE9quiper votre sac \xE0 dos de 5 cartes
+        maximum. Faites-les glisser de l'inventaire vers le sac \xE0 dos."
+      - Um das Spiel zu spielen, kannst du deinen Rucksack mit bis zu 5 Karten ausstatten.
+        Ziehe diese aus dem Inventar in den Rucksack.
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: "ATENCI\xD3N, TIENES CARTAS EN TU INVENTARIO QUE PUEDES COLOCAR EN LA
+        MOCHILA PARA JUGAR LA PARTIDA. SI INICIAS LA PARTIDA, LO HAR\xC1S SIN CARTAS
+        DE AYUDA."
+      TermType: 0
+      Description: 
+      Languages:
+      - Warning, you have cards in your inventory that you can put in your backpack
+        to play the game. If you start the game, you will do it without help cards.
+      - "Atenci\xF3n, tienes cartas en tu inventario que puedes colocar en la mochila
+        para jugar la partida. Si inicias la partida, lo har\xE1s sin cartas de ayuda."
+      - "Atenci\xF3, tens cartes en el teu inventari que pots col\xB7Locar a la motxilla
+        per jugar la partida. Si inicies la partida, ho far\xE0s sense cartes d'ajuda."
+      - "Aten\xE7\xE3o, voc\xEA tem cartas no seu invent\xE1rio que pode colocar na
+        sua mochila para jogar o jogo. Se voc\xEA iniciar o jogo, voc\xEA o far\xE1
+        sem cartas de ajuda."
+      - "Attention, vous avez des cartes dans votre inventaire que vous pouvez mettre
+        dans votre sac \xE0 dos pour jouer au jeu. Si vous d\xE9marrez le jeu, vous
+        le ferez sans cartes d'aide."
+      - Achtung, Du Hast Karten In Deinem Inventar, Die Du In Deinen Rucksack Stecken
+        Kannst, Um Das Spiel Zu Spielen. Wenn Sie Das Spiel Starten, Werden Sie Es
+        Ohne Hilfebuchstaben Tun.
       Flags: 000000000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
