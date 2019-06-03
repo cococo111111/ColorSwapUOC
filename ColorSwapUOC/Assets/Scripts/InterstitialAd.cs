@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class InterstitialAd : MonoBehaviour
 {
-
     void Awake()
     {
         if (!RuntimeManager.IsInitialized())
@@ -41,10 +40,8 @@ public class InterstitialAd : MonoBehaviour
 
     public void LaunchVideo()
     {
-        Debug.Log("AQUI");
         // Check if rewarded ad is ready
         bool isReady = Advertising.IsRewardedAdReady();
-        Debug.Log(isReady);
         // Show it if it's ready
         if (isReady)
         {

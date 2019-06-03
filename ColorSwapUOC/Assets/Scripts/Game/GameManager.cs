@@ -17,6 +17,9 @@ public class GameManager : MonoBehaviour
     public AudioClip newGoalsSound;
     public Text score;
     public Text level;
+    float speed;
+    bool speedLevelChanges = false;
+
     public bool gameOver = false;
     public static bool diamond = false;
     public string typeDiamond;
@@ -49,6 +52,8 @@ public class GameManager : MonoBehaviour
 
     private int count = 0;
 
+    public float EPSILON { get; private set; }
+
     private void Awake()
     {
         playing = false;
@@ -74,6 +79,7 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         GlobalInfo.speed = 2.0f;
+        speed = GlobalInfo.speed;
         PlayEffects.Instance.grid.SetActive(true);
         PlayEffects.Instance.gridBackGround.SetActive(true);
         PlayEffects.Instance.gridResult.SetActive(true);
@@ -88,9 +94,9 @@ public class GameManager : MonoBehaviour
     {
         CountDown();
         ShowPoints();
-        if (gridColors.Count == 0)
+        if (System.Math.Abs(speed - GlobalInfo.speed) > EPSILON && !speedLevelChanges)
         {
-
+            speedLevelChanges = true;
         }
         if (GlobalInfo.numberGrids == 0 && levelGenerated)
         {
@@ -462,6 +468,21 @@ public class GameManager : MonoBehaviour
 
     void GenerateLevel()
     {
+        if (speedLevelChanges)
+        {
+            if (GlobalInfo.speed < 1)
+            {
+                speed = GlobalInfo.speed;
+                CancelInvoke("GenerateLevel");
+                InvokeRepeating("GenerateLevel", GlobalInfo.speed, GlobalInfo.speed);
+                speedLevelChanges = false;
+                return;
+            }
+            CancelInvoke("GenerateLevel");
+            speed = GlobalInfo.speed;
+            InvokeRepeating("GenerateLevel", GlobalInfo.speed, GlobalInfo.speed);
+            speedLevelChanges = false;
+        }
         playing = true;
         if (!gameOver)
         {
@@ -520,7 +541,7 @@ public class GameManager : MonoBehaviour
         {
             GameOver();
         }
-        OptimizeGrid();
+        //OptimizeGrid();
     }
 
 
@@ -528,9 +549,14 @@ public class GameManager : MonoBehaviour
     //(arregla posibles bugs de caselles no netejades)
     void OptimizeGrid()
     {
+        Debug.Log("OPTIMIZE GRILL");
         for (int i = 1; i < 26; i++)
         {
-            if (GameObject.Find("Cell" + i).GetComponentInChildren<Cell>().color != 20 && GameObject.Find("Cell" + i).GetComponentInChildren<SpriteRenderer>() == cellEmpty && GameObject.Find("Cell" + i).GetComponentInChildren<Cell>().isColored)
+            int color = GameObject.Find("Cell" + i).GetComponentInChildren<Cell>().color;
+            SpriteRenderer cellSprite = GameObject.Find("Cell" + i).GetComponentInChildren<SpriteRenderer>();
+            bool colored = GameObject.Find("Cell" + i).GetComponentInChildren<Cell>().isColored;
+
+            if (color != 20 && cellSprite == cellEmpty && colored)
             {
                 Debug.Log("LIMPIO");
                 GameObject gridColored = GameObject.Find("Cell" + i);
@@ -638,6 +664,7 @@ public class GameManager : MonoBehaviour
         GameObject.Find(name).GetComponentInChildren<Cell>().isColored = false;
         GameObject.Find(name).GetComponentInChildren<Cell>().otherGrid = null;
         GameObject.Find(name).GetComponentInChildren<Cell>().originalSprite = null;
+        GameObject.Find(name).GetComponentInChildren<Cell>().typeColor = 0;
     }
 
     public void ChangeColor(string nameGrid, Sprite newSprite, int newColorNumber)

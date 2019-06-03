@@ -26,6 +26,11 @@ public class CardsManager : MonoBehaviour
 
     void TakeTheCards()
     {
+        //Primer netegem la grid de cartes
+        foreach (Transform child in GameObject.Find("CardsManager").transform)
+        {
+            Destroy(child.gameObject);
+        }
         //Comprobem les cartas que hi han a la motxila
         if (CheckCardsBackPack())
         {
@@ -33,7 +38,7 @@ public class CardsManager : MonoBehaviour
             {
                 position.Add (GlobalInfo.backPack[i]);
             }
-            //position = GlobalInfo.backPack;
+
             if (CountCardsBackPack() == 1)
             {
                 pos = 0;
@@ -323,31 +328,31 @@ public class CardsManager : MonoBehaviour
         if (card == "coinsCard(Clone)")
         {
             GameManager.Instance.ParticleCardsPoints(5, 1000);
-            GlobalInfo.backPack[position] = GlobalInfo.backPack[position] - 1;
+            GlobalInfo.backPack[position] = 0;
             LoadConfig.Instance.SaveDataGame();
         }
         if (card == "x2Card(Clone)")
         {
             GlobalInfo.score = GlobalInfo.score * 2;
-            GlobalInfo.backPack[position] = GlobalInfo.backPack[position] - 1;
+            GlobalInfo.backPack[position] = 0;
             LoadConfig.Instance.SaveDataGame();
         }
         if (card == "oneMinCard(Clone)")
         {
             GameManager.timer = GameManager.timer + 60;
-            GlobalInfo.backPack[position] = GlobalInfo.backPack[position] - 1;
+            GlobalInfo.backPack[position] = 0;
             LoadConfig.Instance.SaveDataGame();
         }
         if (card == "eraserCard(Clone)")
         {
             GameManager.Instance.ClearGrid();
-            GlobalInfo.backPack[position] = GlobalInfo.backPack[position] - 1;
+            GlobalInfo.backPack[position] = 0;
             LoadConfig.Instance.SaveDataGame();
         }
         if (card == "level1Card(Clone)")
         {
-            GlobalInfo.speed = 2;
-            GlobalInfo.backPack[position] = GlobalInfo.backPack[position] - 1;
+            GlobalInfo.speed = 2.0f;
+            GlobalInfo.backPack[position] = 0;
             LoadConfig.Instance.SaveDataGame();
         }
     }
@@ -377,5 +382,113 @@ public class CardsManager : MonoBehaviour
             }
         }
         return count;
+    }
+
+    public void GenerateCardYellowDiamond(Vector3 otherPosition)
+    {
+        int typeCard = Random.Range(1, 100);
+        if (typeCard <= 50)
+        {
+            //La carta es 1000 puntos
+            bool done = false;
+            for (var i = 0; i < GlobalInfo.backPack.Count; i++)
+            {
+                if (GlobalInfo.backPack[i] == 0)
+                {
+                    GlobalInfo.backPack[i] = 1;
+                    done = true;
+                    break;
+                }
+            }
+            if (!done)
+            {
+                var newCard = GlobalInfo.cards[0] + 1;
+                GlobalInfo.cards[0] = newCard;
+            }
+            GameManager.Instance.ParticleDiamondPoints(otherPosition, 6, 0, 2);
+        }
+        if (typeCard >= 51 && typeCard <= 70)
+        {
+            //La carta es borrado grid
+            bool done = false;
+            for (var i = 0; i < GlobalInfo.backPack.Count; i++)
+            {
+                if (GlobalInfo.backPack[i] == 0)
+                {
+                    GlobalInfo.backPack[i] = 2;
+                    done = true;
+                    break;
+                }
+            }
+            if (!done)
+            {
+                var newCard = GlobalInfo.cards[1] + 1;
+                GlobalInfo.cards[1] = newCard;
+            }
+            GameManager.Instance.ParticleDiamondPoints(otherPosition, 7, 0, 2);
+        }
+        if (typeCard >= 71 && typeCard <= 85)
+        {
+            //La carta es level 1
+            bool done = false;
+            for (var i = 0; i < GlobalInfo.backPack.Count; i++)
+            {
+                if (GlobalInfo.backPack[i] == 0)
+                {
+                    GlobalInfo.backPack[i] = 3;
+                    done = true;
+                    break;
+                }
+            }
+            if (!done)
+            {
+                var newCard = GlobalInfo.cards[2] + 1;
+                GlobalInfo.cards[2] = newCard;
+            }
+            GameManager.Instance.ParticleDiamondPoints(otherPosition, 8, 0, 2);
+        }
+        if (typeCard >= 86 && typeCard <= 95)
+        {
+            //La carta es 1 min more
+            bool done = false;
+            for (var i = 0; i < GlobalInfo.backPack.Count; i++)
+            {
+                if (GlobalInfo.backPack[i] == 0)
+                {
+                    GlobalInfo.backPack[i] = 4;
+                    done = true;
+                    break;
+                }
+            }
+            if (!done)
+            {
+                var newCard = GlobalInfo.cards[3] + 1;
+                GlobalInfo.cards[3] = newCard;
+            }
+            GameManager.Instance.ParticleDiamondPoints(otherPosition, 9, 0, 2);
+        }
+        if (typeCard >= 96 && typeCard <= 100)
+        {
+            //La carta es puntuacion X2
+            bool done = false;
+            for (var i = 0; i < GlobalInfo.backPack.Count; i++)
+            {
+                if (GlobalInfo.backPack[i] == 0)
+                {
+                    GlobalInfo.backPack[i] = 5;
+                    done = true;
+                    break;
+                }
+            }
+            if (!done)
+            {
+                var newCard = GlobalInfo.cards[4] + 1;
+                GlobalInfo.cards[4] = newCard;
+            }
+            GameManager.Instance.ParticleDiamondPoints(otherPosition, 10, 0, 2);
+        }
+        GameManager.diamond = false;
+        LoadConfig.Instance.SaveDataGame();
+        TakeTheCards();
     }
 }

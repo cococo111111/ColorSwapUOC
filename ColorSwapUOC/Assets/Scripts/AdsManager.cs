@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class AdsManager : MonoBehaviour
 {
-
+    public static AdsManager Instance;
     void Awake()
     {
+        Instance = this;
         if (!RuntimeManager.IsInitialized())
             RuntimeManager.Init();
     }

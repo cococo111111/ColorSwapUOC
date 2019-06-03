@@ -29,7 +29,7 @@ public class ColorGoal : MonoBehaviour
             barText.text = "x" + quantity.ToString();
         }
     }
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (!finished)
         {

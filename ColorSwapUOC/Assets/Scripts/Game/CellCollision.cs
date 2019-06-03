@@ -8,8 +8,8 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
     private Vector3 screenPoint;
     private Vector3 scanPos;
     private Vector3 initPosition;
-    private bool onGoal = false;
-    private bool onDiamond = false;
+    public bool onGoal = false;
+    public bool onDiamond = false;
 
     private void Start()
     {
@@ -31,6 +31,7 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
             }
             if (this.GetComponentInChildren<Cell>().onGoal)
             {
+                onGoal = true;
                 Vector3 otherPosition = this.GetComponentInChildren<Cell>().positionGoal;
                 if (this.GetComponentInChildren<DiamondManager>().diamond)
                 {
@@ -39,19 +40,22 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
                         GameManager.Instance.ParticleDiamondPoints(otherPosition, 3, 100, 0);
                         GameManager.Instance.ParticlePoints(otherPosition, 3, 100, true);
                         this.GetComponentInChildren<DiamondManager>().diamond = false;
+                        this.GetComponentInChildren<Cell>().typeColor = 0;
                     }
                     if (GameManager.Instance.typeDiamond == "Red")
                     {
                         GameManager.Instance.ParticleDiamondPoints(otherPosition, 4, 300, 1);
                         GameManager.Instance.ParticlePoints(otherPosition, 3, 100, true);
                         this.GetComponentInChildren<DiamondManager>().diamond = false;
-
+                        this.GetComponentInChildren<Cell>().typeColor = 0;
                     }
                     if (GameManager.Instance.typeDiamond == "Yellow")
                     {
-                        GameManager.Instance.ParticleDiamondPoints(otherPosition, 5, 1000, 2);
+                        //GameManager.Instance.ParticleDiamondPoints(otherPosition, 5, 1000, 2);
+                        CardsManager.Instance.GenerateCardYellowDiamond(otherPosition);
                         GameManager.Instance.ParticlePoints(otherPosition, 3, 100, true);
                         this.GetComponentInChildren<DiamondManager>().diamond = false;
+                        this.GetComponentInChildren<Cell>().typeColor = 0;
                     }
                     this.GetComponentInChildren<DiamondManager>().diamond = false;
                 }
@@ -60,7 +64,7 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
                     GameManager.Instance.ParticlePoints(otherPosition, 3, 100, false);
                 }
                 this.GetComponentInChildren<Cell>().ResetGrid();
-                onGoal = true;
+                onGoal = false;
             }
         }
     }
@@ -72,6 +76,7 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
             if (this.GetComponentInChildren<Cell>().sameColor)
             {
                 string theOther = this.GetComponentInChildren<Cell>().otherGrid.name;
+                GameObject otherCell = GameObject.Find(theOther);
                 Vector3 otherPosition = GameObject.Find(theOther).transform.position;
                 transform.position = initPosition;
                 GameManager.Instance.ResetGrid(this.name);
@@ -79,6 +84,7 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
                 this.GetComponentInChildren<Cell>().sameColor = false;
                 if (this.GetComponentInChildren<DiamondManager>().diamond || GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond)
                 {
+                    onGoal = false;
                     onDiamond = true;
                     if (GameManager.Instance.typeDiamond == "Green")
                     {
@@ -99,7 +105,8 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
                     }
                     if (GameManager.Instance.typeDiamond == "Yellow")
                     {
-                        GameManager.Instance.ParticleDiamondPoints(otherPosition, 5, 1000, 2);
+                        //GameManager.Instance.ParticleDiamondPoints(otherPosition, 5, 1000, 2);
+                        CardsManager.Instance.GenerateCardYellowDiamond(otherPosition);
                         this.GetComponentInChildren<DiamondManager>().diamond = false;
                         GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond = false;
                         GameManager.Instance.ResetGrid(theOther);
@@ -107,15 +114,16 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
                     }
                     return;
                 }
-                if (!onGoal && !onDiamond)
+
+                if (!onGoal && !onDiamond && otherCell.GetComponentInChildren<Cell>().isColored)
                 {
                     otherPosition = GameObject.Find(theOther).transform.position;
                     GameManager.Instance.ParticlePoints(otherPosition, 0, 5, false);
                 }
-                onGoal = false;
             }
             else
             {
+                //onGoal = false;
                 transform.position = initPosition;
             }
 

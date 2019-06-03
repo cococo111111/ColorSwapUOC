@@ -33,12 +33,14 @@ public class Cell : MonoBehaviour
         Instance = this;
     }
 
+    private void Start()
+    {
+        InvokeRepeating("OptimizeGrid", 1, 1);
+    }
+
     private void Update()
     {
-        if (color == 20)
-        {
-            typeColor = 0;
-        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -165,4 +167,22 @@ public class Cell : MonoBehaviour
         onGoal = false;
         typeColor = 0;
     }
+
+    //Aquesta funcio busca en tot el grid per caselles que tenen un numero de color pero en realitat son buides 
+    //(arregla posibles bugs de caselles no netejades)
+    void OptimizeGrid()
+    {
+        if (color != 20 && this.gameObject.GetComponent<SpriteRenderer>().sprite == GameManager.Instance.cellEmpty)
+        {
+            Debug.Log("OPTIMIZE GRILL != 20 " + this.name);
+            color = 20;
+            otherGrid = null;
+            originalSprite = null;
+            newSprite = null;
+            isColored = false;
+            onGoal = false;
+            typeColor = 0;
+        }
+    }
+
 }

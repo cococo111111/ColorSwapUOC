@@ -155,6 +155,7 @@ public class PlayEffects : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         LoadConfig.Instance.SaveDataGame();
+        AdsManager.Instance.ShowInterstitalAds();
         UnityEngine.SceneManagement.SceneManager.LoadScene("GameOverScene");
     }
 
