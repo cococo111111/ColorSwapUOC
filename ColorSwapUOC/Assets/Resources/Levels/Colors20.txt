@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "levelNum": 20,
+    "GoalType1": "TER",
+    "GoalNum1": 10,
+    "GoalType2": "TER",
+    "GoalNum2": 10,
+    "GoalType3": "TER",
+    "GoalNum3": 10,
+    "GoalType4": "TER",
+    "GoalNum4": 10,
+    "GoalType5": "TER",
+    "GoalNum5": 10,
+    "Speed": 0.8,
+    "Grids": 5
+}

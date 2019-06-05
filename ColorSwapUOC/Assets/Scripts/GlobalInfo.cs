@@ -3,14 +3,14 @@ using UnityEngine;
 
 public class GlobalInfo : MonoBehaviour
 {
-    public static string configFile = "CombixCfg";
+    public static string configFile = "CombixCfg_alpha";
 
 
     public static string version;
     public static string gameFirstTime;
     public static string language;
     public static string soundPlay = "true";
-    //public static int sessionsCount;
+    public static int sessionsCount;
     public static string maxScore = "0";
     public static string coins= "0";
     public static List<int> cards = new List<int>();

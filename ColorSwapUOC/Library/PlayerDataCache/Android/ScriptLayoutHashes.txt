@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/david/Documents/Proyectos Unity/ColorSwapUOC/APK/Combix.apk
+/Users/david/Documents/Proyectos Unity/ColorSwapUOC/APK/Combix.aab
 SceneListBegin?
 Assets/Scenes/NicolAinaSplash.unity
 Assets/Scenes/Title.unity
@@ -247,7 +247,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 113624c4941ddf0b17b17b5a3374d23b Assembly-CSharp.dll:.CardButtonRemove
-bfc2cb26e904e96751e7729272303663 Assembly-CSharp.dll:.MenuManager
+992aee80a8c2628bfa1ad036776a023c Assembly-CSharp.dll:.MenuManager
 28f17f783b514b3f629a48727fee1793 Assembly-CSharp.dll:I2.Loc.LanguageSource
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AdsManager

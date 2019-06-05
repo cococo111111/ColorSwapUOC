@@ -23,7 +23,6 @@ public class DiamondManager : MonoBehaviour
 
     void GenerateDiamonds()
     {
-        Debug.Log(GameManager.diamond);
         diamondGrid.GetComponent<SpriteRenderer>().flipX = !diamondGrid.GetComponent<SpriteRenderer>().flipX;
         if (GetComponentInParent<Cell>().typeColor == 3 && !GameManager.diamond)
         {

@@ -504,7 +504,7 @@ PrefabInstance:
     - target: {fileID: 7193915206561047603, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
       propertyPath: m_Text
-      value: NETEJA
+      value: SAUBER
       objectReference: {fileID: 0}
     - target: {fileID: 7193915206561047602, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
@@ -514,7 +514,7 @@ PrefabInstance:
     - target: {fileID: 7193915204885449827, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
       propertyPath: m_Text
-      value: LA GRAELLA
+      value: DAS GITTER
       objectReference: {fileID: 0}
     - target: {fileID: 7193915204885449826, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
@@ -581,7 +581,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DOBLE
+  m_Text: DOPPELT
 --- !u!114 &96770068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1587,7 +1587,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: INVENTARI
+  m_Text: INVENTAR
 --- !u!114 &157354725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1948,8 +1948,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Fem una partida ?, estic segur de que vols batre als teus amics. Anem a
-    batre un r\xE8cord!"
+  m_Text: Sollen wir ein Spiel spielen? Ich bin sicher, du willst deine Freunde schlagen.
+    Lasst uns einen Rekord brechen!
 --- !u!222 &182116878
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2703,7 +2703,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DOBLE
+  m_Text: DOPPELT
 --- !u!222 &201661088
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4237,7 +4237,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NETEJA
+  m_Text: SAUBER
 --- !u!222 &333183568
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4811,7 +4811,7 @@ PrefabInstance:
     - target: {fileID: 78238838433162771, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
       propertyPath: m_Text
-      value: NIVELL 1
+      value: LEVEL 1
       objectReference: {fileID: 0}
     - target: {fileID: 78238838433162770, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
@@ -4821,7 +4821,7 @@ PrefabInstance:
     - target: {fileID: 78238838249856294, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
       propertyPath: m_Text
-      value: VELOCITAT
+      value: GESCHWINDIGKEIT
       objectReference: {fileID: 0}
     - target: {fileID: 78238838249856289, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
@@ -6425,7 +6425,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PUNTS
+  m_Text: PUNKTE
 --- !u!222 &462229960
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6674,7 +6674,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "LA TEVA MILLOR PUNTUACI\xD3"
+  m_Text: DEINE BESTE PUNKTZAHL
 --- !u!222 &464763092
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6889,7 +6889,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ara No
+  m_Text: Nicht Jetzt
 --- !u!222 &467296072
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7257,7 +7257,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "MILLOR PUNTUACI\xD3 ONLINE"
+  m_Text: BESTE ONLINE-PUNKTZAHL
 --- !u!222 &480438974
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7655,7 +7655,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MOTXILLA
+  m_Text: RUCKSACK
 --- !u!222 &504005612
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7787,7 +7787,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Impressionant! Fem-ho!
+  m_Text: Genial! Machen wir das!
 --- !u!222 &507013957
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7932,7 +7932,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: No Pregunteu De Nou
+  m_Text: Frag Nicht Nochmal
 --- !u!222 &524693963
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8150,7 +8150,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "CONFIGURACI\xD3"
+  m_Text: EINSTELLUNGEN
 --- !u!222 &551023986
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9184,7 +9184,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Combix et reclama!
+  m_Text: Combix will dich!
 --- !u!222 &629491281
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9279,12 +9279,6 @@ MonoBehaviour:
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &650471726 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5779083945715759024, guid: 4ec639376a4794e6f8c613d775c20fcb,
-    type: 3}
-  m_PrefabInstance: {fileID: 5779083944655429802}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &652218218
 GameObject:
   m_ObjectHideFlags: 0
@@ -9749,7 +9743,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cancel\xB7lar"
+  m_Text: Stornieren
 --- !u!222 &674488919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9909,7 +9903,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "DOBLE PUNTUACI\xD3"
+  m_Text: DOPPELTE SCHEIBE
 --- !u!222 &683163129
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10103,7 +10097,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MOTXILLA
+  m_Text: RUCKSACK
 --- !u!222 &700112278
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10771,7 +10765,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 2
-  m_Text: MIRA UN VIDEO I GUANYA 10.000 COMBI$
+  m_Text: EIN VIDEO ANSEHEN UND 10.000 COMBI$ GEWINNEN
 --- !u!222 &759800451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10891,7 +10885,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1 MINUT
+  m_Text: 1 MINUTE
 --- !u!222 &763394752
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11797,8 +11791,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ei!, estic jugant Combix i \xE9s una passada! Podeu descarregar-lo a la
-    botiga de Google"
+  m_Text: "Hey, ich spiele Combix und es ist unglaublich! Sie k\xF6nnen es in den
+    Google Store herunterladen"
 --- !u!222 &880931794
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11832,7 +11826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1796282352}
+  mTarget: {fileID: 1881212758}
 --- !u!1 &900070803
 GameObject:
   m_ObjectHideFlags: 0
@@ -11982,8 +11976,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: Per jugar la partida, pots equipar la teva motxilla amb fins a 5 cartes.
-    Arrossega aquestes de l'inventari a la motxilla.
+  m_Text: Um das Spiel zu spielen, kannst du deinen Rucksack mit bis zu 5 Karten ausstatten.
+    Ziehe diese aus dem Inventar in den Rucksack.
 --- !u!222 &903511657
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12285,7 +12279,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "M\xC9S"
+  m_Text: MEHR
 --- !u!222 &918327850
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12418,7 +12412,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VELOCITAT
+  m_Text: GESCHWINDIGKEIT
 --- !u!222 &929918066
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13464,7 +13458,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PUNTS
+  m_Text: PUNKTE
 --- !u!222 &1009455064
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14834,7 +14828,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "PUNTUACI\xD3"
+  m_Text: RATING
 --- !u!222 &1066988303
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15186,7 +15180,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: JUGAR
+  m_Text: ABSPIELEN
 --- !u!222 &1073061597
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15306,7 +15300,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NETEJA
+  m_Text: SAUBER
 --- !u!222 &1076952617
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15435,7 +15429,7 @@ PrefabInstance:
     - target: {fileID: 77461290902152690, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
       propertyPath: m_Text
-      value: 1 MINUT
+      value: 1 MINUTE
       objectReference: {fileID: 0}
     - target: {fileID: 77461290902152691, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
@@ -15445,7 +15439,7 @@ PrefabInstance:
     - target: {fileID: 77461290680751723, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
       propertyPath: m_Text
-      value: "M\xC9S"
+      value: MEHR
       objectReference: {fileID: 0}
     - target: {fileID: 77461290680751716, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
@@ -15943,7 +15937,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Qualifica Ara!
+  m_Text: Jetzt Bewerten!
 --- !u!222 &1189436331
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16307,7 +16301,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Com qualificaria '
+  m_Text: 'Wie beurteilen Sie '
 --- !u!222 &1212892283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16555,7 +16549,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1 MINUT
+  m_Text: 1 MINUTE
 --- !u!222 &1242964715
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16616,7 +16610,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NETEJA
+  m_Text: SAUBER
 --- !u!114 &1248359057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18187,7 +18181,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Aix\xF2 \xE9s dolent. Voleu enviar-nos comentaris?"
+  m_Text: "Das ist schlecht. M\xF6chten Sie uns stattdessen ein Feedback geben?"
 --- !u!222 &1342925814
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18598,7 +18592,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LA GRAELLA
+  m_Text: DAS GITTER
 --- !u!222 &1413661348
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18718,7 +18712,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VELOCITAT NIVELL 1
+  m_Text: LEVEL 1 SPEED
 --- !u!222 &1415291268
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19051,7 +19045,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1 MINUT
+  m_Text: 1 MINUTE
 --- !u!222 &1428862404
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19184,7 +19178,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VELOCITAT
+  m_Text: GESCHWINDIGKEIT
 --- !u!222 &1451435422
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19492,7 +19486,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: INVENTARI
+  m_Text: INVENTAR
 --- !u!222 &1467385825
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20107,7 +20101,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NIVELL 1
+  m_Text: LEVEL 1
 --- !u!222 &1506722998
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20531,7 +20525,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BOTIGA
+  m_Text: SHOP
 --- !u!222 &1538284902
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20965,7 +20959,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1 MINUT M\xC9S"
+  m_Text: NOCH 1 MINUTE
 --- !u!222 &1559875222
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21085,7 +21079,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LA GRAELLA
+  m_Text: DAS GITTER
 --- !u!222 &1565390508
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21206,8 +21200,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: Per jugar la partida, pots equipar la teva motxilla amb fins a 5 cartes.
-    Arrossega aquestes de l'inventari a la motxilla.
+  m_Text: Um das Spiel zu spielen, kannst du deinen Rucksack mit bis zu 5 Karten ausstatten.
+    Ziehe diese aus dem Inventar in den Rucksack.
 --- !u!222 &1572095972
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21336,7 +21330,7 @@ PrefabInstance:
     - target: {fileID: 4568401288977780850, guid: d2073c77e557644c19b9ef4d268c2af1,
         type: 3}
       propertyPath: m_Text
-      value: PUNTS
+      value: PUNKTE
       objectReference: {fileID: 0}
     - target: {fileID: 4568401288977780851, guid: d2073c77e557644c19b9ef4d268c2af1,
         type: 3}
@@ -22605,7 +22599,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LA GRAELLA
+  m_Text: DAS GITTER
 --- !u!222 &1637020343
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22813,7 +22807,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DOBLE
+  m_Text: DOPPELT
 --- !u!222 &1662205040
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22933,7 +22927,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enviar Comentaris
+  m_Text: Feedback Abschicken
 --- !u!222 &1664386063
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23552,7 +23546,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1000 PUNTS
+  m_Text: 1000 PUNKTE
 --- !u!222 &1710350802
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23613,7 +23607,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PUNTS
+  m_Text: PUNKTE
 --- !u!114 &1710386690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23792,7 +23786,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "M\xC9S"
+  m_Text: MEHR
 --- !u!222 &1711863749
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23833,7 +23827,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: {fileID: 629491280}
   message: {fileID: 182116877}
-  dailyRewards: {fileID: 650471726}
   totalCombis: {fileID: 1528556038}
   bestScore: {fileID: 799760382}
   bestScoreOnline: {fileID: 1469725021}
@@ -24377,7 +24370,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NIVELL 1
+  m_Text: LEVEL 1
 --- !u!222 &1736787595
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24473,7 +24466,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Idioma
+  m_Text: Sprache
 --- !u!222 &1747284395
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25124,7 +25117,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MOTXILLA
+  m_Text: RUCKSACK
 --- !u!222 &1796282353
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25434,7 +25427,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "M\xC9S"
+  m_Text: MEHR
 --- !u!222 &1827453632
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25554,7 +25547,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VELOCITAT
+  m_Text: GESCHWINDIGKEIT
 --- !u!222 &1856795115
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25956,7 +25949,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: INVENTARI
+  m_Text: INVENTAR
 --- !u!222 &1881212759
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26213,7 +26206,7 @@ PrefabInstance:
     - target: {fileID: 7109781379897342778, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
       propertyPath: m_Text
-      value: DOBLE
+      value: DOPPELT
       objectReference: {fileID: 0}
     - target: {fileID: 7109781379897342779, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
@@ -26223,7 +26216,7 @@ PrefabInstance:
     - target: {fileID: 7109781378511775367, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
       propertyPath: m_Text
-      value: "PUNTUACI\xD3"
+      value: RATING
       objectReference: {fileID: 0}
     - target: {fileID: 7109781378511775416, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
@@ -26477,7 +26470,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: COMBI$ INSUFICIENTS
+  m_Text: UNZUREICHENDE COMBI$
 --- !u!222 &1908946939
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26816,7 +26809,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "PUNTUACI\xD3"
+  m_Text: RATING
 --- !u!222 &1918453363
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27143,7 +27136,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Qualifica '
+  m_Text: 'Bewertung '
 --- !u!114 &1943865519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27298,7 +27291,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: So
+  m_Text: Klingen
 --- !u!222 &1953647013
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27766,7 +27759,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NIVELL 1
+  m_Text: LEVEL 1
 --- !u!222 &1963072165
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28509,7 +28502,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MOTXILLA
+  m_Text: RUCKSACK
 --- !u!114 &1995703146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29275,7 +29268,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "PUNTUACI\xD3"
+  m_Text: RATING
 --- !u!222 &2030061153
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29588,7 +29581,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NETEJA LA GRAELLA
+  m_Text: REINIGEN SIE DEN GRILL
 --- !u!222 &2055100017
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30561,11 +30554,21 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 77461290902152690, guid: db18f1e02500146b7847ed2cee7c9a21,
+        type: 3}
+      propertyPath: m_Text
+      value: 1 MINUTE
+      objectReference: {fileID: 0}
     - target: {fileID: 77461290902152691, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 291527153}
+    - target: {fileID: 77461290680751723, guid: db18f1e02500146b7847ed2cee7c9a21,
+        type: 3}
+      propertyPath: m_Text
+      value: MEHR
+      objectReference: {fileID: 0}
     - target: {fileID: 77461290680751716, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
       propertyPath: mLocalizeTarget
@@ -30690,11 +30693,21 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 78238838433162771, guid: ba9023e95ba5c482fb37cec74896ffd4,
+        type: 3}
+      propertyPath: m_Text
+      value: LEVEL 1
+      objectReference: {fileID: 0}
     - target: {fileID: 78238838433162770, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 291527153}
+    - target: {fileID: 78238838249856294, guid: ba9023e95ba5c482fb37cec74896ffd4,
+        type: 3}
+      propertyPath: m_Text
+      value: GESCHWINDIGKEIT
+      objectReference: {fileID: 0}
     - target: {fileID: 78238838249856289, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
       propertyPath: mLocalizeTarget
@@ -30819,6 +30832,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4568401288977780850, guid: d2073c77e557644c19b9ef4d268c2af1,
+        type: 3}
+      propertyPath: m_Text
+      value: PUNKTE
+      objectReference: {fileID: 0}
     - target: {fileID: 4568401288977780851, guid: d2073c77e557644c19b9ef4d268c2af1,
         type: 3}
       propertyPath: mLocalizeTarget
@@ -30837,6 +30855,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Daily Rewards
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944459932063, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_Text
+      value: Anspruch
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944621153334, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_Text
+      value: SCHLIESSEN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944621153334, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944618466123, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_Text
+      value: 'KOMM WIEDER REIN '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083945280770450, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_Text
+      value: "T\xC4GLICHE BELOHNUNG"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083945280770450, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5779083945715759031, guid: 4ec639376a4794e6f8c613d775c20fcb,
         type: 3}
@@ -30939,6 +30987,101 @@ PrefabInstance:
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 1768681266}
+    - target: {fileID: 5779083945057787736, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6140389708341392906, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_Text
+      value: "F\xDCR DEINE N\xC4CHSTE BELOHNUNG."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944437854026, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7146558751919429889, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.4000244
+      objectReference: {fileID: 0}
+    - target: {fileID: 7146558751919429889, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -202.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7146558751919429889, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -10.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 7146558751919429889, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -63.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944621153328, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944621153328, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -262.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944621153328, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944621153328, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -146.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944459932057, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944459932057, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -276.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944459932057, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944459932057, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -123.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083945280770460, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083945280770460, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -182.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083945280770460, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.2999878
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083945280770460, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -310.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ec639376a4794e6f8c613d775c20fcb, type: 3}
 --- !u!1001 &7109781379719419047
@@ -31058,11 +31201,21 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7109781379897342778, guid: 7c140afcd34ab466cba5b33daa568161,
+        type: 3}
+      propertyPath: m_Text
+      value: DOPPELT
+      objectReference: {fileID: 0}
     - target: {fileID: 7109781379897342779, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 291527153}
+    - target: {fileID: 7109781378511775367, guid: 7c140afcd34ab466cba5b33daa568161,
+        type: 3}
+      propertyPath: m_Text
+      value: RATING
+      objectReference: {fileID: 0}
     - target: {fileID: 7109781378511775416, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
       propertyPath: mLocalizeTarget
@@ -31187,11 +31340,21 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7193915206561047603, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
+        type: 3}
+      propertyPath: m_Text
+      value: SAUBER
+      objectReference: {fileID: 0}
     - target: {fileID: 7193915206561047602, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
       propertyPath: mLocalizeTarget
       value: 
       objectReference: {fileID: 291527153}
+    - target: {fileID: 7193915204885449827, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
+        type: 3}
+      propertyPath: m_Text
+      value: DAS GITTER
+      objectReference: {fileID: 0}
     - target: {fileID: 7193915204885449826, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
       propertyPath: mLocalizeTarget

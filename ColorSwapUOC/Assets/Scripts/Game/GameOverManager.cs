@@ -21,6 +21,9 @@ public class GameOverManager : MonoBehaviour
         //Colocamos la puntuacion
         score.text = GlobalInfo.score.ToString();
 
+        //Aumentamos las partidas jugadas
+        GlobalInfo.sessionsCount++;
+
         //Colocamos la max puntuacion, mirando primero si la que acabamos de realizar es la maxima
         if (GlobalInfo.score > int.Parse(GlobalInfo.maxScore))
         {

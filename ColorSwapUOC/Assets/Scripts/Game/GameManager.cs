@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using EasyMobile;
 using NiobiumStudios;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     public Text level;
     float speed;
     bool speedLevelChanges = false;
+    bool moreThan10000;
 
     public bool gameOver = false;
     public static bool diamond = false;
@@ -65,6 +67,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        moreThan10000 = false;
         GlobalInfo.score = 0;
         timer = 60;
         initialTimeLevel = 60;
@@ -105,6 +108,12 @@ public class GameManager : MonoBehaviour
             PlayEffects.Instance.ShowLevel(GlobalInfo.levelNum.ToString());
             GenerateColorsGoal();
             return;
+        }
+
+        if (GlobalInfo.score > 9999 && !moreThan10000)
+        {
+            GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_IVE_MASTERED_IT);
+            moreThan10000 = true;
         }
     }
 

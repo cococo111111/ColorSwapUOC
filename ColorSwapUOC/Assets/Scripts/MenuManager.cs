@@ -12,7 +12,7 @@ public class MenuManager : MonoBehaviour
 
     public Text title;
     public Text message;
-    public GameObject dailyRewards;
+    //public GameObject dailyRewards;
     public Text totalCombis;
     public Text bestScore;
     public Text bestScoreOnline;
@@ -24,15 +24,23 @@ public class MenuManager : MonoBehaviour
 
     private void Start()
     {
-        // Load a bestscore in Today time scope and Global user scope
+        if (!GameServices.IsInitialized())
+        {
+            GameServices.Init();
+        }
+        // Load a bestscore in AllTime time scope and Global user scope
         // EM_GameServicesConstants.Sample_Leaderboard is the generated name constant
         // of a leaderboard named "Sample Leaderboard"
-        GameServices.LoadScores(EM_GameServicesConstants.Leaderboard_THE_BEST_COMBIX, 0, 10, TimeScope.AllTime, UserScope.Global, OnScoresLoaded);
+        GameServices.LoadScores(EM_GameServicesConstants.Leaderboard_THE_BEST_COMBIX, 1, 1, TimeScope.AllTime, UserScope.Global, OnScoresLoaded);
+        if (GlobalInfo.sessionsCount == 5)
+        {
+            Rating.Instance.RatingApp();
+            GlobalInfo.sessionsCount = 0;
+        }
 
-        Rating.Instance.RatingApp();
         Notifications.Init();
         ScheduleRepeatLocalNotification();
-        NewInGame();
+        //NewInGame();
     }
 
     private void Update()
@@ -48,7 +56,7 @@ public class MenuManager : MonoBehaviour
         {
             foreach (IScore score in scores)
             {
-                bestScoreOnline.text = score.value.ToString() +" "+ score.rank +" "+ scores.Length.ToString();
+                bestScoreOnline.text = score.value.ToString();
             }
         }
         else
@@ -106,14 +114,14 @@ public class MenuManager : MonoBehaviour
         Notifications.ScheduleLocalNotification(delay, content, NotificationRepeat.EveryDay);
     }
 
-    void NewInGame()
-    {
-        if (GlobalInfo.gameFirstTime == "true")
-        {
-            //Accionar la pantalla de kit inicial
-            Debug.Log("NEW IN GAME");
-        }
-    }
+    //void NewInGame()
+    //{
+    //    if (GlobalInfo.gameFirstTime == "true")
+    //    {
+    //        //Accionar la pantalla de kit inicial
+    //        Debug.Log("NEW IN GAME");
+    //    }
+    //}
 
     //public void LaunchDailyRewards()
     //{

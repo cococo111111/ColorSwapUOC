@@ -8,8 +8,9 @@ namespace EasyMobile
 {
 	public static class EM_GameServicesConstants
 	{
+		public const string Achievement_IVE_MASTERED_IT = "I'VE MASTERED IT";
+		public const string Achievement_IM_ALREADY_PLAYING = "I'M ALREADY PLAYING";
 		public const string Leaderboard_THE_BEST_COMBIX = "THE BEST COMBIX";
-		public const string Achievement_JA_SE_JUGAR = "JA SE JUGAR";
 
 	}
 }

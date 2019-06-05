@@ -24,7 +24,9 @@
 
 public static class EM_GPGSIds
 {
-        public const string leaderboard_los_mejores_combix = "CgkIuKvt5bkXEAIQAQ"; // <GPGSID>
+        public const string achievement_ive_mastered_it = "CgkIuKvt5bkXEAIQAw"; // <GPGSID>
+        public const string leaderboard_the_best_combix = "CgkIuKvt5bkXEAIQAQ"; // <GPGSID>
+        public const string achievement_im_already_playing = "CgkIuKvt5bkXEAIQAg"; // <GPGSID>
 
 }
 
