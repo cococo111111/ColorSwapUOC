@@ -9,13 +9,14 @@ public class ColorGoal : MonoBehaviour
     public int color;
     public int quantity;
     public GameObject bar;
-    public GameObject check;
     public TextMeshPro barText;
     bool finished = false;
+    SpriteRenderer colorGoal;
+    public Sprite empty;
 
     private void Start()
     {
-        check.SetActive(false);
+        colorGoal = this.GetComponent<SpriteRenderer>();
     }
 
     private void Update()
@@ -43,7 +44,9 @@ public class ColorGoal : MonoBehaviour
                 GameObject.Find("UIController").GetComponent<PlayEffects>().DragDropGoalSound();
                 if (quantity == 0)
                 {
-                    check.SetActive(true);
+                    colorGoal.sprite = empty;
+                    colorGoal.GetComponent<Transform>().localScale = new Vector2(0.53f, 0.53f);
+                    colorGoal.transform.position = new Vector3(colorGoal.transform.position.x, colorGoal.transform.position.y - 0.01f, colorGoal.transform.position.z);
                     finished = true;
                     GlobalInfo.numberGrids--;                    
                 }

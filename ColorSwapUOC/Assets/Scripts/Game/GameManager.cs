@@ -15,7 +15,6 @@ public class GameManager : MonoBehaviour
     public GameObject parentColorBlocs;
     public Sprite cellEmpty;
     public Sprite blankCell;
-    public AudioClip newGoalsSound;
     public Text score;
     public Text level;
     float speed;
@@ -38,6 +37,14 @@ public class GameManager : MonoBehaviour
     public static float initialTimeLevel;
     public static bool playing;
     public static bool timeEnding;
+
+    //Sounds
+    public AudioClip broom;
+    public AudioClip tictac;
+    public AudioClip newGoalsSound;
+    public AudioClip braking;
+    public AudioClip money;
+    public AudioClip doble;
 
     bool levelGenerated = false;
     //Fem una llista per posar els Grids sense color
@@ -237,6 +244,46 @@ public class GameManager : MonoBehaviour
         if (GlobalInfo.soundPlay == "true")
         {
             StartCoroutine(SoundEffects(newGoalsSound));
+        }
+    }
+
+    public void BroomSound()
+    {
+        if (GlobalInfo.soundPlay == "true")
+        {
+            StartCoroutine(SoundEffects(broom));
+        }
+    }
+
+    public void TicTacSound()
+    {
+        if (GlobalInfo.soundPlay == "true")
+        {
+            StartCoroutine(SoundEffects(tictac));
+        }
+    }
+
+    public void BrakingSound()
+    {
+        if (GlobalInfo.soundPlay == "true")
+        {
+            StartCoroutine(SoundEffects(braking));
+        }
+    }
+
+    public void MoneySound()
+    {
+        if (GlobalInfo.soundPlay == "true")
+        {
+            StartCoroutine(SoundEffects(money));
+        }
+    }
+
+    public void DoubleSound()
+    {
+        if (GlobalInfo.soundPlay == "true")
+        {
+            StartCoroutine(SoundEffects(doble));
         }
     }
 
@@ -750,6 +797,13 @@ public class GameManager : MonoBehaviour
         cO.GetComponent<Transform>().rotation = Quaternion.Euler(-90, 0, 0);
         cO.GetComponent<Renderer>().material = pointsMaterial[numberMaterial];
         cO.GetComponent<ParticleSystem>().Play();
+        if (points == 0)
+        {
+            var pep = cO.GetComponent<ParticleSystem>().rotationOverLifetime;
+            pep.y = -500;
+            //ParticleSystem.MinMaxCurve p = cO.GetComponent<ParticleSystem>().rotationOverLifetime.y;
+            //p = -800;
+        }
         GlobalInfo.score = GlobalInfo.score + points;
         GameObject.Find("UIController").GetComponent<PlayEffects>().DragDropSound();
         StartCoroutine(EraseParticlePoints(cO));

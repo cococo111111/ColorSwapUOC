@@ -84,54 +84,64 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - The purpose of the game is to achieve the combination of colors that appears
-        at the top of the screen. Each time a color is completed it will be marked
-        with a cross. When all of them are completed, you will be taken to the next
-        level automatically. The purpose is to get the highest possible score.
+      - The purpose of the game is to achieve the color scheme that appears at the
+        top of the screen. Each time a color is completed it will disappear from the
+        combination. When you have completed all of them, it will automatically move
+        to the next level. The speed at which colors appear on the grid will increase
+        with each level. The goal is to get the highest possible score.
       - "El prop\xF3sito del juego es lograr la combinaci\xF3n de colores que aparece
-        en la parte superior de la pantalla. Cada vez que se completa un color se
-        marcar\xE1 con un aspa. Cuando todos hayan finalizado, pasar\xE1 autom\xE1ticamente
-        al siguiente nivel. El prop\xF3sito es obtener la mayor puntuaci\xF3n posible."
-      - "El prop\xF2sit del joc \xE9s aconseguir la combinaci\xF3 de colors que apareix
-        a la part superior de la pantalla. Cada vegada que es completa un color, es
-        marcar\xE0 amb una creu. Quan s\u2019acabin tots, passar\xE0 al seg\xFCent
-        nivell autom\xE0ticament. El prop\xF2sit \xE9s obtenir la m\xE0xima puntuaci\xF3
-        possible."
-      - "O objetivo do jogo \xE9 conseguir a combina\xE7\xE3o de cores que aparece
-        no topo da tela. Cada vez que uma cor \xE9 completada, ela ser\xE1 marcada
-        com uma cruz. Quando todos estiverem conclu\xEDdos, voc\xEA ser\xE1 levado
-        ao pr\xF3ximo n\xEDvel automaticamente. O objetivo \xE9 obter a maior pontua\xE7\xE3o
-        poss\xEDvel."
-      - "Le but du jeu est de r\xE9aliser la combinaison de couleurs qui appara\xEEt
-        en haut de l\u2019\xE9cran. Chaque fois qu'une couleur est compl\xE9t\xE9e,
-        elle sera marqu\xE9e d'une croix. Lorsque tous sont termin\xE9s, vous passerez
-        automatiquement au niveau suivant. Le but est d'obtenir le score le plus \xE9lev\xE9
-        possible."
-      - 
+        en la parte superior de la pantalla. Cada vez que se completa un color este
+        desaparecer\xE1 de la combinaci\xF3n. Cuando hayas completado todos, pasar\xE1
+        autom\xE1ticamente al siguiente nivel. La velocidad de aparici\xF3n de los
+        colores en la parrilla, ir\xE1 aumentando con los niveles. El objetivo es
+        obtener la mayor puntuaci\xF3n posible."
+      - "El prop\xF2sit del joc \xE9s completar la combinaci\xF3 de colors que apareix
+        a la part superior de la pantalla. Cada vegada que es completa un color, aquest
+        desapareix de la combinaci\xF3. Quan hagis completat tots els colors, passar\xE0
+        al seg\xFCent nivell autom\xE0ticament. La velocitat d'aparici\xF3 dels colors
+        a la graella anir\xE0 aumentant amb els nivells. L'objectiu \xE9s obtenir
+        la m\xE0xima puntuaci\xF3 possible."
+      - "O objetivo do jogo \xE9 conseguir o esquema de cores que aparece no topo
+        da tela. Cada vez que uma cor \xE9 completada, ela desaparece da combina\xE7\xE3o.
+        Quando voc\xEA tiver completado todos eles, ele passar\xE1 automaticamente
+        para o pr\xF3ximo n\xEDvel. A velocidade a que as cores aparecem na grelha
+        aumenta com cada n\xEDvel. O objetivo \xE9 obter a maior pontua\xE7\xE3o poss\xEDvel."
+      - "Le but du jeu est d'obtenir le sch\xE9ma de couleurs qui appara\xEEt en haut
+        de l'\xE9cran. Chaque fois qu'une couleur est compl\xE9t\xE9e, elle dispara\xEEt
+        de la combinaison. Lorsque vous les aurez toutes termin\xE9es, il passera
+        automatiquement au niveau suivant. La vitesse \xE0 laquelle les couleurs apparaissent
+        sur la grille augmente avec chaque niveau. Le but est d'obtenir le score le
+        plus \xE9lev\xE9 possible."
+      - "Der Zweck des Spiels ist es, die Farbgebung zu erreichen, die oben auf dem
+        Bildschirm erscheint. Jedes Mal, wenn eine Farbe fertig ist, verschwindet
+        sie aus der Kombination. Wenn du alle abgeschlossen hast, wechselt es automatisch
+        auf die n\xE4chste Stufe. Die Geschwindigkeit, mit der Farben auf dem Raster
+        erscheinen, nimmt mit jedem Level zu. Das Ziel ist es, die h\xF6chstm\xF6gliche
+        Punktzahl zu erreichen."
       Flags: 000000000000
       Languages_Touch: []
     - Term: PROPOSITO DEL JUEGO
       TermType: 0
       Description: 
       Languages:
-      - Purpose Of The Game
-      - "Prop\xF3sito Del Juego"
-      - "Prop\xF2sit Del Joc"
-      - Objetivo Do Jogo
-      - But Du Jeu
-      - 
+      - GAME OBJECTIVE
+      - OBJETIVO DEL JUEGO
+      - OBJECTIU DEL JOC
+      - OBJETIVO DO JOGO
+      - OBJECTIF DU JEU
+      - ZIEL DES SPIELS
       Flags: 000000000000
       Languages_Touch: []
     - Term: El Grid
       TermType: 0
       Description: 
       Languages:
-      - The Grid
-      - El Grid
-      - El Grid
-      - A Grade
-      - La Grille
-      - 
+      - THE GRID
+      - LA PARRILLA
+      - LA GRAELLA
+      - A GRADE
+      - LA GRILLE
+      - DAS GRID
       Flags: 000000000000
       Languages_Touch: []
     - Term: "Comenzaremos con un grid vac\xEDo que se ir\xE1 llenando de colores primarios
@@ -141,33 +151,41 @@ MonoBehaviour:
       Description: 
       Languages:
       - We will start with an empty grid that will be filled with primary colors (blue,
-        yellow and red) to be able to form combinations, beware, if the grid is completely
-        filled, you will lose the game.
+        yellow and red) to form the combinations. To make the color combinations,
+        drag one color on top of the other. Be careful, if the grid fills up completely,
+        you will lose the game.
       - "Comenzaremos con un grid vac\xEDo que se ir\xE1 llenando de colores primarios
-        (azul, amarillo y rojo) para poder formar las combinaciones, cuidado, si el
-        grid se llena completamente, perder\xE1s la partida."
+        (azul, amarillo y rojo) para poder formar las combinaciones. Para realizar
+        las combinaciones de colores, arrastra un color encima del otro. Ten cuidado,
+        si el grid se llena completamente, perder\xE1s la partida."
       - "Comen\xE7arem amb una graella buida que s'anir\xE0 omplint de colors primaris
-        (blau, groc i vermell) per poder formar les combinacions, compte, si el grid
-        s'omple completament, perdr\xE0s la partida."
-      - "Vamos come\xE7ar com uma grade vazia que ser\xE1 preenchida com cores prim\xE1rias
-        (azul, amarelo e vermelho) para poder formar combina\xE7\xF5es, cuidado, se
-        a grade estiver completamente preenchida, voc\xEA perder\xE1 o jogo."
-      - "Nous allons commencer avec une grille vide qui sera remplie de couleurs primaires
-        (bleu, jaune et rouge) pour pouvoir former des combinaisons. Attention, si
-        la grille est compl\xE8tement remplie, vous perdrez la partie."
-      - 
+        (blau, groc i vermell) per poder formar les combinacions. Per realitzar aquestes
+        combinacions, arrosega un color a sobre d'un altre. Ves amb compte, si el
+        grid s'omple completament, perdr\xE0s la partida."
+      - "Vamos come\xE7ar com uma grelha vazia que ser\xE1 preenchida com cores prim\xE1rias
+        (azul, amarelo e vermelho) para formar as combina\xE7\xF5es. Para fazer as
+        combina\xE7\xF5es de cores, arraste uma cor sobre a outra. Tenha cuidado,
+        se a grade se encher completamente, voc\xEA vai perder o jogo."
+      - "Nous commencerons par une grille vide qui sera remplie de couleurs primaires
+        (bleu, jaune et rouge) pour former les combinaisons. Pour faire les combinaisons
+        de couleurs, faites glisser une couleur sur l'autre. Attention, si la grille
+        se remplit compl\xE8tement, vous perdrez la partie."
+      - "Wir beginnen mit einem leeren Gitter, das mit Prim\xE4rfarben (blau, gelb
+        und rot) gef\xFCllt wird, um die Kombinationen zu bilden. Um die Farbkombinationen
+        zu erstellen, ziehen Sie eine Farbe auf die andere. Seien Sie vorsichtig,
+        wenn sich das Gitter vollst\xE4ndig f\xFCllt, verlieren Sie das Spiel."
       Flags: 000000000000
       Languages_Touch: []
     - Term: Arrastrando Colores
       TermType: 0
       Description: 
       Languages:
-      - Dragging Colors
-      - Arrastrando Colores
-      - Arrossegant Colors
-      - Arrastando Cores
-      - Glisser Les Couleurs
-      - 
+      - DRAGGING COLORS
+      - ARRASTRANDO COLORES
+      - ARROSSEGANT COLORS
+      - ARRASTANDO CORES
+      - GLISSER LES COULEURS
+      - FARBEN ZIEHEN
       Flags: 000000000000
       Languages_Touch: []
     - Term: "Arrastra colores diferentes, uno encima del otro, para formar otros necesarios
@@ -175,17 +193,37 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Drag different colors, one on top of the other, to form the necessary ones
-        to complete the required combination.
+      - Drag different colors, one on top of the other, to form the colors needed
+        to complete the required combination. With primary colors, you will form secondary
+        colors, and with secondary colors, you will form tertiaries. You must quickly
+        remember the color combinations, as you will have to repeat them during the
+        game.
       - "Arrastra colores diferentes, uno encima del otro, para formar los necesarios
-        para completar la combinaci\xF3n requerida."
-      - "Arrossega colors diferents, un sobre l'altre, per formar els necessaris per
-        completar la combinaci\xF3 requerida."
-      - "Arraste cores diferentes, uma sobre a outra, para formar as precisas para
-        completar a combina\xE7\xE3o requerida."
-      - "Faites glisser diff\xE9rentes couleurs, les unes sur les autres, pour former
-        les couleurs n\xE9cessaires \xE0 la combinaison souhait\xE9e."
-      - 
+        para completar la combinaci\xF3n requerida. Con colores primarios, formar\xE1s
+        colores secundarios, y con los secundarios, formar\xE1s terciarios. Debes
+        recordar r\xE1pidamente las combinaciones de colores, ya que tendr\xE1s que
+        repetirlas durante el juego."
+      - "Arrossegueu diferents colors, un a sobre de l'altre, per formar els colors
+        necessaris per completar la combinaci\xF3 necess\xE0ria. Amb els colors primaris,
+        formar\xE0s colors secundaris i, amb colors secundaris, formar\xE0s terciaris.
+        Cal recordar r\xE0pidament les combinacions de colors, ja que haur\xE0s de
+        repetir-les durant el joc."
+      - "Arraste diferentes cores, um em cima do outro, para formar os cores necess\xE1rios
+        para completar a combina\xE7\xE3o requerida. Com cores prim\xE1rias, voc\xEA
+        vai formar cores secund\xE1rias, e com cores secund\xE1rias, voc\xEA vai formar
+        terci\xE1rios. Voc\xEA deve lembrar rapidamente as combina\xE7\xF5es de cores,
+        j\xE1 que voc\xEA ter\xE1 que repeti-las durante o jogo."
+      - "Faites glisser diff\xE9rentes couleurs, l'une sur l'autre, pour former les
+        couleurs n\xE9cessaires pour compl\xE9ter la combinaison requise. Avec les
+        couleurs primaires, vous formerez des couleurs secondaires, et avec les couleurs
+        secondaires, vous formerez des couleurs tertiaires. Vous devez vous souvenir
+        rapidement des combinaisons de couleurs, car vous devrez les r\xE9p\xE9ter
+        pendant le jeu."
+      - "Ziehen Sie verschiedene Farben \xFCbereinander, um die Farben zu bilden,
+        die f\xFCr die gew\xFCnschte Kombination erforderlich sind. Mit Prim\xE4rfarben
+        bilden Sie Sekund\xE4rfarben und mit Sekund\xE4rfarben Terti\xE4rfarben. Sie
+        m\xFCssen sich die Farbkombinationen schnell merken, da Sie sie w\xE4hrend
+        des Spiels wiederholen m\xFCssen."
       Flags: 000000000000
       Languages_Touch: []
     - Term: "Tambi\xE9n puedes arrastrar las casillas del mismo color para ganar espacio
@@ -193,17 +231,32 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - You can also drag the boxes of the same color to gain free space in the grid
-        and, in addition, get points for it.
+      - You can also drag the squares of the same color to gain free space in the
+        grid and also get points for it. It doesn't matter if they are primary, secondary
+        or tertiary colors, as long as they are both the same color. This will be
+        very useful in high speed levels.
       - "Tambi\xE9n puedes arrastrar las casillas del mismo color para ganar espacio
-        libre en el grid y, adem\xE1s, conseguir puntos por ello."
+        libre en la parrilla y, adem\xE1s, conseguir puntos por ello. No importa si
+        son colores primarios, secundarios o terciarios, siempre que sean los dos
+        del mismo color. Esto te ser\xE1 muy \xFAtil en niveles de velocidad elevada."
       - "Tamb\xE9 pots arrossegar les caselles del mateix color per guanyar espai
-        lliure en el grid i, a m\xE9s, aconseguir punts per aix\xF2."
-      - "Voc\xEA tamb\xE9m pode arrastar as caixas da mesma cor para ganhar espa\xE7o
-        livre na grade e, al\xE9m disso, obter pontos."
-      - "Vous pouvez \xE9galement faire glisser les cases de la m\xEAme couleur pour
-        obtenir un espace libre dans la grille et obtenir des points."
-      - 
+        a la graella y, a m\xE9s a m\xE9s, aconsseguir punts per fer-ho. No importa
+        si son colors primaris, secundaris o terciaris, sempre que siguin els dos
+        del mateix color. Aix\xF2 et ser\xE0 molt \xFAtil en nivells de velocitat
+        elevada."
+      - "Voc\xEA tamb\xE9m pode arrastar os quadrados da mesma cor para ganhar espa\xE7o
+        livre na grade e tamb\xE9m ganhar pontos por isso. N\xE3o importa se s\xE3o
+        cores prim\xE1rias, secund\xE1rias ou terci\xE1rias, desde que sejam ambas
+        da mesma cor. Isto ser\xE1 muito \xFAtil em n\xEDveis de alta velocidade."
+      - "Vous pouvez \xE9galement faire glisser les carr\xE9s de la m\xEAme couleur
+        pour gagner de l'espace libre dans la grille et aussi obtenir des points pour
+        cela. Peu importe qu'il s'agisse de couleurs primaires, secondaires ou tertiaires,
+        \xE0 condition qu'elles soient toutes les deux de la m\xEAme couleur. Ceci
+        sera tr\xE8s utile pour les niveaux de vitesse \xE9lev\xE9s."
+      - "Sie k\xF6nnen auch die gleichfarbigen Felder ziehen, um freien Platz im Gitter
+        zu gewinnen und auch Punkte daf\xFCr zu erhalten. Es spielt keine Rolle, ob
+        es sich um Prim\xE4r-, Sekund\xE4r- oder Terti\xE4rfarben handelt, solange
+        sie beide die gleiche Farbe haben. Dies ist sehr n\xFCtzlich bei hohen Geschwindigkeiten."
       Flags: 000000000000
       Languages_Touch: []
     - Term: "Si el grid se llena o se acaba el tiempo, la partida finalizar\xE1. Intenta
@@ -940,25 +993,6 @@ MonoBehaviour:
       - RUCKSACK
       Flags: 000000000000
       Languages_Touch: []
-    - Term: Para jugar la partida, puedes equipar tu mochila con hasta 5 cartas. Arrastra
-        estas del inventario a la mochila.
-      TermType: 0
-      Description: 
-      Languages:
-      - To play the game, you can equip your backpack with up to 5 cards. Drag these
-        from the inventory to the backpack.
-      - Para jugar la partida, puedes equipar tu mochila con hasta 5 cartas. Arrastra
-        estas del inventario a la mochila.
-      - Per jugar la partida, pots equipar la teva motxilla amb fins a 5 cartes. Arrossega
-        aquestes de l'inventari a la motxilla.
-      - "Para jogar o jogo, voc\xEA pode equipar sua mochila com at\xE9 5 cartas.
-        Arraste-os do invent\xE1rio para a mochila."
-      - "Pour jouer au jeu, vous pouvez \xE9quiper votre sac \xE0 dos de 5 cartes
-        maximum. Faites-les glisser de l'inventaire vers le sac \xE0 dos."
-      - Um das Spiel zu spielen, kannst du deinen Rucksack mit bis zu 5 Karten ausstatten.
-        Ziehe diese aus dem Inventar in den Rucksack.
-      Flags: 000000000000
-      Languages_Touch: []
     - Term: "ATENCI\xD3N, TIENES CARTAS EN TU INVENTARIO QUE PUEDES COLOCAR EN LA
         MOCHILA PARA JUGAR LA PARTIDA. SI INICIAS LA PARTIDA, LO HAR\xC1S SIN CARTAS
         DE AYUDA."
@@ -980,6 +1014,126 @@ MonoBehaviour:
       - Achtung, Du Hast Karten In Deinem Inventar, Die Du In Deinen Rucksack Stecken
         Kannst, Um Das Spiel Zu Spielen. Wenn Sie Das Spiel Starten, Werden Sie Es
         Ohne Hilfebuchstaben Tun.
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Para jugar la partida, puedes equipar tu mochila con hasta 5 cartas. Pulsa
+        sobre estas para pasarlas del inventario a la mochila.
+      TermType: 0
+      Description: 
+      Languages:
+      - To play the game, you can equip your backpack with up to 5 cards. Click on
+        these to move them from the inventory to the backpack.
+      - Para jugar la partida, puedes equipar tu mochila con hasta 5 cartas. Pulsa
+        sobre estas para pasarlas del inventario a la mochila.
+      - Per jugar la partida, pots equipar la teva motxilla amb fins a 5 cartes. Pulsa
+        a sobre d'elles per passar-les de l'inventari a la motxilla.
+      - "Para jogar o jogo, voc\xEA pode equipar sua mochila com at\xE9 5 cartas.
+        Clique nelas para mov\xEA-las do invent\xE1rio para a mochila."
+      - "Pour jouer au jeu, vous pouvez \xE9quiper votre sac \xE0 dos d'un maximum
+        de 5 cartes. Cliquez dessus pour les d\xE9placer de l'inventaire vers le sac
+        \xE0 dos."
+      - Um das Spiel zu spielen, kannst du deinen Rucksack mit bis zu 5 Karten ausstatten.
+        Klicke auf diese, um sie aus dem Inventar in den Rucksack zu verschieben.
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: THE CARDS
+      TermType: 0
+      Description: 
+      Languages:
+      - THE CARDS
+      - LAS CARTAS
+      - LES CARTES
+      - AS CARTAS
+      - LES CARTES
+      - DIE KARTEN
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: "Carta de 1.000 puntos, al arrastrarla a la parrilla, obtendr\xE1s mil
+        puntos al instante."
+      TermType: 0
+      Description: 
+      Languages:
+      - Letter of 1,000 points, dragging it to the grid, you will get a thousand points
+        instantly.
+      - "Carta de 1.000 puntos, al arrastrarla a la parrilla, obtendr\xE1s mil puntos
+        al instante."
+      - "Carta de 1.000 punts, al arrossegar-la a la graella, obtindr\xE0s mil punts
+        a l'instant."
+      - "Carta de 1.000 pontos, arrastando-o para a grade, voc\xEA receber\xE1 mil
+        pontos instantaneamente."
+      - "Lettre de 1 000 points, en la faisant glisser vers la grille, vous obtiendrez
+        un millier de points instantan\xE9ment."
+      - Wenn Sie einen Buchstaben mit 1.000 Punkten in das Raster ziehen, erhalten
+        Sie sofort 1.000 Punkte.
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: "Carta borrado de parrilla. Al arrastrarla, la parrilla se limpiar\xE1
+        completamente de colores."
+      TermType: 0
+      Description: 
+      Languages:
+      - Letter erased from the grill. When dragged, the grill will be completely cleaned
+        of colors.
+      - "Carta borrado de parrilla. Al arrastrarla, la parrilla se limpiar\xE1 completamente
+        de colores."
+      - "Carta esborrat de graella. A l'arrossegar-la, la graella es netejar\xE0 completament
+        de colors."
+      - "Carta apagada da grelha. Quando arrastada, a grade ser\xE1 completamente
+        limpa de cores."
+      - "Lettre effac\xE9e du gril. Lorsque tra\xEEn\xE9, le gril sera compl\xE8tement
+        nettoy\xE9 de couleurs."
+      - "Brief vom Grill gel\xF6scht. Beim Ziehen wird der Grill vollst\xE4ndig von
+        Farben gereinigt."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: "Carta de 1 minuto. Con esta carta aumentar\xE1s un minuto m\xE1s el tiempo
+        del que dispones para finalizar el nivel."
+      TermType: 0
+      Description: 
+      Languages:
+      - 1 minute letter With this letter you will increase the time you have to finish
+        the level by one minute.
+      - "Carta de 1 minuto. Con esta carta aumentar\xE1s un minuto m\xE1s el tiempo
+        del que dispones para finalizar el nivel."
+      - "Carta d'1 minut. Amb aquesta carta aumentar\xE0s un minut m\xE9s el temps
+        de qu\xE8 disposes per finalitzar el nivell."
+      - "1 minuto carta Com esta carta voc\xEA aumentar\xE1 o tempo que voc\xEA tem
+        para terminar o n\xEDvel em um minuto."
+      - Lettre d'une minute Avec cette lettre, vous augmenterez le temps que vous
+        avez pour terminer le niveau d'une minute.
+      - "1 Minute Brief Mit diesem Buchstaben verl\xE4ngern Sie die Zeit, in der Sie
+        das Level beenden m\xFCssen, um eine Minute."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: "Carta velocidad nivel 1. Arrastrando esta carta, la velocidad del nivel
+        se reducir\xE1 a la misma del nivel 1."
+      TermType: 0
+      Description: 
+      Languages:
+      - "Card speed \u200B\u200B level 1. Dragging this card, the speed of the level
+        will be reduced to the same level 1."
+      - "Carta velocidad nivel 1. Arrastrando esta carta, la velocidad del nivel se
+        reducir\xE1 a la misma del nivel 1."
+      - "Carta velocitat nivell 1. Arrossegant aquesta carta, la velocitat del nivell
+        es reduir\xE0 a la mateixa del nivell 1."
+      - "Carta  velocidade n\xEDvel 1. Arrastando este cart\xE3o, a velocidade do
+        n\xEDvel ser\xE1 reduzida para o mesmo n\xEDvel 1."
+      - "Carte de vitesse Niveau 1. En faisant glisser cette carte, la vitesse du
+        niveau sera r\xE9duite au m\xEAme niveau 1."
+      - Geschwindigkeitskartenstufe 1. Wenn Sie diese Karte ziehen, wird die Geschwindigkeit
+        der Stufe auf die gleiche Stufe 1 reduziert.
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: Las cartas puedes comprarlas en la tienda.
+      TermType: 0
+      Description: 
+      Languages:
+      - You can buy the cards in the store.
+      - Las cartas puedes comprarlas en la tienda.
+      - Les cartes pots comprar-les a la botiga.
+      - "Voc\xEA pode comprar as cartas na loja."
+      - Vous pouvez acheter les cartes dans le magasin.
+      - "Sie k\xF6nnen die Karten im Laden kaufen."
       Flags: 000000000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0

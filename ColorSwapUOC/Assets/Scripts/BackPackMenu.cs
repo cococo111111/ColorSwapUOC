@@ -36,6 +36,7 @@ public class BackPackMenu : MonoBehaviour
                 if (GlobalInfo.cards[i] > 1)
                 {
                     cardsInventory[i].GetComponent<Image>().sprite = spritesCards[i];
+                    cardsInventory[i].GetComponent<Button>().enabled = true;
                     cardsInventory[i].transform.GetChild(0).gameObject.SetActive(true);
                     cardsInventory[i].transform.GetChild(1).gameObject.SetActive(true);
                     cardsInventory[i].transform.GetChild(2).gameObject.SetActive(true);
@@ -45,6 +46,7 @@ public class BackPackMenu : MonoBehaviour
                 else
                 {
                     cardsInventory[i].GetComponent<Image>().sprite = spritesCards[i];
+                    cardsInventory[i].GetComponent<Button>().enabled = true;
                     cardsInventory[i].transform.GetChild(0).gameObject.SetActive(true);
                     cardsInventory[i].transform.GetChild(1).gameObject.SetActive(true);
                     cardsInventory[i].transform.GetChild(2).gameObject.SetActive(false);
@@ -53,6 +55,7 @@ public class BackPackMenu : MonoBehaviour
             else
             {
                 cardsInventory[i].GetComponent<Image>().sprite = spritesCards[5];
+                cardsInventory[i].GetComponent<Button>().enabled = false;
                 cardsInventory[i].transform.GetChild(0).gameObject.SetActive(false);
                 cardsInventory[i].transform.GetChild(1).gameObject.SetActive(false);
                 cardsInventory[i].transform.GetChild(2).gameObject.SetActive(false);
@@ -75,6 +78,7 @@ public class BackPackMenu : MonoBehaviour
                 cO.transform.localPosition = cardsBackPack[i].transform.position;
                 cO.transform.localScale = new Vector3(1, 1, 1);
                 cO.GetComponent<Image>().sprite = spritesCards[GlobalInfo.backPack[i] - 1];
+                cO.GetComponent<Button>().enabled = true;
                 cO.transform.GetChild(0).gameObject.SetActive(true);
                 cO.transform.GetChild(1).gameObject.SetActive(true);
                 cO.transform.GetComponent<CardButtonRemove>().position = i;
@@ -86,6 +90,7 @@ public class BackPackMenu : MonoBehaviour
                 cO.transform.localPosition = cardsBackPack[i].transform.position;
                 cO.transform.localScale = new Vector3(1, 1, 1); 
                 cO.GetComponent<Image>().sprite = spritesCards[5];
+                cO.GetComponent<Button>().enabled = false;
                 cO.transform.GetChild(0).gameObject.SetActive(false);
                 cO.transform.GetChild(1).gameObject.SetActive(false);
             }

@@ -2785,7 +2785,6 @@ MonoBehaviour:
   parentColorBlocs: {fileID: 73267801}
   cellEmpty: {fileID: 21300000, guid: 93c3574c1029645debf4b2dd00481d52, type: 3}
   blankCell: {fileID: 21300000, guid: eef461d4c3379431abfe372f9decf364, type: 3}
-  newGoalsSound: {fileID: 0}
   score: {fileID: 1543881593}
   level: {fileID: 0}
   gameOver: 0
@@ -2806,10 +2805,20 @@ MonoBehaviour:
   - {fileID: 2100000, guid: c1a522615186c4ad38ba87eac9c047ad, type: 2}
   - {fileID: 2100000, guid: 36b9003b635814f75b1a3123d21720f5, type: 2}
   - {fileID: 2100000, guid: 281e9de7410e640be8f9d533a344b078, type: 2}
+  - {fileID: 2100000, guid: aac931ab794ed43aa97298d804dff23d, type: 2}
+  - {fileID: 2100000, guid: fc56b942f75954f0798b608f30888d21, type: 2}
+  - {fileID: 2100000, guid: db482d3abc77f4d7ca8cbc64cf4096b4, type: 2}
+  - {fileID: 2100000, guid: d80f100b34d3a48dc9f127120fdd78b9, type: 2}
   diamondMaterial:
   - {fileID: 2100000, guid: 01b9c526981d14117b84e4a46e85b0b2, type: 2}
   - {fileID: 2100000, guid: 89318eb650096497fb42e1cedf107d54, type: 2}
   - {fileID: 2100000, guid: d5311b82450d94202a7ac3bd58666cf8, type: 2}
+  broom: {fileID: 8300000, guid: 546565588057a4c94ad2c7ec549ef262, type: 3}
+  tictac: {fileID: 8300000, guid: 53c087b4af65a4f7b9c03df2eebefc12, type: 3}
+  newGoalsSound: {fileID: 8300000, guid: d7b2cab93b1bc4075b9a479b5df50e55, type: 3}
+  braking: {fileID: 8300000, guid: 6bd8ef4fbca1c4ffcabfb558d8de1f50, type: 3}
+  money: {fileID: 8300000, guid: 89f2604376a3d4c7186d724c2d9a013e, type: 3}
+  doble: {fileID: 8300000, guid: 09311bff6c4124532aa091be37dedad5, type: 3}
 --- !u!4 &1494851312
 Transform:
   m_ObjectHideFlags: 0
@@ -3648,7 +3657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85ed337576dfe49db87771d13a25948b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGoalsSound: {fileID: 0}
+  newGoalsSound: {fileID: 8300000, guid: d7b2cab93b1bc4075b9a479b5df50e55, type: 3}
   newColorSound1: {fileID: 8300000, guid: a5485c2dcabea4c71a7e6aa7d3bae93b, type: 3}
   newColorSound2: {fileID: 8300000, guid: c5032aafd00ee4c429b334a1d3e3ddc1, type: 3}
   dragDropSound: {fileID: 8300000, guid: 95454dd1445984c33a2db94050aebf6d, type: 3}
