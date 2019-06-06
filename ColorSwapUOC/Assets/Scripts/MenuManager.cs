@@ -32,7 +32,7 @@ public class MenuManager : MonoBehaviour
         // EM_GameServicesConstants.Sample_Leaderboard is the generated name constant
         // of a leaderboard named "Sample Leaderboard"
         GameServices.LoadScores(EM_GameServicesConstants.Leaderboard_THE_BEST_COMBIX, 1, 1, TimeScope.AllTime, UserScope.Global, OnScoresLoaded);
-        if (GlobalInfo.sessionsCount == 5)
+        if (GlobalInfo.sessionsCount > 4)
         {
             Rating.Instance.RatingApp();
             GlobalInfo.sessionsCount = 0;
