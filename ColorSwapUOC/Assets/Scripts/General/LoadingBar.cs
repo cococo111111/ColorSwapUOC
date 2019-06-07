@@ -11,16 +11,35 @@ public class LoadingBar : MonoBehaviour {
     public float waitSecondsPrev;
     public float waitSecondsPost;
     public Slider sliderBar;
+    public GameObject panelPrivacy;
     
     // Use this for initialization
 	void Start ()
     {
         sliderBar.gameObject.SetActive(false);
+        panelPrivacy.gameObject.SetActive(false);
+        Invoke("LoadPrivacy", 0.5f);
+    }
+
+    void LoadPrivacy()
+    {
+        Debug.Log(GlobalInfo.gameFirstTime);
+        if (GlobalInfo.gameFirstTime == "true")
+        {
+            panelPrivacy.gameObject.SetActive(true);
+        }
+        else
+        {
+            LoadScene();
+        }
+    }
+
+    public void LoadScene()
+    {
         Invoke("Loading", waitSecondsPrev);
     }
-	
-	// Update is called once per frame
-	void Loading()
+
+    void Loading()
     {
 	    if(loadScene == false)
         {
