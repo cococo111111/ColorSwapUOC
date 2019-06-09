@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/david/Documents/Proyectos Unity/ColorSwapUOC/APK/Combix.aab
+C:/Users/david/Documents/ColorSwapUOC/APK/Combix.aab
 SceneListBegin?
 Assets/Scenes/NicolAinaSplash.unity
 Assets/Scenes/Title.unity
@@ -168,10 +168,11 @@ a665fcbf0a5c02231ff8be1cf0c39c52 Assembly-CSharp.dll:.CardCollision
 33ae35ab191cc06a6df42ca81a768341 Assembly-CSharp.dll:I2.Loc.ResourceManager
 7be1b4bca3d254657454c4797ddcbdea Assembly-CSharp.dll:.CellCollision
 f737daa636066cb5dcdf84ba1d41d922 Assembly-CSharp.dll:EasyMobile.Demo.Racing3DGameControl
+ecf216fa596c844d3e2918abe4f4486c Assembly-CSharp.dll:I2.Loc.LocalizeTarget_TextMeshPro_UGUI
 eef3a293008e8a9aa7449e62f01da025 Assembly-CSharp.dll:I2.Loc.LocalizeTarget_UnityStandard_MeshRenderer
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Share
 31582186ebece284a729fdc8d85c2208 Assembly-CSharp.dll:EasyMobile.Demo.DemoUtils
-6363f1e4e428ceb5d0586f35c2b5ab7a Assembly-CSharp.dll:.LoadingBar
+ed998ac4071e615eb50433414ba1c9c6 Assembly-CSharp.dll:.LoadingBar
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:EasyMobile.Demo.ColorChooser
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:EasyMobile.GameServices
@@ -298,7 +299,7 @@ e63944317d2f5958e31963668bb29158 Assembly-CSharp.dll:TMPro.Examples.VertexZoom
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:EasyMobile.Internal.RuntimeHelper
 d34103413f1163feaca3d8921142dd9e Assembly-CSharp.dll:I2.Loc.LocalizeTarget_UnityStandard_GUITexture
 0dc61040be1fc173ec3561dcd4573d17 Assembly-CSharp.dll:EasyMobile.Demo.ScrollableListItem
-7866f4b2226b977bf4746941790e9a6b Assembly-CSharp.dll:.PlayEffectsMenu
+d6487fdb253c1e7cbd1b5e7369469300 Assembly-CSharp.dll:.PlayEffectsMenu
 8419771a43c3088559eea801c53dde94 Assembly-CSharp.dll:GUIAnimator.GAui
 b9d3e77e5899f4e933b461b904f4eddc Assembly-CSharp.dll:.BackGround_Grid
 b389c441cd23810e7a39c3ba030f9f48 Assembly-CSharp.dll:.CardsManager
@@ -309,8 +310,10 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 fefb468d0ed403c583ac8876634b46be Assembly-CSharp.dll:I2.Loc.LocalizeTarget_UnityStandard_TextMesh
 e80c1450883443c68d6c2dade213536f Assembly-CSharp.dll:TMPro.Examples.TMPro_InstructionOverlay
 5edb0056ed9ab11b65e93f830e75d6ed Assembly-CSharp.dll:I2.Loc.LocalizationParamsManager
+1e9993a859cfdd0e24765bda4bd52841 Assembly-CSharp.dll:.TutorialManager
 f34322977a2c099f5e876d50c96816f8 Assembly-CSharp.dll:Cubequad.SwipyMenu
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:GooglePlayGames.OurUtils.PlayGamesHelperObject
+fd9b6d804a2cf66852f46e89cfc7e8bd Assembly-CSharp.dll:I2.Loc.LocalizeTarget_TextMeshPro_Label
 ebd95eb01891ebeef710ba0bd1174f7e Assembly-CSharp.dll:EasyMobile.Demo.InAppPurchasingDemo
 a92d1906f206bdc9b708bbc3ee7d9fc4 Assembly-CSharp.dll:NiobiumStudios.DailyRewardUI
 04fc0e46cec8b4aacc2c731d311292a6 Assembly-CSharp.dll:GUIAnimatorDemo.GAUUIEasingsRandomTest

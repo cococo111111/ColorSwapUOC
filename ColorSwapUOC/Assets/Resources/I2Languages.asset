@@ -1136,6 +1136,174 @@ MonoBehaviour:
       - "Sie k\xF6nnen die Karten im Laden kaufen."
       Flags: 000000000000
       Languages_Touch: []
+    - Term: THE DIAMONDS
+      TermType: 0
+      Description: 
+      Languages:
+      - THE DIAMONDS
+      - LOS DIAMANTES
+      - ELS DIAMANTS
+      - OS DIAMANTES
+      - LES DIAMANTS
+      - DIE DIAMANTEN
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: "Durante el juego podr\xE1s recoger diamantes que se ir\xE1n generando
+        en las casillas con colores terciarios. Solo aparecer\xE1n en esas casillas,
+        por lo que debes crearlas antes y tener la suerte de que aparezcan. Una vez
+        lo hagan, para recogerlos solamente tienes que juntar la casilla del diamante
+        con otra del mismo color o llevarla a una de las casillas superiores de la
+        combinaci\xF3n."
+      TermType: 0
+      Description: 
+      Languages:
+      - During the game you can collect diamonds that will be generated in the boxes
+        with tertiary colors. They will only appear in those boxes, so you must create
+        them before and be lucky that they appear. Once they do, to collect them you
+        only have to join the square of the diamond with another of the same color
+        or take it to one of the upper boxes of the combination.
+      - "Durante el juego podr\xE1s recoger diamantes que se ir\xE1n generando en
+        las casillas con colores terciarios. Solo aparecer\xE1n en esas casillas,
+        por lo que debes crearlas antes y tener la suerte de que aparezcan. Una vez
+        lo hagan, para recogerlos solamente tienes que juntar la casilla del diamante
+        con otra del mismo color o llevarla a una de las casillas superiores de la
+        combinaci\xF3n."
+      - "Durant el joc podr\xE0s recollir diamants que s'aniran generant en les caselles
+        amb colors terciaris. Nom\xE9s apareixeran en aquestes caselles, de manera
+        que has de crear-les abans i tenir la sort que apareguin. Un cop ho facin,
+        per recollir-los nom\xE9s has de ajuntar la casella del diamant amb una altra
+        del mateix color o portar-la a una de les caselles superiors de la combinaci\xF3."
+      - "Durante o jogo voc\xEA pode coletar diamantes que ser\xE3o gerados nas caixas
+        com cores terci\xE1rias. Eles s\xF3 aparecer\xE3o nessas caixas, ent\xE3o
+        voc\xEA deve cri\xE1-los antes e ter sorte que eles apare\xE7am. Assim que
+        o fizerem, para colet\xE1-los, voc\xEA s\xF3 precisar\xE1 unir o quadrado
+        do diamante com outro da mesma cor ou lev\xE1-lo para uma das caixas superiores
+        da combina\xE7\xE3o."
+      - "Pendant le jeu, vous pouvez collecter des diamants qui seront g\xE9n\xE9r\xE9s
+        dans les cases avec des couleurs tertiaires. Ils n'appara\xEEtront que dans
+        ces cases, vous devez donc les cr\xE9er avant et avoir de la chance qu'ils
+        apparaissent. Une fois cela fait, il suffit de joindre le carr\xE9 du diamant
+        \xE0 un autre de la m\xEAme couleur ou de l\u2019emporter dans l\u2019une
+        des cases sup\xE9rieures de la combinaison."
+      - "W\xE4hrend des Spiels k\xF6nnen Sie Diamanten sammeln, die in den Feldern
+        mit Terti\xE4rfarben erzeugt werden. Sie werden nur in diesen Feldern angezeigt.
+        Sie m\xFCssen sie also zuvor erstellen und haben das Gl\xFCck, dass sie angezeigt
+        werden. Sobald sie es getan haben, m\xFCssen Sie nur noch das Quadrat des
+        Diamanten mit einem anderen der gleichen Farbe verbinden oder es zu einem
+        der oberen K\xE4stchen der Kombination bringen, um sie zu sammeln."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: "El diamante verde te dar\xE1 100 puntos adicionales cuando lo recojas."
+      TermType: 0
+      Description: 
+      Languages:
+      - The green diamond will give you an additional 100 points when you pick it
+        up.
+      - "El diamante verde te dar\xE1 100 puntos adicionales cuando lo recojas."
+      - "El diamant verd et donar\xE0 100 punts addicionals quan ho recullis."
+      - "O diamante verde lhe dar\xE1 100 pontos adicionais quando voc\xEA o pegar."
+      - "Le diamant vert vous donnera 100 points suppl\xE9mentaires lorsque vous le
+        r\xE9cup\xE9rerez."
+      - "Der gr\xFCne Diamant gibt Ihnen zus\xE4tzliche 100 Punkte, wenn Sie ihn abholen."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: "El diamante rojo te dar\xE1 300 puntos adicionales cuando lo recojas."
+      TermType: 0
+      Description: 
+      Languages:
+      - The red diamond will give you an additional 300 points when you pick it up.
+      - "El diamante rojo te dar\xE1 300 puntos adicionales cuando lo recojas."
+      - "El diamant vermell et donar\xE0 300 punts addicionals quan ho recullis."
+      - "O diamante vermelho lhe dar\xE1 300 pontos adicionais quando voc\xEA peg\xE1-lo."
+      - "Le losange rouge vous donnera 300 points suppl\xE9mentaires lorsque vous
+        le r\xE9cup\xE9rerez."
+      - "Der rote Diamant gibt Ihnen zus\xE4tzliche 300 Punkte, wenn Sie ihn abholen."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: "El diamante amarillo es el m\xE1s especial. Te dar\xE1 una carta de ayuda
+        aleatoria que se colocar\xE1 en tu mochila si hay espacio. Si no hay espacio,
+        la carta no se pierde, pasar\xE1 directamente a tu inventario y la podr\xE1s
+        ver cuando finalice la partida."
+      TermType: 0
+      Description: 
+      Languages:
+      - The yellow diamond is the most special. It will give you a random help letter
+        that will be placed in your backpack if there is space. If there is no space,
+        the letter is not lost, it will go directly to your inventory and you will
+        see it when the game ends.
+      - "El diamante amarillo es el m\xE1s especial. Te dar\xE1 una carta de ayuda
+        \ aleatoria que se colocar\xE1 en tu mochila si hay espacio. Si no hay espacio,
+        la carta no se pierde, pasar\xE1 directamente a tu inventario y la podr\xE1s
+        ver cuando finalice la partida."
+      - "El diamant groc \xE9s el m\xE9s especial. Et donar\xE0 una carta d'ajuda
+        aleat\xF2ria que es col\xB7locar\xE0 en la motxilla si hi ha espai. Si no
+        hi ha espai, la carta no es perd, passar\xE0 directament al teu inventari
+        i la podr\xE0s veure quan finalitzi la partida."
+      - "O diamante amarelo \xE9 o mais especial. Ele lhe dar\xE1 uma carta de ajuda
+        aleat\xF3ria que ser\xE1 colocada na sua mochila se houver espa\xE7o. Se n\xE3o
+        houver espa\xE7o, a carta n\xE3o ser\xE1 perdida, ela ir\xE1 diretamente para
+        o seu invent\xE1rio e voc\xEA a ver\xE1 quando o jogo terminar."
+      - "Le diamant jaune est le plus sp\xE9cial. Il vous donnera une lettre d'aide
+        au hasard qui sera plac\xE9e dans votre sac \xE0 dos s'il y a de la place.
+        S'il n'y a pas de place, la lettre n'est pas perdue, elle ira directement
+        \xE0 votre inventaire et vous la verrez \xE0 la fin du jeu."
+      - "Der gelbe Diamant ist das Besondere. Sie erhalten einen zuf\xE4lligen Hilfebrief,
+        der in Ihren Rucksack gesteckt wird, wenn Platz vorhanden ist. Wenn kein Leerzeichen
+        vorhanden ist, geht der Buchstabe nicht verloren. Er wird direkt in Ihrem
+        Inventar abgelegt und am Ende des Spiels angezeigt."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: "La partida finaliza cuando se llena la parrilla o cuando se acaba el
+        tiempo. Para el primer caso, intenta limpiar la parrilla de colores iguales.
+        Para el segundo caso, intenta finalizar los niveles dejando tiempo sobrante,
+        esto har\xE1 que ganes bonos de tiempo para el siguiente nivel. Te en cuenta
+        que los niveles van aceler\xE1ndose a medida que vas avanzando."
+      TermType: 0
+      Description: 
+      Languages:
+      - The game ends when the grill is full or when the time is up. For the first
+        case, try cleaning the grill with the same colors. For the second case, try
+        to finish the levels by leaving extra time, this will make you earn time bonuses
+        for the next level. Keep in mind that the levels are accelerating as you progress.
+      - "La partida finaliza cuando se llena la parrilla o cuando se acaba el tiempo.
+        Para el primer caso, intenta limpiar la parrilla de colores iguales. Para
+        el segundo caso, intenta finalizar los niveles dejando tiempo sobrante, esto
+        har\xE1 que ganes bonos de tiempo para el siguiente nivel. Te en cuenta que
+        los niveles van aceler\xE1ndose a medida que vas avanzando."
+      - "La partida finalitza quan s'omple la graella o quan s'acaba el temps. Per
+        al primer cas, intenta netejar la graella de colors iguals. Per al segon cas,
+        intenta acabar els nivells deixant temps sobrant, aix\xF2 far\xE0 que guanyis
+        bons de temps per al seg\xFCent nivell. Tingues en compte que els nivells
+        van accelerant a mesura que vas avan\xE7ant."
+      - "O jogo termina quando a grelha est\xE1 cheia ou quando o tempo acabou. No
+        primeiro caso, tente limpar a grelha com as mesmas cores. Para o segundo caso,
+        tente terminar os n\xEDveis deixando tempo extra, isso far\xE1 com que voc\xEA
+        ganhe b\xF4nus de tempo para o pr\xF3ximo n\xEDvel. Tenha em mente que os
+        n\xEDveis est\xE3o acelerando conforme voc\xEA avan\xE7a."
+      - "Le jeu se termine lorsque le gril est plein ou que le temps est \xE9coul\xE9.
+        Dans le premier cas, nettoyez le gril avec les m\xEAmes couleurs. Pour le
+        second cas, essayez de finir les niveaux en laissant du temps suppl\xE9mentaire,
+        cela vous fera gagner des bonus de temps pour le niveau suivant. Gardez \xE0
+        l'esprit que les niveaux s'acc\xE9l\xE8rent \xE0 mesure que vous progressez."
+      - "Das Spiel endet, wenn der Grill voll ist oder die Zeit abgelaufen ist. Versuchen
+        Sie im ersten Fall, den Grill mit denselben Farben zu reinigen. Versuchen
+        Sie im zweiten Fall, die Level zu beenden, indem Sie zus\xE4tzliche Zeit einplanen.
+        Dadurch erhalten Sie Zeitboni f\xFCr das n\xE4chste Level. Denken Sie daran,
+        dass die Levels mit Ihrem Fortschritt immer schneller werden."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: NEXT
+      TermType: 0
+      Description: 
+      Languages:
+      - NEXT
+      - SEGUIR
+      - "SEG\xDCENT"
+      - SEGUINTE
+      - "SUIVANT\t"
+      - SCHUTZ
+      Flags: 000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 

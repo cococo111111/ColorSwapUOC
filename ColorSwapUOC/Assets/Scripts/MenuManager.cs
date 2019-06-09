@@ -37,7 +37,7 @@ public class MenuManager : MonoBehaviour
             Rating.Instance.RatingApp();
             GlobalInfo.sessionsCount = 0;
         }
-
+       
         Notifications.Init();
         ScheduleRepeatLocalNotification();
         //NewInGame();
@@ -54,10 +54,11 @@ public class MenuManager : MonoBehaviour
     {
         if (scores != null && scores.Length > 0)
         {
-            foreach (IScore score in scores)
-            {
-                bestScoreOnline.text = score.value.ToString();
-            }
+            bestScoreOnline.text = scores[0].value.ToString();
+            //foreach (IScore score in scores)
+            //{
+            //    bestScoreOnline.text = score.value.ToString();
+            //}
         }
         else
         {
@@ -108,7 +109,7 @@ public class MenuManager : MonoBehaviour
         NotificationContent content = PrepareNotificationContent();
 
         // Set the delay time as a TimeSpan.
-        TimeSpan delay = new TimeSpan(08, 08, 08);
+        TimeSpan delay = new TimeSpan(23, 30, 01);
 
         // Schedule the notification.
         Notifications.ScheduleLocalNotification(delay, content, NotificationRepeat.EveryDay);

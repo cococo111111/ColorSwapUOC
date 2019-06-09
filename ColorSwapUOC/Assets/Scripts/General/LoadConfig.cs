@@ -63,7 +63,7 @@ public class LoadConfig : MonoBehaviour {
         saveData.cards = GlobalInfo.cards;
         saveData.backPack = GlobalInfo.backPack;
         saveData.sessionsCount = Decryptor.Encrypt(GlobalInfo.sessionsCount.ToString());
-        saveData.gameFirstTime = Decryptor.Decrypt(GlobalInfo.gameFirstTime);
+        saveData.gameFirstTime = Decryptor.Encrypt(GlobalInfo.gameFirstTime);
         //Save data from PlayerInfo to a file named players
         DataSaver.saveData(saveData, configFileName);
 }

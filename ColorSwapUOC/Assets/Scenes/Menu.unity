@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1958162659}
+  mTarget: {fileID: 2037262550}
 --- !u!1 &43156896
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +305,19 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 2, y: -2}
   m_UseGraphicAlpha: 1
+--- !u!114 &43667161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1869822346}
 --- !u!1 &56240560
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,7 +517,7 @@ PrefabInstance:
     - target: {fileID: 7193915206561047603, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
       propertyPath: m_Text
-      value: NETEJA
+      value: CLEAN
       objectReference: {fileID: 0}
     - target: {fileID: 7193915206561047602, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
@@ -514,7 +527,7 @@ PrefabInstance:
     - target: {fileID: 7193915204885449827, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
       propertyPath: m_Text
-      value: LA GRAELLA
+      value: THE GRID
       objectReference: {fileID: 0}
     - target: {fileID: 7193915204885449826, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
@@ -581,7 +594,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DOBLE
+  m_Text: DOUBLE
 --- !u!114 &96770068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -728,7 +741,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 672256369}
-        m_MethodName: ExitSettingsPanel
+        m_MethodName: ExitTutorialPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1586,7 +1599,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: INVENTARI
+  m_Text: INVENTORY
 --- !u!114 &157354725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1669,6 +1682,135 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -49}
   m_SizeDelta: {x: 844.6, y: 166.8}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &159295838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 159295839}
+  - component: {fileID: 159295842}
+  - component: {fileID: 159295841}
+  - component: {fileID: 159295840}
+  m_Layer: 5
+  m_Name: ButtonPlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &159295839
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159295838}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1357314105}
+  m_Father: {fileID: 546168624}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -1123.2}
+  m_SizeDelta: {x: 400, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &159295840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159295838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 159295841}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 431366573}
+        m_MethodName: ButtonPlay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &159295841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159295838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 2917eb4720c9f854b891420e02f3fee0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &159295842
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159295838}
+  m_CullTransparentMesh: 0
 --- !u!1 &163915906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1947,8 +2089,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Fem una partida ?, estic segur de que vols batre als teus amics. Anem a
-    batre un r\xE8cord!"
+  m_Text: Shall we play a game? I'm sure you want to beat your friends. Let's break
+    a record!
 --- !u!222 &182116878
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2702,7 +2844,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DOBLE
+  m_Text: DOUBLE
 --- !u!222 &201661088
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3667,7 +3809,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 275007844}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 431366573}
+        m_MethodName: ButtonNext
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &275007844
@@ -4354,7 +4507,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NETEJA
+  m_Text: CLEAN
 --- !u!222 &333183568
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4362,6 +4515,80 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333183564}
+  m_CullTransparentMesh: 0
+--- !u!1 &335858262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 335858263}
+  - component: {fileID: 335858265}
+  - component: {fileID: 335858264}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &335858263
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335858262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 546168624}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 193, y: -240.5}
+  m_SizeDelta: {x: 325.5, y: 345.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &335858264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335858262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 4a53391b57bf4a345b7af7ee505856ad, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &335858265
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335858262}
   m_CullTransparentMesh: 0
 --- !u!1 &343991670
 GameObject:
@@ -4754,6 +4981,7 @@ GameObject:
   - component: {fileID: 377087288}
   - component: {fileID: 377087290}
   - component: {fileID: 377087289}
+  - component: {fileID: 377087291}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -4822,6 +5050,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377087287}
   m_CullTransparentMesh: 0
+--- !u!114 &377087291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377087287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: NEXT
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 43667161}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
 --- !u!1 &377323230
 GameObject:
   m_ObjectHideFlags: 0
@@ -5007,7 +5275,7 @@ PrefabInstance:
     - target: {fileID: 78238838433162771, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
       propertyPath: m_Text
-      value: NIVELL 1
+      value: LEVEL 1
       objectReference: {fileID: 0}
     - target: {fileID: 78238838433162770, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
@@ -5017,7 +5285,7 @@ PrefabInstance:
     - target: {fileID: 78238838249856294, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
       propertyPath: m_Text
-      value: VELOCITAT
+      value: SPEED
       objectReference: {fileID: 0}
     - target: {fileID: 78238838249856289, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
@@ -6120,6 +6388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 431366571}
+  - component: {fileID: 431366573}
   - component: {fileID: 431366572}
   m_Layer: 5
   m_Name: InstructionsMenu
@@ -6127,7 +6396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &431366571
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6147,6 +6416,7 @@ RectTransform:
   - {fileID: 1620355553}
   - {fileID: 1579526517}
   - {fileID: 1278139236}
+  - {fileID: 2001892911}
   - {fileID: 546168624}
   m_Father: {fileID: 738068736}
   m_RootOrder: 15
@@ -6391,6 +6661,27 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: GUIAnimator.cPlayAnimsEvent, GUIAnimator, Version=1.0.0.0, Culture=neutral,
       PublicKeyToken=null
+--- !u!114 &431366573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431366570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88a782e22c2b534195db24aced2e3b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tutorial:
+  - {fileID: 1423932108}
+  - {fileID: 1604614919}
+  - {fileID: 2015993084}
+  - {fileID: 1620355552}
+  - {fileID: 1579526516}
+  - {fileID: 1278139235}
+  - {fileID: 2001892910}
+  - {fileID: 546168623}
 --- !u!114 &436394193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6623,7 +6914,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PUNTS
+  m_Text: POINTS
 --- !u!222 &462229960
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6872,7 +7163,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "LA TEVA MILLOR PUNTUACI\xD3"
+  m_Text: YOUR BEST SCORE
 --- !u!222 &464763092
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7087,7 +7378,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ara No
+  m_Text: Not Now
 --- !u!222 &467296072
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7252,7 +7543,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Les cartes pots comprar-les a la botiga.
+  m_Text: You can buy the cards in the store.
 --- !u!114 &470673779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7575,7 +7866,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "MILLOR PUNTUACI\xD3 ONLINE"
+  m_Text: BEST ONLINE SCORE
 --- !u!222 &480438974
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7894,7 +8185,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MOTXILLA
+  m_Text: BACKPACK
 --- !u!222 &504005612
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8026,7 +8317,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Impressionant! Fem-ho!
+  m_Text: Awesome! Let's do it!
 --- !u!222 &507013957
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8171,7 +8462,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: No Pregunteu De Nou
+  m_Text: Don't Ask Again
 --- !u!222 &524693963
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8179,6 +8470,80 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524693959}
+  m_CullTransparentMesh: 0
+--- !u!1 &535967686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 535967687}
+  - component: {fileID: 535967689}
+  - component: {fileID: 535967688}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &535967687
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535967686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2001892911}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -371, y: -191.7}
+  m_SizeDelta: {x: 149.7, y: 154.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &535967688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535967686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 360f18861b4f445be88a346e5de32356, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &535967689
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535967686}
   m_CullTransparentMesh: 0
 --- !u!1 &546168623
 GameObject:
@@ -8199,7 +8564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &546168624
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8212,14 +8577,16 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 945169280}
+  - {fileID: 335858263}
   - {fileID: 1916703657}
+  - {fileID: 159295839}
   m_Father: {fileID: 431366571}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 499}
-  m_SizeDelta: {x: 833.2, y: 102.2}
+  m_AnchoredPosition: {x: 0, y: 519.2}
+  m_SizeDelta: {x: 833.2, y: 61.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &546168625
 MonoBehaviour:
@@ -8289,7 +8656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.064524755, g: 0.29784885, b: 0.4716981, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8300,7 +8667,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: f38a763111886470fb73c57970a9e60a, type: 3}
     m_FontSize: 33
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 58
     m_Alignment: 4
@@ -8309,7 +8676,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fi de Partida
+  m_Text: Game Over
 --- !u!222 &546168628
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8389,7 +8756,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "CONFIGURACI\xD3"
+  m_Text: SETTINGS
 --- !u!222 &551023986
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9146,8 +9513,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Carta velocitat nivell 1. Arrossegant aquesta carta, la velocitat del nivell
-    es reduir\xE0 a la mateixa del nivell 1."
+  m_Text: "Card speed \u200B\u200B level 1. Dragging this card, the speed of the level
+    will be reduced to the same level 1."
 --- !u!222 &594857483
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9545,7 +9912,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Combix et reclama!
+  m_Text: Combix wants you!
 --- !u!222 &629491281
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9778,6 +10145,127 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652218218}
   m_CullTransparentMesh: 0
+--- !u!1 &654254951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 654254952}
+  - component: {fileID: 654254955}
+  - component: {fileID: 654254954}
+  - component: {fileID: 654254953}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &654254952
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654254951}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2001892911}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 83, y: -191.70006}
+  m_SizeDelta: {x: 713.7, y: 154.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &654254953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654254951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: "El diamante verde te dar\xE1 100 puntos adicionales cuando lo recojas."
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 41709248}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
+--- !u!114 &654254954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654254951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7866029e00da14e5d9075bdf5b1a1dfe, type: 3}
+    m_FontSize: 42
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 48
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: The green diamond will give you an additional 100 points when you pick it
+    up.
+--- !u!222 &654254955
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654254951}
+  m_CullTransparentMesh: 0
 --- !u!1 &672056427
 GameObject:
   m_ObjectHideFlags: 0
@@ -9957,6 +10445,7 @@ MonoBehaviour:
   buttonSocial: {fileID: 1027516661}
   buttonRate: {fileID: 396970079}
   panelSettings: {fileID: 1982944420}
+  panelTutorial: {fileID: 431366572}
   panelShop: {fileID: 302120874}
   panelCombis: {fileID: 613929075}
   panelGame: {fileID: 193936771}
@@ -10147,7 +10636,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Cancel\xB7lar"
+  m_Text: Cancel
 --- !u!222 &674488919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10307,7 +10796,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "DOBLE PUNTUACI\xD3"
+  m_Text: DOUBLE SCORE
 --- !u!222 &683163129
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10501,7 +10990,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MOTXILLA
+  m_Text: BACKPACK
 --- !u!222 &700112278
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11169,7 +11658,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 2
-  m_Text: MIRA UN VIDEO I GUANYA 10.000 COMBI$
+  m_Text: WATCH A VIDEO AND WIN 10.000 COMBI$
 --- !u!222 &759800451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11289,7 +11778,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1 MINUT
+  m_Text: 1 MINUTE
 --- !u!222 &763394752
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11335,6 +11824,127 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &770560801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 770560802}
+  - component: {fileID: 770560805}
+  - component: {fileID: 770560804}
+  - component: {fileID: 770560803}
+  m_Layer: 5
+  m_Name: Text (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &770560802
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770560801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2001892911}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 83, y: -375}
+  m_SizeDelta: {x: 713.7, y: 154.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &770560803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770560801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: "El diamante rojo te dar\xE1 300 puntos adicionales cuando lo recojas."
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 41709248}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
+--- !u!114 &770560804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770560801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7866029e00da14e5d9075bdf5b1a1dfe, type: 3}
+    m_FontSize: 42
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 48
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: The red diamond will give you an additional 300 points when you pick it
+    up.
+--- !u!222 &770560805
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770560801}
+  m_CullTransparentMesh: 0
 --- !u!1 &771791028
 GameObject:
   m_ObjectHideFlags: 0
@@ -11878,7 +12488,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 840168574}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 431366573}
+        m_MethodName: ButtonNext
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &840168574
@@ -12274,7 +12895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1278139239}
+  mTarget: {fileID: 1620355556}
 --- !u!1 &880931790
 GameObject:
   m_ObjectHideFlags: 0
@@ -12387,8 +13008,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ei!, estic jugant Combix i \xE9s una passada! Podeu descarregar-lo a la
-    botiga de Google"
+  m_Text: Hey, I'm playing Combix and it's amazing! You can download it to the Google
+    Store
 --- !u!222 &880931794
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12444,8 +13065,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -291.3}
-  m_SizeDelta: {x: 445, y: 445}
+  m_AnchoredPosition: {x: 0, y: -292.8}
+  m_SizeDelta: {x: 647.8, y: 448}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &892388432
 MonoBehaviour:
@@ -12467,7 +13088,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 2d092bfecfd50487786ed94ec77dcaad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 31ad32ad809ce514abb1de88bda11fff, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -12646,8 +13267,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: Per jugar la partida, pots equipar la teva motxilla amb fins a 5 cartes.
-    Pulsa a sobre d'elles per passar-les de l'inventari a la motxilla.
+  m_Text: To play the game, you can equip your backpack with up to 5 cards. Click
+    on these to move them from the inventory to the backpack.
 --- !u!222 &903511657
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12692,7 +13313,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1119}
+  m_AnchoredPosition: {x: 0, y: -1125}
   m_SizeDelta: {x: 400, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &906653708
@@ -12734,7 +13355,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 906653709}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 431366573}
+        m_MethodName: ButtonNext
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &906653709
@@ -13067,7 +13699,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "M\xC9S"
+  m_Text: MORE
 --- !u!222 &918327850
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13200,7 +13832,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VELOCITAT
+  m_Text: SPEED
 --- !u!222 &929918066
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13322,7 +13954,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -240.5}
+  m_AnchoredPosition: {x: -179, y: -240.5}
   m_SizeDelta: {x: 325.5, y: 345.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &945169281
@@ -14320,7 +14952,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PUNTS
+  m_Text: POINTS
 --- !u!222 &1009455064
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15005,12 +15637,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "El prop\xF2sit del joc \xE9s completar la combinaci\xF3 de colors que apareix
-    a la part superior de la pantalla. Cada vegada que es completa un color, aquest
-    desapareix de la combinaci\xF3. Quan hagis completat tots els colors, passar\xE0
-    al seg\xFCent nivell autom\xE0ticament. La velocitat d'aparici\xF3 dels colors
-    a la graella anir\xE0 aumentant amb els nivells. L'objectiu \xE9s obtenir la m\xE0xima
-    puntuaci\xF3 possible."
+  m_Text: The purpose of the game is to achieve the color scheme that appears at the
+    top of the screen. Each time a color is completed it will disappear from the combination.
+    When you have completed all of them, it will automatically move to the next level.
+    The speed at which colors appear on the grid will increase with each level. The
+    goal is to get the highest possible score.
 --- !u!222 &1034538592
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15030,6 +15661,7 @@ GameObject:
   - component: {fileID: 1041340879}
   - component: {fileID: 1041340881}
   - component: {fileID: 1041340880}
+  - component: {fileID: 1041340882}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -15098,6 +15730,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041340878}
   m_CullTransparentMesh: 0
+--- !u!114 &1041340882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041340878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: NEXT
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 43667161}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
 --- !u!1 &1043479181
 GameObject:
   m_ObjectHideFlags: 0
@@ -15378,7 +16050,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1052531897}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 431366573}
+        m_MethodName: ButtonNext
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1052531897
@@ -15963,7 +16646,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "PUNTUACI\xD3"
+  m_Text: SCORE
 --- !u!222 &1066988303
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16085,10 +16768,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Comen\xE7arem amb una graella buida que s'anir\xE0 omplint de colors primaris
-    (blau, groc i vermell) per poder formar les combinacions. Per realitzar aquestes
-    combinacions, arrosega un color a sobre d'un altre. Ves amb compte, si el grid
-    s'omple completament, perdr\xE0s la partida."
+  m_Text: We will start with an empty grid that will be filled with primary colors
+    (blue, yellow and red) to form the combinations. To make the color combinations,
+    drag one color on top of the other. Be careful, if the grid fills up completely,
+    you will lose the game.
 --- !u!222 &1069449734
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16316,7 +16999,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: JUGAR
+  m_Text: PLAY
 --- !u!222 &1073061597
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16436,7 +17119,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NETEJA
+  m_Text: CLEAN
 --- !u!222 &1076952617
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16565,7 +17248,7 @@ PrefabInstance:
     - target: {fileID: 77461290902152690, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
       propertyPath: m_Text
-      value: 1 MINUT
+      value: 1 MINUTE
       objectReference: {fileID: 0}
     - target: {fileID: 77461290902152691, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
@@ -16575,7 +17258,7 @@ PrefabInstance:
     - target: {fileID: 77461290680751723, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
       propertyPath: m_Text
-      value: "M\xC9S"
+      value: MORE
       objectReference: {fileID: 0}
     - target: {fileID: 77461290680751716, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
@@ -16763,6 +17446,7 @@ GameObject:
   - component: {fileID: 1136245548}
   - component: {fileID: 1136245550}
   - component: {fileID: 1136245549}
+  - component: {fileID: 1136245551}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -16831,6 +17515,175 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136245547}
   m_CullTransparentMesh: 0
+--- !u!114 &1136245551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136245547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: NEXT
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 43667161}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
+--- !u!1 &1142291218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1142291219}
+  - component: {fileID: 1142291222}
+  - component: {fileID: 1142291221}
+  - component: {fileID: 1142291220}
+  m_Layer: 5
+  m_Name: ButtonNext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1142291219
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142291218}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1374485963}
+  m_Father: {fileID: 1278139236}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -1154}
+  m_SizeDelta: {x: 400, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1142291220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142291218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1142291221}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 431366573}
+        m_MethodName: ButtonNext
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1142291221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142291218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 2917eb4720c9f854b891420e02f3fee0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1142291222
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142291218}
+  m_CullTransparentMesh: 0
 --- !u!114 &1144256725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16879,8 +17732,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -826}
-  m_SizeDelta: {x: 870.1, y: 583}
+  m_AnchoredPosition: {x: 0, y: -783}
+  m_SizeDelta: {x: 870.1, y: 497.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1154545717
 MonoBehaviour:
@@ -16956,11 +17809,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Arrossegueu diferents colors, un a sobre de l'altre, per formar els colors
-    necessaris per completar la combinaci\xF3 necess\xE0ria. Amb els colors primaris,
-    formar\xE0s colors secundaris i, amb colors secundaris, formar\xE0s terciaris.
-    Cal recordar r\xE0pidament les combinacions de colors, ja que haur\xE0s de repetir-les
-    durant el joc."
+  m_Text: Drag different colors, one on top of the other, to form the colors needed
+    to complete the required combination. With primary colors, you will form secondary
+    colors, and with secondary colors, you will form tertiaries. You must quickly
+    remember the color combinations, as you will have to repeat them during the game.
 --- !u!222 &1154545719
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17156,8 +18008,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Carta de 1.000 punts, al arrossegar-la a la graella, obtindr\xE0s mil punts
-    a l'instant."
+  m_Text: Letter of 1,000 points, dragging it to the grid, you will get a thousand
+    points instantly.
 --- !u!222 &1168409506
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17277,7 +18129,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Qualifica Ara!
+  m_Text: Rate Now!
 --- !u!222 &1189436331
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17402,6 +18254,126 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197011605}
   m_CullTransparentMesh: 0
+--- !u!1 &1199917830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1199917831}
+  - component: {fileID: 1199917833}
+  - component: {fileID: 1199917832}
+  - component: {fileID: 1199917834}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1199917831
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199917830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1481487013}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -6}
+  m_SizeDelta: {x: 267.1, y: 76.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1199917832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199917830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.995283, b: 0.995283, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: f38a763111886470fb73c57970a9e60a, type: 3}
+    m_FontSize: 44
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 45
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: NEXT
+--- !u!222 &1199917833
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199917830}
+  m_CullTransparentMesh: 0
+--- !u!114 &1199917834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199917830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: NEXT
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 43667161}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
 --- !u!1 &1202687774
 GameObject:
   m_ObjectHideFlags: 0
@@ -17641,7 +18613,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Com qualificaria '
+  m_Text: 'How would you rate '
 --- !u!222 &1212892283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17890,8 +18862,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Carta esborrat de graella. A l'arrossegar-la, la graella es netejar\xE0
-    completament de colors."
+  m_Text: Letter erased from the grill. When dragged, the grill will be completely
+    cleaned of colors.
 --- !u!222 &1234265462
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18011,7 +18983,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1 MINUT
+  m_Text: 1 MINUTE
 --- !u!222 &1242964715
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18072,7 +19044,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NETEJA
+  m_Text: CLEAN
 --- !u!114 &1248359057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18268,12 +19240,13 @@ RectTransform:
   m_Children:
   - {fileID: 892388431}
   - {fileID: 1958162657}
+  - {fileID: 1142291219}
   m_Father: {fileID: 431366571}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 510.7}
+  m_AnchoredPosition: {x: 0, y: 550}
   m_SizeDelta: {x: 833.2, y: 78.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1278139237
@@ -18288,7 +19261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTerm: Arrastrando Colores
+  mTerm: THE DIAMONDS
   mTermSecondary: 
   PrimaryTermModifier: 0
   SecondaryTermModifier: 0
@@ -18364,7 +19337,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ARROSSEGANT COLORS
+  m_Text: THE DIAMONDS
 --- !u!222 &1278139240
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19781,7 +20754,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Aix\xF2 \xE9s dolent. Voleu enviar-nos comentaris?"
+  m_Text: That's bad. Would you like to give us some feedback instead?
 --- !u!222 &1342925814
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19972,6 +20945,126 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352453336}
   m_CullTransparentMesh: 0
+--- !u!1 &1357314104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1357314105}
+  - component: {fileID: 1357314107}
+  - component: {fileID: 1357314106}
+  - component: {fileID: 1357314108}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1357314105
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357314104}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 159295839}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -6}
+  m_SizeDelta: {x: 267.1, y: 76.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1357314106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357314104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.995283, b: 0.995283, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: f38a763111886470fb73c57970a9e60a, type: 3}
+    m_FontSize: 44
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 45
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: PLAY
+--- !u!222 &1357314107
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357314104}
+  m_CullTransparentMesh: 0
+--- !u!114 &1357314108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357314104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: PLAY
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 1966435148}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
 --- !u!114 &1357943962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19985,6 +21078,126 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTarget: {fileID: 1415291267}
+--- !u!1 &1374485962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1374485963}
+  - component: {fileID: 1374485965}
+  - component: {fileID: 1374485964}
+  - component: {fileID: 1374485966}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1374485963
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374485962}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1142291219}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -6}
+  m_SizeDelta: {x: 267.1, y: 76.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1374485964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374485962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.995283, b: 0.995283, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: f38a763111886470fb73c57970a9e60a, type: 3}
+    m_FontSize: 44
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 45
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: NEXT
+--- !u!222 &1374485965
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374485962}
+  m_CullTransparentMesh: 0
+--- !u!114 &1374485966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374485962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: NEXT
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 43667161}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
 --- !u!1 &1397594019
 GameObject:
   m_ObjectHideFlags: 0
@@ -20192,7 +21405,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LA GRAELLA
+  m_Text: THE GRID
 --- !u!222 &1413661348
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20312,7 +21525,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VELOCITAT NIVELL 1
+  m_Text: LEVEL 1 SPEED
 --- !u!222 &1415291268
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20340,7 +21553,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1423932109
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20360,8 +21573,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 509}
-  m_SizeDelta: {x: 833.2, y: 102.2}
+  m_AnchoredPosition: {x: 0, y: 515.68}
+  m_SizeDelta: {x: 833.2, y: 88.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1423932110
 MonoBehaviour:
@@ -20451,7 +21664,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: OBJECTIU DEL JOC
+  m_Text: GAME OBJECTIVE
 --- !u!222 &1423932113
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20646,7 +21859,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1 MINUT
+  m_Text: 1 MINUTE
 --- !u!222 &1428862404
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20779,7 +21992,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VELOCITAT
+  m_Text: SPEED
 --- !u!222 &1451435422
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21087,7 +22300,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: INVENTARI
+  m_Text: INVENTORY
 --- !u!222 &1467385825
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21316,6 +22529,135 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473760496}
+  m_CullTransparentMesh: 0
+--- !u!1 &1481487012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1481487013}
+  - component: {fileID: 1481487016}
+  - component: {fileID: 1481487015}
+  - component: {fileID: 1481487014}
+  m_Layer: 5
+  m_Name: ButtonNext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1481487013
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481487012}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1199917831}
+  m_Father: {fileID: 2001892911}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -1154}
+  m_SizeDelta: {x: 400, y: 150}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1481487014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481487012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1481487015}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 431366573}
+        m_MethodName: ButtonNext
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1481487015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481487012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 2917eb4720c9f854b891420e02f3fee0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1481487016
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481487012}
   m_CullTransparentMesh: 0
 --- !u!1 &1496177804
 GameObject:
@@ -21702,7 +23044,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NIVELL 1
+  m_Text: LEVEL 1
 --- !u!222 &1506722998
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21710,6 +23052,132 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506722994}
+  m_CullTransparentMesh: 0
+--- !u!1 &1507713912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1507713913}
+  - component: {fileID: 1507713916}
+  - component: {fileID: 1507713915}
+  - component: {fileID: 1507713914}
+  m_Layer: 5
+  m_Name: Text (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1507713913
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507713912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2001892911}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 83, y: -686.4}
+  m_SizeDelta: {x: 713.7, y: 407.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1507713914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507713912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: "El diamante amarillo es el m\xE1s especial. Te dar\xE1 una carta de ayuda
+    aleatoria que se colocar\xE1 en tu mochila si hay espacio. Si no hay espacio,
+    la carta no se pierde, pasar\xE1 directamente a tu inventario y la podr\xE1s ver
+    cuando finalice la partida."
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 41709248}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
+--- !u!114 &1507713915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507713912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7866029e00da14e5d9075bdf5b1a1dfe, type: 3}
+    m_FontSize: 42
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 48
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: The yellow diamond is the most special. It will give you a random help letter
+    that will be placed in your backpack if there is space. If there is no space,
+    the letter is not lost, it will go directly to your inventory and you will see
+    it when the game ends.
+--- !u!222 &1507713916
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507713912}
   m_CullTransparentMesh: 0
 --- !u!1 &1508688267
 GameObject:
@@ -22126,7 +23594,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BOTIGA
+  m_Text: SHOP
 --- !u!222 &1538284902
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22560,7 +24028,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "1 MINUT M\xC9S"
+  m_Text: 1 MINUTE MORE
 --- !u!222 &1559875222
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22580,6 +24048,7 @@ GameObject:
   - component: {fileID: 1562830070}
   - component: {fileID: 1562830072}
   - component: {fileID: 1562830071}
+  - component: {fileID: 1562830073}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -22648,6 +24117,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562830069}
   m_CullTransparentMesh: 0
+--- !u!114 &1562830073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562830069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: NEXT
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 43667161}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
 --- !u!1 &1565390504
 GameObject:
   m_ObjectHideFlags: 0
@@ -22759,7 +24268,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LA GRAELLA
+  m_Text: THE GRID
 --- !u!222 &1565390508
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22880,8 +24389,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: Per jugar la partida, pots equipar la teva motxilla amb fins a 5 cartes.
-    Pulsa a sobre d'elles per passar-les de l'inventari a la motxilla.
+  m_Text: To play the game, you can equip your backpack with up to 5 cards. Click
+    on these to move them from the inventory to the backpack.
 --- !u!222 &1572095972
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23010,7 +24519,7 @@ PrefabInstance:
     - target: {fileID: 4568401288977780850, guid: d2073c77e557644c19b9ef4d268c2af1,
         type: 3}
       propertyPath: m_Text
-      value: PUNTS
+      value: POINTS
       objectReference: {fileID: 0}
     - target: {fileID: 4568401288977780851, guid: d2073c77e557644c19b9ef4d268c2af1,
         type: 3}
@@ -23044,7 +24553,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1579526517
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23162,7 +24671,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LES CARTES
+  m_Text: THE CARDS
 --- !u!222 &1579526521
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23773,7 +25282,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1604614920
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23885,7 +25394,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: El Grid
+  m_Text: THE GRID
 --- !u!222 &1604614924
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24072,10 +25581,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tamb\xE9 pots arrossegar les caselles del mateix color per guanyar espai
-    a la graella y, a m\xE9s a m\xE9s, aconsseguir punts per fer-ho. No importa si
-    son colors primaris, secundaris o terciaris, sempre que siguin els dos del mateix
-    color. Aix\xF2 et ser\xE0 molt \xFAtil en nivells de velocitat elevada."
+  m_Text: You can also drag the squares of the same color to gain free space in the
+    grid and also get points for it. It doesn't matter if they are primary, secondary
+    or tertiary colors, as long as they are both the same color. This will be very
+    useful in high speed levels.
 --- !u!222 &1619808050
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24103,7 +25612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1620355553
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24214,7 +25723,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ARROSSEGANT COLORS
+  m_Text: DRAGGING COLORS
 --- !u!222 &1620355557
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24503,7 +26012,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LA GRAELLA
+  m_Text: THE GRID
 --- !u!222 &1637020343
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24711,7 +26220,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DOBLE
+  m_Text: DOUBLE
 --- !u!222 &1662205040
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24831,7 +26340,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enviar Comentaris
+  m_Text: Send Feedback
 --- !u!222 &1664386063
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25450,7 +26959,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1000 PUNTS
+  m_Text: 1000 POINTS
 --- !u!222 &1710350802
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25511,7 +27020,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PUNTS
+  m_Text: POINTS
 --- !u!114 &1710386690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25690,7 +27199,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "M\xC9S"
+  m_Text: MORE
 --- !u!222 &1711863749
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26274,7 +27783,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NIVELL 1
+  m_Text: LEVEL 1
 --- !u!222 &1736787595
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26370,7 +27879,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Idioma
+  m_Text: Language
 --- !u!222 &1747284395
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27021,7 +28530,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MOTXILLA
+  m_Text: BACKPACK
 --- !u!222 &1796282353
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27331,7 +28840,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "M\xC9S"
+  m_Text: MORE
 --- !u!222 &1827453632
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27339,6 +28848,80 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827453628}
+  m_CullTransparentMesh: 0
+--- !u!1 &1834825559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1834825560}
+  - component: {fileID: 1834825562}
+  - component: {fileID: 1834825561}
+  m_Layer: 5
+  m_Name: Image (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1834825560
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834825559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2001892911}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -371, y: -560}
+  m_SizeDelta: {x: 149.7, y: 154.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1834825561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834825559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 4256c09b8194b4dfca323a85fdcfbfbf, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1834825562
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834825559}
   m_CullTransparentMesh: 0
 --- !u!1 &1856795111
 GameObject:
@@ -27451,7 +29034,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VELOCITAT
+  m_Text: SPEED
 --- !u!222 &1856795115
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27538,7 +29121,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1868079414}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 672256369}
+        m_MethodName: LoadTutorialPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1868079414
@@ -27589,6 +29183,7 @@ GameObject:
   - component: {fileID: 1869822345}
   - component: {fileID: 1869822347}
   - component: {fileID: 1869822346}
+  - component: {fileID: 1869822348}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -27657,6 +29252,46 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1869822344}
   m_CullTransparentMesh: 0
+--- !u!114 &1869822348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869822344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: NEXT
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 43667161}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
 --- !u!1 &1870438037
 GameObject:
   m_ObjectHideFlags: 0
@@ -27932,7 +29567,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: INVENTARI
+  m_Text: INVENTORY
 --- !u!222 &1881212759
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28189,7 +29824,7 @@ PrefabInstance:
     - target: {fileID: 7109781379897342778, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
       propertyPath: m_Text
-      value: DOBLE
+      value: DOUBLE
       objectReference: {fileID: 0}
     - target: {fileID: 7109781379897342779, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
@@ -28199,7 +29834,7 @@ PrefabInstance:
     - target: {fileID: 7109781378511775367, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
       propertyPath: m_Text
-      value: "PUNTUACI\xD3"
+      value: SCORE
       objectReference: {fileID: 0}
     - target: {fileID: 7109781378511775416, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
@@ -28453,7 +30088,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: COMBI$ INSUFICIENTS
+  m_Text: NOT ENOUGH COMBI$
 --- !u!222 &1908946939
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28588,12 +30223,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 546168624}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.4, y: -616.5}
-  m_SizeDelta: {x: 699.5, y: 375.1}
+  m_AnchoredPosition: {x: 6.4, y: -742.5}
+  m_SizeDelta: {x: 699.5, y: 627}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1916703658
 MonoBehaviour:
@@ -28607,9 +30242,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTerm: "Si el grid se llena o se acaba el tiempo, la partida finalizar\xE1. Intenta
-    resolver la combinaci\xF3n de colores requerida en el m\xEDnimo tiempo posible
-    para ganar segundos extra en el siguiente nivel."
+  mTerm: "La partida finaliza cuando se llena la parrilla o cuando se acaba el tiempo.
+    Para el primer caso, intenta limpiar la parrilla de colores iguales. Para el segundo
+    caso, intenta finalizar los niveles dejando tiempo sobrante, esto har\xE1 que
+    ganes bonos de tiempo para el siguiente nivel. Te en cuenta que los niveles van
+    aceler\xE1ndose a medida que vas avanzando."
   mTermSecondary: 
   PrimaryTermModifier: 0
   SecondaryTermModifier: 0
@@ -28670,9 +30307,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Si el grid s'omple o s'acaba el temps, la partida finalitzar\xE0. Intenta
-    resoldre la combinaci\xF3 de colors requerida en el m\xEDnim temps possible per
-    guanyar segons extra en el seg\xFCent nivell."
+  m_Text: The game ends when the grill is full or when the time is up. For the first
+    case, try cleaning the grill with the same colors. For the second case, try to
+    finish the levels by leaving extra time, this will make you earn time bonuses
+    for the next level. Keep in mind that the levels are accelerating as you progress.
 --- !u!222 &1916703660
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28792,7 +30430,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "PUNTUACI\xD3"
+  m_Text: SCORE
 --- !u!222 &1918453363
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29119,7 +30757,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Qualifica '
+  m_Text: 'Rate '
 --- !u!114 &1943865519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29274,7 +30912,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: So
+  m_Text: Sound
 --- !u!222 &1953647013
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29358,8 +30996,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -826}
-  m_SizeDelta: {x: 870.1, y: 583}
+  m_AnchoredPosition: {x: 0, y: -788.5}
+  m_SizeDelta: {x: 870.1, y: 508}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1958162658
 MonoBehaviour:
@@ -29373,8 +31011,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTerm: "Tambi\xE9n puedes arrastrar las casillas del mismo color para ganar espacio
-    libre en el grid y adem\xE1s conseguir puntos por ello."
+  mTerm: "Durante el juego podr\xE1s recoger diamantes que se ir\xE1n generando en
+    las casillas con colores terciarios. Solo aparecer\xE1n en esas casillas, por
+    lo que debes crearlas antes y tener la suerte de que aparezcan. Una vez lo hagan,
+    para recogerlos solamente tienes que juntar la casilla del diamante con otra del
+    mismo color o llevarla a una de las casillas superiores de la combinaci\xF3n."
   mTermSecondary: 
   PrimaryTermModifier: 0
   SecondaryTermModifier: 0
@@ -29435,10 +31076,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tamb\xE9 pots arrossegar les caselles del mateix color per guanyar espai
-    a la graella y, a m\xE9s a m\xE9s, aconsseguir punts per fer-ho. No importa si
-    son colors primaris, secundaris o terciaris, sempre que siguin els dos del mateix
-    color. Aix\xF2 et ser\xE0 molt \xFAtil en nivells de velocitat elevada."
+  m_Text: During the game you can collect diamonds that will be generated in the boxes
+    with tertiary colors. They will only appear in those boxes, so you must create
+    them before and be lucky that they appear. Once they do, to collect them you only
+    have to join the square of the diamond with another of the same color or take
+    it to one of the upper boxes of the combination.
 --- !u!222 &1958162660
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29866,7 +31508,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NIVELL 1
+  m_Text: LEVEL 1
 --- !u!222 &1963072165
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29875,6 +31517,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963072161}
   m_CullTransparentMesh: 0
+--- !u!114 &1966435148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 1357314106}
 --- !u!1 &1981225652
 GameObject:
   m_ObjectHideFlags: 0
@@ -30469,6 +32124,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987092942}
   m_CullTransparentMesh: 0
+--- !u!1 &1987392192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1987392193}
+  - component: {fileID: 1987392195}
+  - component: {fileID: 1987392194}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1987392193
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987392192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2001892911}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -371, y: -374.99994}
+  m_SizeDelta: {x: 149.7, y: 154.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1987392194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987392192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: c5fa5de430f504e2dbbd5150fd48b5b6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1987392195
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987392192}
+  m_CullTransparentMesh: 0
 --- !u!1 &1989305445
 GameObject:
   m_ObjectHideFlags: 0
@@ -30609,7 +32338,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MOTXILLA
+  m_Text: BACKPACK
 --- !u!114 &1995703146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30690,6 +32419,149 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mTarget: {fileID: 1559875221}
+--- !u!1 &2001892910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2001892911}
+  - component: {fileID: 2001892915}
+  - component: {fileID: 2001892914}
+  - component: {fileID: 2001892913}
+  - component: {fileID: 2001892912}
+  m_Layer: 5
+  m_Name: TheDiamonds2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2001892911
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001892910}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 535967687}
+  - {fileID: 654254952}
+  - {fileID: 1481487013}
+  - {fileID: 1987392193}
+  - {fileID: 770560802}
+  - {fileID: 1834825560}
+  - {fileID: 1507713913}
+  m_Father: {fileID: 431366571}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 550}
+  m_SizeDelta: {x: 833.2, y: 78.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2001892912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001892910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 344445a89b4f74a0e9a0a766903df87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTerm: THE DIAMONDS
+  mTermSecondary: 
+  PrimaryTermModifier: 0
+  SecondaryTermModifier: 0
+  TermPrefix: 
+  TermSuffix: 
+  LocalizeOnAwake: 1
+  IgnoreRTL: 0
+  MaxCharactersInRTL: 0
+  IgnoreNumbersInRTL: 1
+  CorrectAlignmentForRTL: 1
+  AddSpacesToJoinedLanguages: 0
+  AllowLocalizedParameters: 1
+  TranslatedObjects: []
+  LocalizeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  AlwaysForceLocalize: 0
+  LocalizeCallBack:
+    Target: {fileID: 0}
+    MethodName: 
+  mGUI_ShowReferences: 0
+  mGUI_ShowTems: 1
+  mGUI_ShowCallback: 0
+  mLocalizeTarget: {fileID: 874376452}
+  mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
+--- !u!114 &2001892913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001892910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
+--- !u!114 &2001892914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001892910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: f38a763111886470fb73c57970a9e60a, type: 3}
+    m_FontSize: 33
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 0
+    m_MaxSize: 58
+    m_Alignment: 4
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: THE DIAMONDS
+--- !u!222 &2001892915
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001892910}
+  m_CullTransparentMesh: 0
 --- !u!1 &2007172960
 GameObject:
   m_ObjectHideFlags: 0
@@ -30949,7 +32821,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2015993085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30983,7 +32855,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ARROSSEGANT COLORS
+  m_Text: DRAGGING COLORS
 --- !u!114 &2015993086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31376,7 +33248,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "PUNTUACI\xD3"
+  m_Text: SCORE
 --- !u!222 &2030061153
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31497,8 +33369,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Carta d'1 minut. Amb aquesta carta aumentar\xE0s un minut m\xE9s el temps
-    de qu\xE8 disposes per finalitzar el nivell."
+  m_Text: 1 minute letter With this letter you will increase the time you have to
+    finish the level by one minute.
 --- !u!222 &2037262551
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31811,7 +33683,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NETEJA LA GRAELLA
+  m_Text: CLEAN THE GRID
 --- !u!222 &2055100017
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32637,7 +34509,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2124037181}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 431366573}
+        m_MethodName: ButtonNext
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2124037181
@@ -32784,7 +34667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 2030061152}
+  mTarget: {fileID: 1009455063}
 --- !u!1001 &77461291331041283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32905,7 +34788,7 @@ PrefabInstance:
     - target: {fileID: 77461290902152690, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
       propertyPath: m_Text
-      value: 1 MINUT
+      value: 1 MINUTE
       objectReference: {fileID: 0}
     - target: {fileID: 77461290902152691, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
@@ -32915,7 +34798,7 @@ PrefabInstance:
     - target: {fileID: 77461290680751723, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
       propertyPath: m_Text
-      value: "M\xC9S"
+      value: MORE
       objectReference: {fileID: 0}
     - target: {fileID: 77461290680751716, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
@@ -33044,7 +34927,7 @@ PrefabInstance:
     - target: {fileID: 78238838433162771, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
       propertyPath: m_Text
-      value: NIVELL 1
+      value: LEVEL 1
       objectReference: {fileID: 0}
     - target: {fileID: 78238838433162770, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
@@ -33054,7 +34937,7 @@ PrefabInstance:
     - target: {fileID: 78238838249856294, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
       propertyPath: m_Text
-      value: VELOCITAT
+      value: SPEED
       objectReference: {fileID: 0}
     - target: {fileID: 78238838249856289, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
@@ -33183,7 +35066,7 @@ PrefabInstance:
     - target: {fileID: 4568401288977780850, guid: d2073c77e557644c19b9ef4d268c2af1,
         type: 3}
       propertyPath: m_Text
-      value: PUNTS
+      value: POINTS
       objectReference: {fileID: 0}
     - target: {fileID: 4568401288977780851, guid: d2073c77e557644c19b9ef4d268c2af1,
         type: 3}
@@ -33212,12 +35095,12 @@ PrefabInstance:
     - target: {fileID: 5779083944459932063, guid: 4ec639376a4794e6f8c613d775c20fcb,
         type: 3}
       propertyPath: m_Text
-      value: Anspruch
+      value: Claim
       objectReference: {fileID: 0}
     - target: {fileID: 5779083944621153334, guid: 4ec639376a4794e6f8c613d775c20fcb,
         type: 3}
       propertyPath: m_Text
-      value: SCHLIESSEN
+      value: CLOSE
       objectReference: {fileID: 0}
     - target: {fileID: 5779083944621153334, guid: 4ec639376a4794e6f8c613d775c20fcb,
         type: 3}
@@ -33227,12 +35110,12 @@ PrefabInstance:
     - target: {fileID: 5779083944618466123, guid: 4ec639376a4794e6f8c613d775c20fcb,
         type: 3}
       propertyPath: m_Text
-      value: 'KOMM WIEDER REIN '
+      value: 'COME BACK IN '
       objectReference: {fileID: 0}
     - target: {fileID: 5779083945280770450, guid: 4ec639376a4794e6f8c613d775c20fcb,
         type: 3}
       propertyPath: m_Text
-      value: "T\xC4GLICHE BELOHNUNG"
+      value: DAILY REWARD
       objectReference: {fileID: 0}
     - target: {fileID: 5779083945280770450, guid: 4ec639376a4794e6f8c613d775c20fcb,
         type: 3}
@@ -33302,7 +35185,7 @@ PrefabInstance:
     - target: {fileID: 5779083945167520648, guid: 4ec639376a4794e6f8c613d775c20fcb,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000061035156
+      value: 0.000061727325
       objectReference: {fileID: 0}
     - target: {fileID: 350957879, guid: 4ec639376a4794e6f8c613d775c20fcb, type: 3}
       propertyPath: mLocalizeTarget
@@ -33353,7 +35236,7 @@ PrefabInstance:
     - target: {fileID: 6140389708341392906, guid: 4ec639376a4794e6f8c613d775c20fcb,
         type: 3}
       propertyPath: m_Text
-      value: "F\xDCR DEINE N\xC4CHSTE BELOHNUNG."
+      value: FOR YOUR NEXT REWARD.
       objectReference: {fileID: 0}
     - target: {fileID: 5779083944437854026, guid: 4ec639376a4794e6f8c613d775c20fcb,
         type: 3}
@@ -33562,7 +35445,7 @@ PrefabInstance:
     - target: {fileID: 7109781379897342778, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
       propertyPath: m_Text
-      value: DOBLE
+      value: DOUBLE
       objectReference: {fileID: 0}
     - target: {fileID: 7109781379897342779, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
@@ -33572,7 +35455,7 @@ PrefabInstance:
     - target: {fileID: 7109781378511775367, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
       propertyPath: m_Text
-      value: "PUNTUACI\xD3"
+      value: SCORE
       objectReference: {fileID: 0}
     - target: {fileID: 7109781378511775416, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
@@ -33701,7 +35584,7 @@ PrefabInstance:
     - target: {fileID: 7193915206561047603, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
       propertyPath: m_Text
-      value: NETEJA
+      value: CLEAN
       objectReference: {fileID: 0}
     - target: {fileID: 7193915206561047602, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
@@ -33711,7 +35594,7 @@ PrefabInstance:
     - target: {fileID: 7193915204885449827, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
       propertyPath: m_Text
-      value: LA GRAELLA
+      value: THE GRID
       objectReference: {fileID: 0}
     - target: {fileID: 7193915204885449826, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}

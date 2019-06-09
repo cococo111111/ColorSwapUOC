@@ -7,7 +7,7 @@ using GUIAnimator;
 
 public class PlayEffectsMenu : MonoBehaviour
 {
-
+    public static PlayEffectsMenu Instance;
     public GAui buttonPlay;
     public GAui buttonSettings;
     public GAui buttonRanking;
@@ -16,6 +16,7 @@ public class PlayEffectsMenu : MonoBehaviour
     public GAui buttonSocial;
     public GAui buttonRate;
     public GAui panelSettings;
+    public GAui panelTutorial;
     public GAui panelShop;
     public GAui panelCombis;
     public GAui panelGame;
@@ -25,9 +26,11 @@ public class PlayEffectsMenu : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this;
         GSui.Instance.m_AutoAnimation = false;
         GSui.Instance.m_IdleTime = 0;
         panelSettings.gameObject.SetActive(false);
+        panelTutorial.gameObject.SetActive(false);
         panelShop.gameObject.SetActive(false);
         panelCombis.gameObject.SetActive(false);
         panelGame.gameObject.SetActive(false);
@@ -62,6 +65,32 @@ public class PlayEffectsMenu : MonoBehaviour
     public void ExitSettingsPanel()
     {
         GSui.Instance.PlayOutAnims(panelSettings.transform, true);
+        GSui.Instance.PlayInAnims(buttonPlay.transform, true);
+        GSui.Instance.PlayInAnims(buttonSettings.transform, true);
+        GSui.Instance.PlayInAnims(buttonRanking.transform, true);
+        GSui.Instance.PlayInAnims(buttonShop.transform, true);
+        GSui.Instance.PlayInAnims(buttonCards.transform, true);
+        GSui.Instance.PlayInAnims(buttonSocial.transform, true);
+        GSui.Instance.PlayInAnims(buttonRate.transform, true);
+    }
+
+    public void LoadTutorialPanel()
+    {
+        panelTutorial.gameObject.SetActive(true);
+        GSui.Instance.PlayOutAnims(buttonPlay.transform, true);
+        GSui.Instance.PlayOutAnims(buttonSettings.transform, true);
+        GSui.Instance.PlayOutAnims(buttonRanking.transform, true);
+        GSui.Instance.PlayOutAnims(buttonShop.transform, true);
+        GSui.Instance.PlayOutAnims(buttonCards.transform, true);
+        GSui.Instance.PlayOutAnims(buttonSocial.transform, true);
+        GSui.Instance.PlayOutAnims(buttonRate.transform, true);
+        GSui.Instance.PlayOutAnims(panelGame.transform, true);
+        GSui.Instance.PlayInAnims(panelTutorial.transform, true);
+    }
+
+    public void ExitTutorialPanel()
+    {
+        GSui.Instance.PlayOutAnims(panelTutorial.transform, true);
         GSui.Instance.PlayInAnims(buttonPlay.transform, true);
         GSui.Instance.PlayInAnims(buttonSettings.transform, true);
         GSui.Instance.PlayInAnims(buttonRanking.transform, true);

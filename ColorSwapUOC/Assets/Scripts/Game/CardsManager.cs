@@ -21,6 +21,7 @@ public class CardsManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        position.Clear();
         TakeTheCards();
     }
 
@@ -327,46 +328,46 @@ public class CardsManager : MonoBehaviour
     {
         if (card == "coinsCard(Clone)")
         {
+            Destroy(cardGameObject);
             GameManager.Instance.ParticleCardsPoints(5, 1000);
             GameManager.Instance.MoneySound();
             GlobalInfo.backPack[position] = 0;
-            Destroy(cardGameObject);
             LoadConfig.Instance.SaveDataGame();
         }
         if (card == "x2Card(Clone)")
         {
+            Destroy(cardGameObject);
             GlobalInfo.score = GlobalInfo.score * 2;
             GameManager.Instance.ParticleCardsPoints(14, 0);
             GameManager.Instance.DoubleSound();
             GlobalInfo.backPack[position] = 0;
-            Destroy(cardGameObject);
             LoadConfig.Instance.SaveDataGame();
         }
         if (card == "oneMinCard(Clone)")
         {
+            Destroy(cardGameObject);
             GameManager.timer = GameManager.timer + 60;
             GameManager.Instance.ParticleCardsPoints(12, 0);
             GameManager.Instance.TicTacSound();
             GlobalInfo.backPack[position] = 0;
-            Destroy(cardGameObject);
             LoadConfig.Instance.SaveDataGame();
         }
         if (card == "eraserCard(Clone)")
         {
+            Destroy(cardGameObject);
             GameManager.Instance.ClearGrid();
             GameManager.Instance.ParticleCardsPoints(11, 0);
             GameManager.Instance.BroomSound();
             GlobalInfo.backPack[position] = 0;
-            Destroy(cardGameObject);
             LoadConfig.Instance.SaveDataGame();
         }
         if (card == "level1Card(Clone)")
         {
+            Destroy(cardGameObject);
             GlobalInfo.speed = 2.0f;
             GameManager.Instance.ParticleCardsPoints(13, 0);
             GameManager.Instance.BrakingSound();
             GlobalInfo.backPack[position] = 0;
-            Destroy(cardGameObject);
             LoadConfig.Instance.SaveDataGame();
         }
     }

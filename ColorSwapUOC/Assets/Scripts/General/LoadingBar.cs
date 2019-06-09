@@ -34,8 +34,16 @@ public class LoadingBar : MonoBehaviour {
         }
     }
 
+    public void OpenWebSite(string url)
+    {
+        Application.OpenURL(url);
+    }
+
     public void LoadScene()
     {
+        GlobalInfo.gameFirstTime = "false";
+        panelPrivacy.gameObject.SetActive(false);
+        LoadConfig.Instance.SaveDataGame();
         Invoke("Loading", waitSecondsPrev);
     }
 

@@ -33,7 +33,7 @@ public class CardCollision : MonoBehaviour, IDragHandler, IEndDragHandler
         if (onGrid)
         {
             CardsManager.Instance.ActionCard(this.name, position, this.gameObject);
-            //this.gameObject.SetActive(false);
+            position = 0;
         }
         else
         {
