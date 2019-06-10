@@ -518,7 +518,6 @@ public class GameManager : MonoBehaviour
                 }
                 levelGenerated = true;
             }
-            //GenerateLevel();
         }
     }
 

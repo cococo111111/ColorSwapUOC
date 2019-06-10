@@ -67,6 +67,7 @@ public class PlayEffects : MonoBehaviour
     {
         gameOver.gameObject.SetActive(true);
         GSui.Instance.PlayInAnims(gameOver.transform, true);
+        GameManager.diamond = false;
         StartCoroutine(GoToMainMenu());
     }
 
