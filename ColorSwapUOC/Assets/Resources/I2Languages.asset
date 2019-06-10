@@ -1304,6 +1304,25 @@ MonoBehaviour:
       - SCHUTZ
       Flags: 000000000000
       Languages_Touch: []
+    - Term: "Carta puntos X2. Al lanzarla sobre la parrilla, se duplicar\xE1 la puntuaci\xF3n
+        que tengas en ese momento."
+      TermType: 0
+      Description: 
+      Languages:
+      - Letter points X2. When you throw it on the grid, the score you have at that
+        moment will double.
+      - "Carta puntos X2. Al lanzarla sobre la parrilla, se duplicar\xE1 la puntuaci\xF3n
+        que tengas en ese momento."
+      - "Carta punts X2. En llan\xE7ar-la sobre la graella, es duplicar\xE0 la puntuaci\xF3
+        que tinguis en aquell moment."
+      - "Pontos de carta X2. Quando voc\xEA joga na grade, a pontua\xE7\xE3o que voc\xEA
+        tem nesse momento dobrar\xE1."
+      - "Lettre points X2. Lorsque vous le jetez sur la grille, le score que vous
+        avez \xE0 ce moment va doubler."
+      - Buchstabenpunkte X2. Wenn Sie es auf das Gitter werfen, verdoppelt sich die
+        Punktzahl, die Sie in diesem Moment haben.
+      Flags: 000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 

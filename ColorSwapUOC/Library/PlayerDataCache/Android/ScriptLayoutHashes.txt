@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/david/Documents/ColorSwapUOC/APK/Combix.aab
+C:/Users/david/Documents/ColorSwapUOC/APK/Combix.apk
 SceneListBegin?
 Assets/Scenes/NicolAinaSplash.unity
 Assets/Scenes/Title.unity
