@@ -36,8 +36,7 @@ public class MenuManager : MonoBehaviour
         {
             Invoke("RateApp", 1.5f);
         }
-       
-        Notifications.Init();
+      
         ScheduleRepeatLocalNotification();
         //NewInGame();
     }
@@ -114,7 +113,7 @@ public class MenuManager : MonoBehaviour
         NotificationContent content = PrepareNotificationContent();
 
         // Set the delay time as a TimeSpan.
-        TimeSpan delay = new TimeSpan(23, 30, 01);
+        TimeSpan delay = new TimeSpan(23, 45, 01);
 
         // Schedule the notification.
         Notifications.ScheduleLocalNotification(delay, content, NotificationRepeat.EveryDay);

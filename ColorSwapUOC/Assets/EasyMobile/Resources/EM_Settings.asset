@@ -282,12 +282,12 @@ MonoBehaviour:
     mSupportEmail: nicolainagames@gmail.com
     mIosAppId: 
     mAnnualCap: 12
-    mDelayAfterInstallation: 5
+    mDelayAfterInstallation: 0
     mCoolingOffPeriod: 5
     mIgnoreContraintsInDevelopment: 0
   mIsAdModuleEnable: 1
   mIsIAPModuleEnable: 0
   mIsGameServiceModuleEnable: 1
   mIsNotificationModuleEnable: 1
-  mActiveModuleIndex: 3
+  mActiveModuleIndex: 5
   mIsSelectingModule: 0
