@@ -20,6 +20,10 @@ public class GameManager : MonoBehaviour
     float speed;
     bool speedLevelChanges = false;
     bool moreThan10000;
+    public GameObject sonido;
+    public GameObject soundON;
+    public GameObject soundOFF;
+    bool soundGame;
 
     public bool gameOver = false;
     public static bool diamond = false;
@@ -65,6 +69,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        sonido.SetActive(false);
+        soundGame = GlobalInfo.sound;
         playing = false;
         time = GameObject.Find("TimeText").GetComponent<Text>();
         ShowScore = GameObject.Find("ScoreBox");
@@ -74,6 +80,16 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        if (soundGame)
+        {
+            soundOFF.SetActive(false);
+            soundON.SetActive(true);
+        }
+        if (!soundGame)
+        {
+            soundOFF.SetActive(true);
+            soundON.SetActive(false);
+        }
         moreThan10000 = false;
         GlobalInfo.score = 0;
         timer = 60;
@@ -90,6 +106,7 @@ public class GameManager : MonoBehaviour
     {
         GlobalInfo.speed = 2.0f;
         speed = GlobalInfo.speed;
+        sonido.SetActive(true);
         PlayEffects.Instance.grid.SetActive(true);
         PlayEffects.Instance.gridBackGround.SetActive(true);
         PlayEffects.Instance.gridResult.SetActive(true);
@@ -102,6 +119,16 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if (!GlobalInfo.sound)
+        {
+            var audio = this.GetComponent<AudioSource>();
+            audio.enabled= false;
+        }
+        if (GlobalInfo.sound)
+        {
+            var audio = this.GetComponent<AudioSource>();
+            audio.enabled = true;
+        }
         CountDown();
         ShowPoints();
         if (System.Math.Abs(speed - GlobalInfo.speed) > EPSILON && !speedLevelChanges)
@@ -339,8 +366,12 @@ public class GameManager : MonoBehaviour
                 //GlobalInfo.level++;
                 ShowLevel();
                 //Llegim el fitxer de nivells
-                if (GlobalInfo.levelNum < 1)
+                if (GlobalInfo.levelNum < 1 || GlobalInfo.levelNum > 20)
                 {
+                    if (GlobalInfo.levelNum > 20)
+                    {
+                        GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_THATS_ALL_FOLKS);
+                    }
                     Levels.LoadLevel(1);
                 }
                 else
@@ -353,6 +384,14 @@ public class GameManager : MonoBehaviour
                     }
                     playing = false;
                     Levels.LoadLevel(GlobalInfo.levelNum);
+                    if(GlobalInfo.levelNum == 10)
+                    {
+                        GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_LIKE_MESSI);
+                    }
+                    if (GlobalInfo.levelNum == 15)
+                    {
+                        GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_MASTER_OF_PUPPETS);
+                    }
                 }
 
                 //Comencem a generar els nivells segons el nombre de grids
@@ -743,6 +782,7 @@ public class GameManager : MonoBehaviour
         }
         if (numberOther != numberThis)
         {
+            GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_TERTIARY);
             GameObject.Find(otherNameGrid).GetComponentInChildren<Cell>().typeColor = 3;
             Vector3 otherPosition = GameObject.Find(otherNameGrid).transform.position;
             ParticlePoints(otherPosition, 2, 50, false);
@@ -812,5 +852,22 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1.0f);
         Destroy(particle);
+    }
+
+    public void Sound()
+    {
+        if (soundGame)
+        {
+            soundOFF.SetActive(true);
+            soundON.SetActive(false);
+            GlobalInfo.sound = false;
+        }
+        if (!soundGame)
+        {
+            soundOFF.SetActive(false);
+            soundON.SetActive(true);
+            GlobalInfo.sound = true;
+        }
+        soundGame = !soundGame;
     }
 }

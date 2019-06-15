@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using EasyMobile;
+using UnityEngine;
 namespace I2.Loc
 {
 	[AddComponentMenu("I2/Localization/SetLanguage Button")]
@@ -12,7 +13,8 @@ namespace I2.Loc
 		
 		void OnClick()
 		{
-			ApplyLanguage();
+            GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_MULTILINGUAL);
+            ApplyLanguage();
         }
 
 		public void ApplyLanguage()

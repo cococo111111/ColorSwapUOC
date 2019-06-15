@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using EasyMobile;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -88,6 +89,7 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
                     onDiamond = true;
                     if (GameManager.Instance.typeDiamond == "Green")
                     {
+                        GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_GREEN_DAY);
                         GameManager.Instance.ParticleDiamondPoints(otherPosition, 3, 100, 0);
                         this.GetComponentInChildren<DiamondManager>().diamond = false;
                         GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond = false;
@@ -96,6 +98,7 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
                     }
                     if (GameManager.Instance.typeDiamond == "Red")
                     {
+                        GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_CCCP);
                         GameManager.Instance.ParticleDiamondPoints(otherPosition, 4, 300, 1);
                         this.GetComponentInChildren<DiamondManager>().diamond = false;
                         GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond = false;
@@ -107,6 +110,7 @@ public class CellCollision : MonoBehaviour, IDragHandler, IEndDragHandler
                     {
                         //GameManager.Instance.ParticleDiamondPoints(otherPosition, 5, 1000, 2);
                         CardsManager.Instance.GenerateCardYellowDiamond(otherPosition);
+                        GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_LOVE_YELLOW);
                         this.GetComponentInChildren<DiamondManager>().diamond = false;
                         GameObject.Find(theOther).GetComponentInChildren<DiamondManager>().diamond = false;
                         GameManager.Instance.ResetGrid(theOther);

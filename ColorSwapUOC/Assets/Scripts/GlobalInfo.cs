@@ -15,6 +15,7 @@ public class GlobalInfo : MonoBehaviour
     public static string coins= "0";
     public static List<int> cards = new List<int>();
     public static List<int> backPack = new List<int>();
+    public static bool sound;
 
     //Actual Level
     public static int levelNum;

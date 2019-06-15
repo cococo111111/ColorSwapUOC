@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using EasyMobile;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -356,6 +357,7 @@ public class CardsManager : MonoBehaviour
         {
             Destroy(cardGameObject);
             GameManager.Instance.ClearGrid();
+            GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_CLEAR_COLORS);
             GameManager.Instance.ParticleCardsPoints(11, 0);
             GameManager.Instance.BroomSound();
             GlobalInfo.backPack[position] = 0;

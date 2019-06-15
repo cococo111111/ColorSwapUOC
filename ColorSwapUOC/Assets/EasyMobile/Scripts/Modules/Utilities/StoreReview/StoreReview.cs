@@ -338,6 +338,7 @@ namespace EasyMobile
                     break;
                 case UserAction.Rate:
                     // Open store page.
+                    GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_I_LIKE_IT);
                     if (Application.platform == RuntimePlatform.IPhonePlayer)
                     {
                         Application.OpenURL("itms-apps://itunes.apple.com/app/id" + EM_Settings.RatingRequest.IosAppId + "?action=write-review");

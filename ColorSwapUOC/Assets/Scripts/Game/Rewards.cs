@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using EasyMobile;
 using NiobiumStudios;
 using UnityEngine;
 
@@ -45,6 +46,7 @@ public class Rewards : MonoBehaviour
         //Debug.Log(int.Parse(GlobalInfo.coins));
         if (myReward.unit == "1 MIN" && oneTime)
         {
+            GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_FIDELITY);
             var newCard = GlobalInfo.cards[3] + 1;
             GlobalInfo.cards[3] = newCard;
             LoadConfig.Instance.SaveDataGame();

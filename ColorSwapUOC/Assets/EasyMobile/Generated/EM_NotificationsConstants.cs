@@ -8,7 +8,7 @@ namespace EasyMobile
 {
 	public static class EM_NotificationsConstants
 	{
-		public const string UserCategory_UserCategory_notification_category_test = "UserCategory_notification_category_test";
+		public const string UserCategory_combix_category = "combix.category";
 
 	}
 }

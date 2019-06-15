@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using EasyMobile;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -32,6 +33,7 @@ public class CardCollision : MonoBehaviour, IDragHandler, IEndDragHandler
     {
         if (onGrid)
         {
+            GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_WE_PLAY_POKER);
             CardsManager.Instance.ActionCard(this.name, position, this.gameObject);
             position = 0;
         }

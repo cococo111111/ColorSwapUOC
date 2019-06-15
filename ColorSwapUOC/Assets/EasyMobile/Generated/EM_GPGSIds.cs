@@ -24,8 +24,23 @@
 
 public static class EM_GPGSIds
 {
+        public const string achievement_multilingual = "CgkIuKvt5bkXEAIQBw"; // <GPGSID>
+        public const string achievement_who_shares_distributes = "CgkIuKvt5bkXEAIQDA"; // <GPGSID>
+        public const string achievement_we_play_poker = "CgkIuKvt5bkXEAIQCQ"; // <GPGSID>
+        public const string achievement_clear_colors = "CgkIuKvt5bkXEAIQEw"; // <GPGSID>
+        public const string achievement_master_of_puppets = "CgkIuKvt5bkXEAIQDQ"; // <GPGSID>
+        public const string leaderboard_the_best_combix = "CgkIuKvt5bkXEAIQFA"; // <GPGSID>
+        public const string achievement_tertiary = "CgkIuKvt5bkXEAIQBQ"; // <GPGSID>
+        public const string achievement_thats_all_folks = "CgkIuKvt5bkXEAIQDg"; // <GPGSID>
+        public const string achievement_like_florentino = "CgkIuKvt5bkXEAIQCA"; // <GPGSID>
+        public const string achievement_time_is_money = "CgkIuKvt5bkXEAIQEg"; // <GPGSID>
+        public const string achievement_green_day = "CgkIuKvt5bkXEAIQDw"; // <GPGSID>
+        public const string achievement_love_yellow = "CgkIuKvt5bkXEAIQCg"; // <GPGSID>
+        public const string achievement_fidelity = "CgkIuKvt5bkXEAIQEQ"; // <GPGSID>
+        public const string achievement_i_like_it = "CgkIuKvt5bkXEAIQCw"; // <GPGSID>
+        public const string achievement_like_messi = "CgkIuKvt5bkXEAIQBg"; // <GPGSID>
+        public const string achievement_cccp = "CgkIuKvt5bkXEAIQEA"; // <GPGSID>
         public const string achievement_ive_mastered_it = "CgkIuKvt5bkXEAIQAw"; // <GPGSID>
-        public const string leaderboard_the_best_combix = "CgkIuKvt5bkXEAIQAQ"; // <GPGSID>
         public const string achievement_im_already_playing = "CgkIuKvt5bkXEAIQAg"; // <GPGSID>
 
 }

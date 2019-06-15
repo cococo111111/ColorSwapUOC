@@ -42,6 +42,20 @@ public class PlayEffects : MonoBehaviour
         GSui.Instance.PlayInAnims(tres.transform, true);
     }
 
+    private void Update()
+    {
+        if (!GlobalInfo.sound)
+        {
+            var audio = this.GetComponent<AudioSource>();
+            audio.enabled = false;
+        }
+        if (GlobalInfo.sound)
+        {
+            var audio = this.GetComponent<AudioSource>();
+            audio.enabled = true;
+        }
+    }
+
     public void ThreeOut()
     {
         GSui.Instance.PlayOutAnims(tres.transform, true);

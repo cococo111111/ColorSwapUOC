@@ -8,9 +8,24 @@ namespace EasyMobile
 {
 	public static class EM_GameServicesConstants
 	{
-		public const string Achievement_IVE_MASTERED_IT = "I'VE MASTERED IT";
-		public const string Achievement_IM_ALREADY_PLAYING = "I'M ALREADY PLAYING";
+		public const string Achievement_I_LIKE_IT = "I LIKE IT";
+		public const string Achievement_CCCP = "CCCP";
+		public const string Achievement_FIDELITY = "FIDELITY";
+		public const string Achievement_MULTILINGUAL = "MULTILINGUAL";
+		public const string Achievement_THATS_ALL_FOLKS = "THAT'S ALL, FOLKS?";
+		public const string Achievement_CLEAR_COLORS = "CLEAR COLORS";
 		public const string Leaderboard_THE_BEST_COMBIX = "THE BEST COMBIX";
+		public const string Achievement_LIKE_MESSI = "LIKE MESSI";
+		public const string Achievement_IM_ALREADY_PLAYING = "I'M ALREADY PLAYING";
+		public const string Achievement_LIKE_FLORENTINO = "LIKE FLORENTINO";
+		public const string Achievement_MASTER_OF_PUPPETS = "MASTER OF PUPPETS";
+		public const string Achievement_WE_PLAY_POKER = "WE PLAY POKER?";
+		public const string Achievement_TERTIARY = "TERTIARY";
+		public const string Achievement_WHO_SHARES_DISTRIBUTES = "WHO SHARES, DISTRIBUTES";
+		public const string Achievement_GREEN_DAY = "GREEN DAY";
+		public const string Achievement_IVE_MASTERED_IT = "I'VE MASTERED IT";
+		public const string Achievement_LOVE_YELLOW = "LOVE YELLOW";
+		public const string Achievement_TIME_IS_MONEY = "TIME IS MONEY";
 
 	}
 }

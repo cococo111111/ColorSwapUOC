@@ -59,7 +59,7 @@ MonoBehaviour:
         mAndroidId: ca-app-pub-3940256099942544/6300978111
       mDefaultInterstitialAdId:
         mIosId: 
-        mAndroidId: ca-app-pub-3940256099942544/8691691433
+        mAndroidId: ca-app-pub-3940256099942544/1033173712
       mDefaultRewardedAdId:
         mIosId: 
         mAndroidId: ca-app-pub-3940256099942544/5224354917
@@ -191,15 +191,82 @@ MonoBehaviour:
     - _name: I'VE MASTERED IT
       _iosId: 
       _androidId: CgkIuKvt5bkXEAIQAw
-    mAndroidXmlResources: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!--\nGoogle
-      Play game services IDs.\nSave this file as res/values/games-ids.xml in your
-      project.\n-->\n<resources>\n  <!-- app_id -->\n  <string name=\"app_id\" translatable=\"false\">805788407224</string>\n
-      \ <!-- package_name -->\n  <string name=\"package_name\" translatable=\"false\">com.NicolAina.ColorSwap</string>\n
-      \ <!-- achievement I'M ALREADY PLAYING -->\n  <string name=\"achievement_im_already_playing\"
-      translatable=\"false\">CgkIuKvt5bkXEAIQAg</string>\n  <!-- achievement I'VE
-      MASTERED IT -->\n  <string name=\"achievement_ive_mastered_it\" translatable=\"false\">CgkIuKvt5bkXEAIQAw</string>\n
-      \ <!-- leaderboard THE BEST COMBIX -->\n  <string name=\"leaderboard_the_best_combix\"
-      translatable=\"false\">CgkIuKvt5bkXEAIQAQ</string>\n</resources>"
+    - _name: TERTIARY
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQBQ
+    - _name: LIKE MESSI
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQBg
+    - _name: MULTILINGUAL
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQBw
+    - _name: LIKE FLORENTINO
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQCA
+    - _name: WE PLAY POKER?
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQCQ
+    - _name: LOVE YELLOW
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQCg
+    - _name: I LIKE IT
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQCw
+    - _name: WHO SHARES, DISTRIBUTES
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQDA
+    - _name: MASTER OF PUPPETS
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQDQ
+    - _name: THAT'S ALL, FOLKS?
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQDg
+    - _name: GREEN DAY
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQDw
+    - _name: CCCP
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQEA
+    - _name: FIDELITY
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQEQ
+    - _name: TIME IS MONEY
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQEg
+    - _name: CLEAR COLORS
+      _iosId: 
+      _androidId: CgkIuKvt5bkXEAIQEw
+    mAndroidXmlResources: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<!--\r\nGoogle
+      Play game services IDs.\r\nSave this file as res/values/games-ids.xml in your
+      project.\r\n-->\r\n<resources>\r\n  <!-- app_id -->\r\n  <string name=\"app_id\"
+      translatable=\"false\">805788407224</string>\r\n  <!-- package_name -->\r\n
+      \ <string name=\"package_name\" translatable=\"false\">com.NicolAina.ColorSwap</string>\r\n
+      \ <!-- achievement I'M ALREADY PLAYING -->\r\n  <string name=\"achievement_im_already_playing\"
+      translatable=\"false\">CgkIuKvt5bkXEAIQAg</string>\r\n  <!-- achievement I'VE
+      MASTERED IT -->\r\n  <string name=\"achievement_ive_mastered_it\" translatable=\"false\">CgkIuKvt5bkXEAIQAw</string>\r\n
+      \ <!-- achievement TERTIARY -->\r\n  <string name=\"achievement_tertiary\" translatable=\"false\">CgkIuKvt5bkXEAIQBQ</string>\r\n
+      \ <!-- achievement LIKE MESSI -->\r\n  <string name=\"achievement_like_messi\"
+      translatable=\"false\">CgkIuKvt5bkXEAIQBg</string>\r\n  <!-- achievement MULTILINGUAL
+      -->\r\n  <string name=\"achievement_multilingual\" translatable=\"false\">CgkIuKvt5bkXEAIQBw</string>\r\n
+      \ <!-- achievement LIKE FLORENTINO -->\r\n  <string name=\"achievement_like_florentino\"
+      translatable=\"false\">CgkIuKvt5bkXEAIQCA</string>\r\n  <!-- achievement WE
+      PLAY POKER? -->\r\n  <string name=\"achievement_we_play_poker\" translatable=\"false\">CgkIuKvt5bkXEAIQCQ</string>\r\n
+      \ <!-- achievement LOVE YELLOW -->\r\n  <string name=\"achievement_love_yellow\"
+      translatable=\"false\">CgkIuKvt5bkXEAIQCg</string>\r\n  <!-- achievement I LIKE
+      IT -->\r\n  <string name=\"achievement_i_like_it\" translatable=\"false\">CgkIuKvt5bkXEAIQCw</string>\r\n
+      \ <!-- achievement WHO SHARES, DISTRIBUTES -->\r\n  <string name=\"achievement_who_shares_distributes\"
+      translatable=\"false\">CgkIuKvt5bkXEAIQDA</string>\r\n  <!-- achievement MASTER
+      OF PUPPETS -->\r\n  <string name=\"achievement_master_of_puppets\" translatable=\"false\">CgkIuKvt5bkXEAIQDQ</string>\r\n
+      \ <!-- achievement THAT'S ALL, FOLKS? -->\r\n  <string name=\"achievement_thats_all_folks\"
+      translatable=\"false\">CgkIuKvt5bkXEAIQDg</string>\r\n  <!-- achievement GREEN
+      DAY -->\r\n  <string name=\"achievement_green_day\" translatable=\"false\">CgkIuKvt5bkXEAIQDw</string>\r\n
+      \ <!-- achievement CCCP -->\r\n  <string name=\"achievement_cccp\" translatable=\"false\">CgkIuKvt5bkXEAIQEA</string>\r\n
+      \ <!-- achievement FIDELITY -->\r\n  <string name=\"achievement_fidelity\" translatable=\"false\">CgkIuKvt5bkXEAIQEQ</string>\r\n
+      \ <!-- achievement TIME IS MONEY -->\r\n  <string name=\"achievement_time_is_money\"
+      translatable=\"false\">CgkIuKvt5bkXEAIQEg</string>\r\n  <!-- achievement CLEAR
+      COLORS -->\r\n  <string name=\"achievement_clear_colors\" translatable=\"false\">CgkIuKvt5bkXEAIQEw</string>\r\n
+      \ <!-- leaderboard THE BEST COMBIX -->\r\n  <string name=\"leaderboard_the_best_combix\"
+      translatable=\"false\">CgkIuKvt5bkXEAIQFA</string>\r\n</resources>\r\n"
     mEnableMultiplayer: 0
     mEnableSavedGames: 0
     mAutoConflictResolutionStrategy: 0
@@ -221,10 +288,10 @@ MonoBehaviour:
     mFirebaseTopics: []
     mCategoryGroups: []
     mDefaultCategory:
-      id: notification.category.default
+      id: combix.category
       groupId: 
-      name: Default
-      description: 
+      name: Combix
+      description: Combix Notifications
       importance: 0
       enableBadge: 1
       lights: 1
@@ -236,10 +303,10 @@ MonoBehaviour:
       soundName: 
       actionButtons: []
     mUserCategories:
-    - id: UserCategory_notification_category_test
+    - id: combix.category
       groupId: 
-      name: UserCategory_notification_category_test
-      description: UserCategory_notification_category_test
+      name: Combix
+      description: Combix Notificactions
       importance: 0
       enableBadge: 1
       lights: 1
@@ -289,5 +356,5 @@ MonoBehaviour:
   mIsIAPModuleEnable: 0
   mIsGameServiceModuleEnable: 1
   mIsNotificationModuleEnable: 1
-  mActiveModuleIndex: 5
+  mActiveModuleIndex: 0
   mIsSelectingModule: 0

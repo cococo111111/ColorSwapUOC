@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using EasyMobile;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -85,6 +86,7 @@ public class ShopMenu : MonoBehaviour
             GlobalInfo.coins = (int.Parse(GlobalInfo.coins) - 15000).ToString();
             var newCard = GlobalInfo.cards[3] + 1;
             GlobalInfo.cards[3] = newCard;
+            GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_TIME_IS_MONEY);
             LoadConfig.Instance.SaveDataGame();
             SetCards();
         }
@@ -102,6 +104,7 @@ public class ShopMenu : MonoBehaviour
             GlobalInfo.coins = (int.Parse(GlobalInfo.coins) - 30000).ToString();
             var newCard = GlobalInfo.cards[4] + 1;
             GlobalInfo.cards[4] = newCard;
+            GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_LIKE_FLORENTINO);
             LoadConfig.Instance.SaveDataGame();
             SetCards();
         }

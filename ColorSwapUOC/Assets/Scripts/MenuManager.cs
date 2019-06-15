@@ -16,14 +16,32 @@ public class MenuManager : MonoBehaviour
     public Text totalCombis;
     public Text bestScore;
     public Text bestScoreOnline;
+    public GameObject soundON;
+    public GameObject soundOFF;
+    bool soundGame;
 
     private void Awake()
     {
         //dailyRewards.SetActive(false);
+        soundGame = true;
     }
 
     private void Start()
     {
+        if (soundGame)
+        {
+            soundOFF.SetActive(true);
+            soundON.SetActive(false);
+            GlobalInfo.sound = false;
+            soundGame = false;
+        }
+        if (!soundGame)
+        {
+            soundOFF.SetActive(false);
+            soundON.SetActive(true);
+            GlobalInfo.sound = true;
+            soundGame = true;
+        }
         if (!GameServices.IsInitialized())
         {
             GameServices.Init();
@@ -91,12 +109,12 @@ public class MenuManager : MonoBehaviour
     content.userInfo.Add("number", 3);
     content.userInfo.Add("bool", true);
 
-    // You can optionally assign this notification to a category using the category ID.
-    // If you don't specify any category, the default one will be used.
-    // Note that it's recommended to use the category ID constants from the EM_NotificationsConstants class
-    // if it has been generated before. In this example, UserCategory_notification_category_test is the
-    // generated constant of the category ID "notification.category.test".
-    content.categoryId = EM_NotificationsConstants.UserCategory_UserCategory_notification_category_test;
+        // You can optionally assign this notification to a category using the category ID.
+        // If you don't specify any category, the default one will be used.
+        // Note that it's recommended to use the category ID constants from the EM_NotificationsConstants class
+        // if it has been generated before. In this example, UserCategory_notification_category_test is the
+        // generated constant of the category ID "notification.category.test".
+        content.categoryId = EM_NotificationsConstants.UserCategory_combix_category;
 
     // If you want to use default small icon and large icon (on Android),
     // don't set the smallIcon and largeIcon fields of the content.
@@ -118,18 +136,20 @@ public class MenuManager : MonoBehaviour
         // Schedule the notification.
         Notifications.ScheduleLocalNotification(delay, content, NotificationRepeat.EveryDay);
     }
-
-    //void NewInGame()
-    //{
-    //    if (GlobalInfo.gameFirstTime == "true")
-    //    {
-    //        //Accionar la pantalla de kit inicial
-    //        Debug.Log("NEW IN GAME");
-    //    }
-    //}
-
-    //public void LaunchDailyRewards()
-    //{
-    //    dailyRewards.SetActive(true);
-    //}
+    public void Sound()
+    {
+        if (soundGame)
+        {
+            soundOFF.SetActive(true);
+            soundON.SetActive(false);
+            GlobalInfo.sound = false;
+        }
+        if (!soundGame)
+        {
+            soundOFF.SetActive(false);
+            soundON.SetActive(true);
+            GlobalInfo.sound = true;
+        }
+        soundGame = !soundGame;
+    }
 }

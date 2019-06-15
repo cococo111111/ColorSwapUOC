@@ -13,6 +13,7 @@ public class GameOverManager : MonoBehaviour
     public Text totalCoins;
     int coinsGet;
     int coinsTotal;
+    bool best;
 
 
     // Start is called before the first frame update
@@ -20,6 +21,8 @@ public class GameOverManager : MonoBehaviour
     {
         //Colocamos la puntuacion
         score.text = GlobalInfo.score.ToString();
+
+        best = false;
 
         //Aumentamos las partidas jugadas
         GlobalInfo.sessionsCount++;
@@ -30,6 +33,7 @@ public class GameOverManager : MonoBehaviour
             GlobalInfo.maxScore = GlobalInfo.score.ToString();
             bestScore.text = GlobalInfo.maxScore;
             GameServices.ReportScore(long.Parse(GlobalInfo.maxScore), EM_GameServicesConstants.Leaderboard_THE_BEST_COMBIX);
+            best = true;
         }
         else
         {
@@ -49,7 +53,12 @@ public class GameOverManager : MonoBehaviour
 
     public void GoToMainMenu()
     {
-        GameServices.ShowLeaderboardUI();
+        if (best)
+        {
+            GameServices.ShowLeaderboardUI();
+            best = false;
+        }
+        
         UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
     }
 }
