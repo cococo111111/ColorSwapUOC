@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     public GameObject soundON;
     public GameObject soundOFF;
     bool soundGame;
+    public GameObject timeAudio;
 
     public bool gameOver = false;
     public static bool diamond = false;
@@ -122,12 +123,18 @@ public class GameManager : MonoBehaviour
         if (!GlobalInfo.sound)
         {
             var audio = this.GetComponent<AudioSource>();
-            audio.enabled= false;
+            var audio2 = timeAudio.GetComponent<AudioSource>();
+            audio.enabled = false;
+            audio2.enabled = false;
+           
         }
         if (GlobalInfo.sound)
         {
             var audio = this.GetComponent<AudioSource>();
+            var audio2 = timeAudio.GetComponent<AudioSource>();
             audio.enabled = true;
+            audio2.enabled = true;
+            
         }
         CountDown();
         ShowPoints();

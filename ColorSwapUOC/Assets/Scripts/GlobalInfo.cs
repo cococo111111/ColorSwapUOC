@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GlobalInfo : MonoBehaviour
 {
-    public static string configFile = "CombixCfg_v107alpha";
+    public static string configFile = "CombixCfg_v101";
 
 
     public static string version;

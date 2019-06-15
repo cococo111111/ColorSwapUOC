@@ -3068,6 +3068,7 @@ MonoBehaviour:
   sonido: {fileID: 282888513}
   soundON: {fileID: 37861398}
   soundOFF: {fileID: 713465064}
+  timeAudio: {fileID: 1486039004}
   gameOver: 0
   typeDiamond: 
   textPoints: {fileID: 7565297122679531958, guid: 20e767a136f0a4008b36b7f814b510e1,
