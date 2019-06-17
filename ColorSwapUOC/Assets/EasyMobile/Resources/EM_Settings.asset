@@ -176,14 +176,14 @@ MonoBehaviour:
         values: []
   mGameServiceSettings:
     mAutoInit: 0
-    mAutoInitDelay: 0
+    mAutoInitDelay: 3
     mAndroidMaxLoginRequests: 0
     mGpgsDebugLogEnabled: 0
     mGpgsPopupGravity: 0
     mLeaderboards:
     - _name: THE BEST COMBIX
       _iosId: 
-      _androidId: CgkIuKvt5bkXEAIQAQ
+      _androidId: CgkIuKvt5bkXEAIQFQ
     mAchievements:
     - _name: I'M ALREADY PLAYING
       _iosId: 
@@ -265,8 +265,8 @@ MonoBehaviour:
       \ <!-- achievement TIME IS MONEY -->\r\n  <string name=\"achievement_time_is_money\"
       translatable=\"false\">CgkIuKvt5bkXEAIQEg</string>\r\n  <!-- achievement CLEAR
       COLORS -->\r\n  <string name=\"achievement_clear_colors\" translatable=\"false\">CgkIuKvt5bkXEAIQEw</string>\r\n
-      \ <!-- leaderboard THE BEST COMBIX -->\r\n  <string name=\"leaderboard_the_best_combix\"
-      translatable=\"false\">CgkIuKvt5bkXEAIQFA</string>\r\n</resources>\r\n"
+      \ <!-- leaderboard COMBIX SCORE -->\r\n  <string name=\"leaderboard_combix_score\"
+      translatable=\"false\">CgkIuKvt5bkXEAIQFQ</string>\r\n</resources>\r"
     mEnableMultiplayer: 0
     mEnableSavedGames: 0
     mAutoConflictResolutionStrategy: 0
@@ -356,5 +356,5 @@ MonoBehaviour:
   mIsIAPModuleEnable: 0
   mIsGameServiceModuleEnable: 1
   mIsNotificationModuleEnable: 1
-  mActiveModuleIndex: 4
-  mIsSelectingModule: 1
+  mActiveModuleIndex: 2
+  mIsSelectingModule: 0

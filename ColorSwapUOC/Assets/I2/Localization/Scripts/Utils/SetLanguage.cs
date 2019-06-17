@@ -13,13 +13,14 @@ namespace I2.Loc
 		
 		void OnClick()
 		{
-            GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_MULTILINGUAL);
             ApplyLanguage();
         }
 
 		public void ApplyLanguage()
 		{
-			if( LocalizationManager.HasLanguage(_Language))
+            GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_MULTILINGUAL);
+            Debug.Log("AQUI");
+            if ( LocalizationManager.HasLanguage(_Language))
 			{
 				LocalizationManager.CurrentLanguage = _Language;
 			}

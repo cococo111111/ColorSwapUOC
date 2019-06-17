@@ -9,7 +9,7 @@ public class AppVersion : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        GameServices.ManagedInit();
+        //GameServices.ManagedInit();
         TextVersion.text = "Version: " + Application.version;
     }
 }

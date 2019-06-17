@@ -97,7 +97,7 @@ namespace NiobiumStudios
                 DateTime advancedTime = now.AddHours(debugTime.TotalHours);
 
                 TimeSpan diff = advancedTime - lastRewardTime;
-                Debug.Log("ID "+instanceId+" Last claim was " + (long)diff.TotalHours + " hours ago.");
+                //Debug.Log("ID "+instanceId+" Last claim was " + (long)diff.TotalHours + " hours ago.");
 
                 int days = (int)(Math.Abs(diff.TotalHours) / 24);
                 if (days == 0)

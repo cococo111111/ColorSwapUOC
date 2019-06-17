@@ -25,7 +25,7 @@ public class InterstitialAd : MonoBehaviour
     }
 
     // Event handler called when a rewarded ad has completed
-    void RewardedAdCompletedHandler(RewardedAdNetwork network, AdLocation location)
+    void RewardedAdCompletedHandler(RewardedAdNetwork network, AdPlacement location)
     {
         Debug.Log("Rewarded ad has completed. The user should be rewarded now.");
         GlobalInfo.coins = (int.Parse(GlobalInfo.coins) + 10000).ToString();
@@ -33,7 +33,7 @@ public class InterstitialAd : MonoBehaviour
     }
 
     // Event handler called when a rewarded ad has been skipped
-    void RewardedAdSkippedHandler(RewardedAdNetwork network, AdLocation location)
+    void RewardedAdSkippedHandler(RewardedAdNetwork network, AdPlacement location)
     {
         Debug.Log("Rewarded ad was skipped. The user should NOT be rewarded.");
     }

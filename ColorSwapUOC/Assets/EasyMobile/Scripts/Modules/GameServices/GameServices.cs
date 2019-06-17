@@ -90,7 +90,7 @@ namespace EasyMobile
             if (EM_Settings.GameServices.IsAutoInit)
             {
                 StartCoroutine(CRAutoInit(EM_Settings.GameServices.AutoInitDelay));
-            }   
+            }
         }
 
         IEnumerator CRAutoInit(float delay)
@@ -310,6 +310,7 @@ namespace EasyMobile
         /// <param name="callback">Callback receives a <c>true</c> value if the achievement is unlocked successfully, otherwise it receives <c>false</c>.</param>
         public static void UnlockAchievement(string achievementName, Action<bool> callback = null)
         {
+            Debug.Log("AQUI LOGRO");
             Achievement acm = GetAchievementByName(achievementName);
 
             if (acm != null)

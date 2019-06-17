@@ -29,11 +29,11 @@ public static class EM_GPGSIds
         public const string achievement_we_play_poker = "CgkIuKvt5bkXEAIQCQ"; // <GPGSID>
         public const string achievement_clear_colors = "CgkIuKvt5bkXEAIQEw"; // <GPGSID>
         public const string achievement_master_of_puppets = "CgkIuKvt5bkXEAIQDQ"; // <GPGSID>
-        public const string leaderboard_the_best_combix = "CgkIuKvt5bkXEAIQFA"; // <GPGSID>
         public const string achievement_tertiary = "CgkIuKvt5bkXEAIQBQ"; // <GPGSID>
         public const string achievement_thats_all_folks = "CgkIuKvt5bkXEAIQDg"; // <GPGSID>
         public const string achievement_like_florentino = "CgkIuKvt5bkXEAIQCA"; // <GPGSID>
         public const string achievement_time_is_money = "CgkIuKvt5bkXEAIQEg"; // <GPGSID>
+        public const string leaderboard_combix_score = "CgkIuKvt5bkXEAIQFQ"; // <GPGSID>
         public const string achievement_green_day = "CgkIuKvt5bkXEAIQDw"; // <GPGSID>
         public const string achievement_love_yellow = "CgkIuKvt5bkXEAIQCg"; // <GPGSID>
         public const string achievement_fidelity = "CgkIuKvt5bkXEAIQEQ"; // <GPGSID>

@@ -160,7 +160,6 @@ GameObject:
   - component: {fileID: 51007952}
   - component: {fileID: 51007951}
   - component: {fileID: 51007950}
-  - component: {fileID: 51007949}
   m_Layer: 5
   m_Name: ImageTop
   m_TagString: Untagged
@@ -187,18 +186,6 @@ RectTransform:
   m_AnchoredPosition: {x: -42, y: -232}
   m_SizeDelta: {x: 1095, y: 466}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &51007949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 51007947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f504d095e3d0f4ddc973ef361de98a10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &51007950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -432,7 +419,7 @@ MonoBehaviour:
   PlayOutAnimsFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 51007949}
+      - m_Target: {fileID: 0}
         m_MethodName: LoadStartScene
         m_Mode: 1
         m_Arguments:
@@ -843,7 +830,6 @@ GameObject:
   - component: {fileID: 305137027}
   - component: {fileID: 305137026}
   - component: {fileID: 305137025}
-  - component: {fileID: 305137024}
   m_Layer: 5
   m_Name: ImageBottom
   m_TagString: Untagged
@@ -870,18 +856,6 @@ RectTransform:
   m_AnchoredPosition: {x: -6, y: 236}
   m_SizeDelta: {x: 1095, y: 466}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &305137024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 305137022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f504d095e3d0f4ddc973ef361de98a10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &305137025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1115,8 +1089,8 @@ MonoBehaviour:
   PlayOutAnimsFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 305137024}
-        m_MethodName: LoadStartScene
+      - m_Target: {fileID: 0}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2361,8 +2335,8 @@ MonoBehaviour:
   PlayOutAnimsFinished:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1064584176}
-        m_MethodName: LoadStartScene
+      - m_Target: {fileID: 0}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
