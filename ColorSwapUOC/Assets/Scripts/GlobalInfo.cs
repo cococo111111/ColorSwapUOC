@@ -38,11 +38,11 @@ public class GlobalInfo : MonoBehaviour
     public static Vector3[] resultPositions = new[] { new Vector3(-1.78f, 2.7f, 0f), new Vector3(-0.88f, 2.7f, 0f), new Vector3(0.02f, 2.7f, 0f), new Vector3(0.92f, 2.7f, 0f), new Vector3(1.82f, 2.7f, 0f) };
 
     //Posicio de les cartes segons el nombre
-    public static Vector3[] Cards5 = new[] { new Vector3(0.25f, -1.5f, 0f), new Vector3(1.15f, -1.5f, 0f), new Vector3(2.05f, -1.5f, 0f), new Vector3(2.95f, -1.5f, 0f), new Vector3(3.85f, -1.5f, 0f) };
-    public static Vector3[] Cards4 = new[] { new Vector3(0.7f, -1.5f, 0f), new Vector3(1.6f, -1.5f, 0f), new Vector3(2.5f, -1.5f, 0f), new Vector3(3.4f, -1.5f, 0f) };
-    public static Vector3[] Cards3 = new[] { new Vector3(1.15f, -1.5f, 0f), new Vector3(2.05f, -1.5f, 0f), new Vector3(2.95f, -1.5f, 0f)};
-    public static Vector3[] Cards2 = new[] { new Vector3(1.6f, -1.5f, 0f), new Vector3(2.5f, -1.5f, 0f) };
-    public static Vector3[] Cards1 = new[] { new Vector3(2.05f, -1.5f, 0f) };
+    public static Vector3[] Cards5 = new[] { new Vector3(0.25f, -1.2f, 0f), new Vector3(1.15f, -1.2f, 0f), new Vector3(2.05f, -1.2f, 0f), new Vector3(2.95f, -1.2f, 0f), new Vector3(3.85f, -1.2f, 0f) };
+    public static Vector3[] Cards4 = new[] { new Vector3(0.7f, -1.2f, 0f), new Vector3(1.6f, -1.2f, 0f), new Vector3(2.5f, -1.2f, 0f), new Vector3(3.4f, -1.2f, 0f) };
+    public static Vector3[] Cards3 = new[] { new Vector3(1.15f, -1.2f, 0f), new Vector3(2.05f, -1.2f, 0f), new Vector3(2.95f, -1.2f, 0f)};
+    public static Vector3[] Cards2 = new[] { new Vector3(1.6f, -1.2f, 0f), new Vector3(2.5f, -1.2f, 0f) };
+    public static Vector3[] Cards1 = new[] { new Vector3(2.05f, -1.2f, 0f) };
 
 
 }

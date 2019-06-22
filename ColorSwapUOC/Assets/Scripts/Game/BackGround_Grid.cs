@@ -20,6 +20,7 @@ public class BackGround_Grid : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        this.GetComponent<RectTransform>().transform.position = new Vector3 (this.GetComponent<RectTransform>().transform.position.x, this.GetComponent<RectTransform>().transform.position.y, 1);     
         PaintCells();
     }
 
@@ -57,7 +58,8 @@ public class BackGround_Grid : MonoBehaviour
 
                 //instantiate the game object, at position pos, with rotation set to identity
                 GameObject cO = Instantiate(cell, pos, Quaternion.identity) as GameObject;
-                cO.GetComponent<SpriteRenderer>().sortingOrder = -1;
+                cO.GetComponent<SpriteRenderer>().sortingOrder = 0;
+                cO.transform.position = new Vector3(cO.transform.position.x, cO.transform.position.y, 1);
                 //set the parent of the cell to GRID so you can move the cells together with the grid;
                 cO.transform.parent = transform;
             }

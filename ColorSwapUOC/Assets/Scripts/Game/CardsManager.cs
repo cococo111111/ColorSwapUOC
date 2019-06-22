@@ -28,6 +28,7 @@ public class CardsManager : MonoBehaviour
 
     void TakeTheCards()
     {
+        position.Clear();
         //Primer netegem la grid de cartes
         foreach (Transform child in GameObject.Find("CardsManager").transform)
         {

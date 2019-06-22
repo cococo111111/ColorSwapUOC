@@ -43,3 +43,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Grid
+    uniqueID: 421311733
+    locked: 0
+  - name: Cell
+    uniqueID: 783194603
+    locked: 0
+  - name: Goal
+    uniqueID: 989058017
+    locked: 0
+  - name: Level
+    uniqueID: 3302464451
+    locked: 0
+  - name: Card
+    uniqueID: 3166813259
+    locked: 0
+  - name: UI
+    uniqueID: 667714033
+    locked: 0

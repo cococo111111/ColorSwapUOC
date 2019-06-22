@@ -517,7 +517,7 @@ PrefabInstance:
     - target: {fileID: 7193915206561047603, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
       propertyPath: m_Text
-      value: CLEAN
+      value: NETEJA
       objectReference: {fileID: 0}
     - target: {fileID: 7193915206561047602, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
@@ -527,7 +527,7 @@ PrefabInstance:
     - target: {fileID: 7193915204885449827, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
       propertyPath: m_Text
-      value: THE GRID
+      value: LA GRAELLA
       objectReference: {fileID: 0}
     - target: {fileID: 7193915204885449826, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
@@ -594,7 +594,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DOUBLE
+  m_Text: DOBLE
 --- !u!114 &96770068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -688,12 +688,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103001488}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 431366571}
-  m_RootOrder: 1
+  m_Father: {fileID: 689690968}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1599,7 +1599,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: INVENTORY
+  m_Text: INVENTARI
 --- !u!114 &157354725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2089,8 +2089,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Shall we play a game? I'm sure you want to beat your friends. Let's break
-    a record!
+  m_Text: "Fem una partida ?, estic segur de que vols batre als teus amics. Anem a
+    batre un r\xE8cord!"
 --- !u!222 &182116878
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2229,10 +2229,10 @@ RectTransform:
   m_Father: {fileID: 738068736}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.0821048, y: 0.14515875}
+  m_AnchorMax: {x: 0.92800003, y: 0.8606968}
+  m_AnchoredPosition: {x: -5.5, y: -5}
+  m_SizeDelta: {x: -813, y: -1272}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &193936771
 MonoBehaviour:
@@ -2844,7 +2844,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DOUBLE
+  m_Text: DOBLE
 --- !u!222 &201661088
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3559,7 +3559,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 900, y: 1500}
+  m_SizeDelta: {x: 790, y: 1686}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &260865882
 MonoBehaviour:
@@ -3969,10 +3969,10 @@ RectTransform:
   m_Father: {fileID: 759057911}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 369.99997, y: -212}
-  m_SizeDelta: {x: 180, y: 300}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 338, y: -152}
+  m_SizeDelta: {x: 170, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &288401311
 MonoBehaviour:
@@ -4154,10 +4154,10 @@ RectTransform:
   m_Father: {fileID: 738068736}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 10000, y: 2000}
+  m_AnchorMin: {x: 0.071, y: 0.128}
+  m_AnchorMax: {x: 0.95300007, y: 0.897}
+  m_AnchoredPosition: {x: -14, y: -23.5}
+  m_SizeDelta: {x: 9058, y: 487}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302120874
 MonoBehaviour:
@@ -4583,7 +4583,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CLEAN
+  m_Text: NETEJA
 --- !u!222 &333183568
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5117,7 +5117,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: "SEG\xDCENT"
 --- !u!222 &377087290
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5351,7 +5351,7 @@ PrefabInstance:
     - target: {fileID: 78238838433162771, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
       propertyPath: m_Text
-      value: LEVEL 1
+      value: NIVELL 1
       objectReference: {fileID: 0}
     - target: {fileID: 78238838433162770, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
@@ -5361,7 +5361,7 @@ PrefabInstance:
     - target: {fileID: 78238838249856294, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
       propertyPath: m_Text
-      value: SPEED
+      value: VELOCITAT
       objectReference: {fileID: 0}
     - target: {fileID: 78238838249856289, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
@@ -6485,22 +6485,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 689690968}
-  - {fileID: 103001489}
-  - {fileID: 1423932109}
-  - {fileID: 1604614920}
-  - {fileID: 2015993089}
-  - {fileID: 1620355553}
-  - {fileID: 1579526517}
-  - {fileID: 1278139236}
-  - {fileID: 2001892911}
-  - {fileID: 546168624}
   m_Father: {fileID: 738068736}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0, y: 0.5}
+  m_SizeDelta: {x: 100, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &431366572
 MonoBehaviour:
@@ -6990,7 +6981,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: POINTS
+  m_Text: PUNTS
 --- !u!222 &462229960
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7239,7 +7230,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: YOUR BEST SCORE
+  m_Text: "LA TEVA MILLOR PUNTUACI\xD3"
 --- !u!222 &464763092
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7454,7 +7445,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Not Now
+  m_Text: Ara No
 --- !u!222 &467296072
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7619,7 +7610,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You can buy the cards in the store.
+  m_Text: Les cartes pots comprar-les a la botiga.
 --- !u!114 &470673779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7942,7 +7933,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BEST ONLINE SCORE
+  m_Text: "MILLOR PUNTUACI\xD3 ONLINE"
 --- !u!222 &480438974
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8261,7 +8252,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BACKPACK
+  m_Text: MOTXILLA
 --- !u!222 &504005612
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8393,7 +8384,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Awesome! Let's do it!
+  m_Text: Impressionant! Fem-ho!
 --- !u!222 &507013957
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8538,7 +8529,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Don't Ask Again
+  m_Text: No Pregunteu De Nou
 --- !u!222 &524693963
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8648,7 +8639,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546168623}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -8656,8 +8647,8 @@ RectTransform:
   - {fileID: 335858263}
   - {fileID: 1916703657}
   - {fileID: 159295839}
-  m_Father: {fileID: 431366571}
-  m_RootOrder: 9
+  m_Father: {fileID: 689690968}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8752,7 +8743,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Game Over
+  m_Text: Fi de Partida
 --- !u!222 &546168628
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8832,7 +8823,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SETTINGS
+  m_Text: "CONFIGURACI\xD3"
 --- !u!222 &551023986
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9422,10 +9413,10 @@ RectTransform:
   m_Father: {fileID: 738068736}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0099792}
-  m_SizeDelta: {x: 1080, y: 1920}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.010864258, y: 0}
+  m_SizeDelta: {x: 0.27001953, y: -0.39990234}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &586002172
 MonoBehaviour:
@@ -9589,8 +9580,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Card speed \u200B\u200B level 1. Dragging this card, the speed of the level
-    will be reduced to the same level 1."
+  m_Text: "Carta velocitat nivell 1. Arrossegant aquesta carta, la velocitat del nivell
+    es reduir\xE0 a la mateixa del nivell 1."
 --- !u!222 &594857483
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9637,10 +9628,10 @@ RectTransform:
   m_Father: {fileID: 738068736}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.0821048, y: 0.14515875}
+  m_AnchorMax: {x: 0.92800003, y: 0.8752254}
+  m_AnchoredPosition: {x: -5.5, y: -19.5}
+  m_SizeDelta: {x: -815, y: -1301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &613929075
 MonoBehaviour:
@@ -9988,7 +9979,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Combix wants you!
+  m_Text: Combix et reclama!
 --- !u!222 &629491281
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10332,8 +10323,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The green diamond will give you an additional 100 points when you pick it
-    up.
+  m_Text: "El diamant verd et donar\xE0 100 punts addicionals quan ho recullis."
 --- !u!222 &654254955
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10562,7 +10552,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1500}
+  m_SizeDelta: {x: 921.4, y: 1502.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &674440669
 MonoBehaviour:
@@ -10712,7 +10702,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cancel
+  m_Text: "Cancel\xB7lar"
 --- !u!222 &674488919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10872,7 +10862,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DOUBLE SCORE
+  m_Text: "DOBLE PUNTUACI\xD3"
 --- !u!222 &683163129
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10909,14 +10899,23 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 103001489}
+  - {fileID: 1423932109}
+  - {fileID: 1604614920}
+  - {fileID: 2015993089}
+  - {fileID: 1620355553}
+  - {fileID: 1579526517}
+  - {fileID: 1278139236}
+  - {fileID: 2001892911}
+  - {fileID: 546168624}
   m_Father: {fileID: 431366571}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1500}
+  m_SizeDelta: {x: 900, y: 1396}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &689690969
 MonoBehaviour:
@@ -11066,7 +11065,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BACKPACK
+  m_Text: MOTXILLA
 --- !u!222 &700112278
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11620,8 +11619,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -245}
-  m_SizeDelta: {x: 700, y: 120}
+  m_AnchoredPosition: {x: 22.5, y: -245.5}
+  m_SizeDelta: {x: 763, y: 81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &759800447
 GameObject:
@@ -11734,7 +11733,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 2
-  m_Text: WATCH A VIDEO AND WIN 10.000 COMBI$
+  m_Text: MIRA UN VIDEO I GUANYA 10.000 COMBI$
 --- !u!222 &759800451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11854,7 +11853,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1 MINUTE
+  m_Text: 1 MINUT
 --- !u!222 &763394752
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12011,8 +12010,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The red diamond will give you an additional 300 points when you pick it
-    up.
+  m_Text: "El diamant vermell et donar\xE0 300 punts addicionals quan ho recullis."
 --- !u!222 &770560805
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12789,8 +12787,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 435.7, y: 689}
-  m_SizeDelta: {x: 127.6, y: 127.6}
+  m_AnchoredPosition: {x: 401.3, y: 628.8}
+  m_SizeDelta: {x: 118.9, y: 125.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &860664720
 MonoBehaviour:
@@ -12917,10 +12915,10 @@ RectTransform:
   m_Father: {fileID: 759057911}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -185.00002, y: -212}
-  m_SizeDelta: {x: 180, y: 300}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -202, y: -152}
+  m_SizeDelta: {x: 170, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &863936679
 MonoBehaviour:
@@ -12971,7 +12969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 2015993085}
+  mTarget: {fileID: 1278139239}
 --- !u!1 &880931790
 GameObject:
   m_ObjectHideFlags: 0
@@ -13084,8 +13082,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hey, I'm playing Combix and it's amazing! You can download it to the Google
-    Store
+  m_Text: "Ei!, estic jugant Combix i \xE9s una passada! Podeu descarregar-lo a la
+    botiga de Google"
 --- !u!222 &880931794
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13266,7 +13264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -245.4}
+  m_AnchoredPosition: {x: 0, y: -215}
   m_SizeDelta: {x: 805.4, y: 283.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &903511655
@@ -13343,8 +13341,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: To play the game, you can equip your backpack with up to 5 cards. Click
-    on these to move them from the inventory to the backpack.
+  m_Text: Per jugar la partida, pots equipar la teva motxilla amb fins a 5 cartes.
+    Pulsa a sobre d'elles per passar-les de l'inventari a la motxilla.
 --- !u!222 &903511657
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13775,7 +13773,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MORE
+  m_Text: "M\xC9S"
 --- !u!222 &918327850
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13908,7 +13906,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SPEED
+  m_Text: VELOCITAT
 --- !u!222 &929918066
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14383,8 +14381,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 441, y: 688}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 426.6, y: 666}
+  m_SizeDelta: {x: 117.7, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &966745087
 MonoBehaviour:
@@ -14681,8 +14679,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1500}
+  m_AnchoredPosition: {x: 0, y: 2.3}
+  m_SizeDelta: {x: 919.6, y: 1475.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978883598
 MonoBehaviour:
@@ -15028,7 +15026,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: POINTS
+  m_Text: PUNTS
 --- !u!222 &1009455064
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15599,6 +15597,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e8ec1566712b4bee88c31e8e380f301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1034278812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 5779083944655429804}
 --- !u!1 &1034538588
 GameObject:
   m_ObjectHideFlags: 0
@@ -15713,11 +15724,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The purpose of the game is to achieve the color scheme that appears at the
-    top of the screen. Each time a color is completed it will disappear from the combination.
-    When you have completed all of them, it will automatically move to the next level.
-    The speed at which colors appear on the grid will increase with each level. The
-    goal is to get the highest possible score.
+  m_Text: "El prop\xF2sit del joc \xE9s completar la combinaci\xF3 de colors que apareix
+    a la part superior de la pantalla. Cada vegada que es completa un color, aquest
+    desapareix de la combinaci\xF3. Quan hagis completat tots els colors, passar\xE0
+    al seg\xFCent nivell autom\xE0ticament. La velocitat d'aparici\xF3 dels colors
+    a la graella anir\xE0 aumentant amb els nivells. L'objectiu \xE9s obtenir la m\xE0xima
+    puntuaci\xF3 possible."
 --- !u!222 &1034538592
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15797,7 +15809,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: "SEG\xDCENT"
 --- !u!222 &1041340881
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16571,7 +16583,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 719}
+  m_AnchoredPosition: {x: 0, y: 704}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1063332175
@@ -16722,7 +16734,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SCORE
+  m_Text: "PUNTUACI\xD3"
 --- !u!222 &1066988303
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16844,10 +16856,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: We will start with an empty grid that will be filled with primary colors
-    (blue, yellow and red) to form the combinations. To make the color combinations,
-    drag one color on top of the other. Be careful, if the grid fills up completely,
-    you will lose the game.
+  m_Text: "Comen\xE7arem amb una graella buida que s'anir\xE0 omplint de colors primaris
+    (blau, groc i vermell) per poder formar les combinacions. Per realitzar aquestes
+    combinacions, arrosega un color a sobre d'un altre. Ves amb compte, si el grid
+    s'omple completament, perdr\xE0s la partida."
 --- !u!222 &1069449734
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17075,7 +17087,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PLAY
+  m_Text: JUGAR
 --- !u!222 &1073061597
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17195,7 +17207,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CLEAN
+  m_Text: NETEJA
 --- !u!222 &1076952617
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17324,7 +17336,7 @@ PrefabInstance:
     - target: {fileID: 77461290902152690, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
       propertyPath: m_Text
-      value: 1 MINUTE
+      value: 1 MINUT
       objectReference: {fileID: 0}
     - target: {fileID: 77461290902152691, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
@@ -17334,7 +17346,7 @@ PrefabInstance:
     - target: {fileID: 77461290680751723, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
       propertyPath: m_Text
-      value: MORE
+      value: "M\xC9S"
       objectReference: {fileID: 0}
     - target: {fileID: 77461290680751716, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
@@ -17582,7 +17594,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: "SEG\xDCENT"
 --- !u!222 &1136245550
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17885,10 +17897,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Drag different colors, one on top of the other, to form the colors needed
-    to complete the required combination. With primary colors, you will form secondary
-    colors, and with secondary colors, you will form tertiaries. You must quickly
-    remember the color combinations, as you will have to repeat them during the game.
+  m_Text: "Arrossegueu diferents colors, un a sobre de l'altre, per formar els colors
+    necessaris per completar la combinaci\xF3 necess\xE0ria. Amb els colors primaris,
+    formar\xE0s colors secundaris i, amb colors secundaris, formar\xE0s terciaris.
+    Cal recordar r\xE0pidament les combinacions de colors, ja que haur\xE0s de repetir-les
+    durant el joc."
 --- !u!222 &1154545719
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17949,8 +17962,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Letter points X2. When you throw it on the grid, the score you have at that
-    moment will double.
+  m_Text: "Carta punts X2. En llan\xE7ar-la sobre la graella, es duplicar\xE0 la puntuaci\xF3
+    que tinguis en aquell moment."
 --- !u!114 &1161523946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18206,8 +18219,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Letter of 1,000 points, dragging it to the grid, you will get a thousand
-    points instantly.
+  m_Text: "Carta de 1.000 punts, al arrossegar-la a la graella, obtindr\xE0s mil punts
+    a l'instant."
 --- !u!222 &1168409506
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18327,7 +18340,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rate Now!
+  m_Text: Qualifica Ara!
 --- !u!222 &1189436331
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18523,7 +18536,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: "SEG\xDCENT"
 --- !u!222 &1199917833
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18811,7 +18824,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'How would you rate '
+  m_Text: 'Com qualificaria '
 --- !u!222 &1212892283
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19060,8 +19073,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Letter erased from the grill. When dragged, the grill will be completely
-    cleaned of colors.
+  m_Text: "Carta esborrat de graella. A l'arrossegar-la, la graella es netejar\xE0
+    completament de colors."
 --- !u!222 &1234265462
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19181,7 +19194,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1 MINUTE
+  m_Text: 1 MINUT
 --- !u!222 &1242964715
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19242,7 +19255,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CLEAN
+  m_Text: NETEJA
 --- !u!114 &1248359057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19432,15 +19445,15 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1278139235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 892388431}
   - {fileID: 1958162657}
   - {fileID: 1142291219}
-  m_Father: {fileID: 431366571}
-  m_RootOrder: 7
+  m_Father: {fileID: 689690968}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -19535,7 +19548,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: THE DIAMONDS
+  m_Text: ELS DIAMANTS
 --- !u!222 &1278139240
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19580,7 +19593,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 720}
+  m_AnchoredPosition: {x: 0, y: 666}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1285954510
@@ -19655,8 +19668,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 431, y: 679}
-  m_SizeDelta: {x: 132.6, y: 132.6}
+  m_AnchoredPosition: {x: 405.35, y: 630.1}
+  m_SizeDelta: {x: 110.7, y: 125.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1294688539
 MonoBehaviour:
@@ -20233,8 +20246,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1500}
+  m_AnchoredPosition: {x: 1.0250244, y: 0.5}
+  m_SizeDelta: {x: 1084.0499, y: 1461}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1311387365
 MonoBehaviour:
@@ -20693,7 +20706,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 648}
+  m_AnchoredPosition: {x: 0, y: 567}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1321091273
@@ -20952,7 +20965,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: That's bad. Would you like to give us some feedback instead?
+  m_Text: "Aix\xF2 \xE9s dolent. Voleu enviar-nos comentaris?"
 --- !u!222 &1342925814
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21178,7 +21191,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1500}
+  m_SizeDelta: {x: 921.4, y: 1502.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1352453338
 MonoBehaviour:
@@ -21288,7 +21301,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PLAY
+  m_Text: JUGAR
 --- !u!222 &1357314107
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21421,7 +21434,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: "SEG\xDCENT"
 --- !u!222 &1374485965
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21505,10 +21518,10 @@ RectTransform:
   m_Father: {fileID: 759057911}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000011444092, y: -212}
-  m_SizeDelta: {x: 180, y: 300}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -21.999996, y: -152}
+  m_SizeDelta: {x: 170, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1397594021
 MonoBehaviour:
@@ -21677,7 +21690,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: THE GRID
+  m_Text: LA GRAELLA
 --- !u!222 &1413661348
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21797,7 +21810,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LEVEL 1 SPEED
+  m_Text: VELOCITAT NIVELL 1
 --- !u!222 &1415291268
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21833,15 +21846,15 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423932108}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1058402947}
   - {fileID: 1034538589}
   - {fileID: 906653707}
-  m_Father: {fileID: 431366571}
-  m_RootOrder: 2
+  m_Father: {fileID: 689690968}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -21936,7 +21949,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GAME OBJECTIVE
+  m_Text: OBJECTIU DEL JOC
 --- !u!222 &1423932113
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22131,7 +22144,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1 MINUTE
+  m_Text: 1 MINUT
 --- !u!222 &1428862404
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22264,7 +22277,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SPEED
+  m_Text: VELOCITAT
 --- !u!222 &1451435422
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22572,7 +22585,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: INVENTORY
+  m_Text: INVENTARI
 --- !u!222 &1467385825
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22709,8 +22722,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 434, y: 681}
-  m_SizeDelta: {x: 118.5, y: 118.5}
+  m_AnchoredPosition: {x: 402.97, y: 625.7}
+  m_SizeDelta: {x: 113.65, y: 118.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1473760498
 MonoBehaviour:
@@ -22967,8 +22980,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 435.4, y: 684}
-  m_SizeDelta: {x: 123.87, y: 128.11}
+  m_AnchoredPosition: {x: 406.4, y: 627.83}
+  m_SizeDelta: {x: 130.3, y: 137.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1496177806
 MonoBehaviour:
@@ -23316,7 +23329,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LEVEL 1
+  m_Text: NIVELL 1
 --- !u!222 &1506722998
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23439,10 +23452,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The yellow diamond is the most special. It will give you a random help letter
-    that will be placed in your backpack if there is space. If there is no space,
-    the letter is not lost, it will go directly to your inventory and you will see
-    it when the game ends.
+  m_Text: "El diamant groc \xE9s el m\xE9s especial. Et donar\xE0 una carta d'ajuda
+    aleat\xF2ria que es col\xB7locar\xE0 en la motxilla si hi ha espai. Si no hi ha
+    espai, la carta no es perd, passar\xE0 directament al teu inventari i la podr\xE0s
+    veure quan finalitzi la partida."
 --- !u!222 &1507713916
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23866,7 +23879,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SHOP
+  m_Text: BOTIGA
 --- !u!222 &1538284902
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23887,7 +23900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 1995703145}
+  mTarget: {fileID: 903511656}
 --- !u!1 &1550669740
 GameObject:
   m_ObjectHideFlags: 0
@@ -23924,8 +23937,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 393, y: 616}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 347.5, y: 537.6}
+  m_SizeDelta: {x: 95, y: 111}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1550669742
 MonoBehaviour:
@@ -24147,10 +24160,10 @@ RectTransform:
   m_Father: {fileID: 759057911}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 185, y: -212}
-  m_SizeDelta: {x: 180, y: 300}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 158, y: -152}
+  m_SizeDelta: {x: 170, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1559380835
 MonoBehaviour:
@@ -24300,7 +24313,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1 MINUTE MORE
+  m_Text: "1 MINUT M\xC9S"
 --- !u!222 &1559875222
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24380,7 +24393,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: "SEG\xDCENT"
 --- !u!222 &1562830072
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24540,7 +24553,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: THE GRID
+  m_Text: LA GRAELLA
 --- !u!222 &1565390508
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24584,7 +24597,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -258}
+  m_AnchoredPosition: {x: 0, y: -234}
   m_SizeDelta: {x: 805, y: 292.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1572095970
@@ -24661,8 +24674,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: To play the game, you can equip your backpack with up to 5 cards. Click
-    on these to move them from the inventory to the backpack.
+  m_Text: Per jugar la partida, pots equipar la teva motxilla amb fins a 5 cartes.
+    Pulsa a sobre d'elles per passar-les de l'inventari a la motxilla.
 --- !u!222 &1572095972
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24791,7 +24804,7 @@ PrefabInstance:
     - target: {fileID: 4568401288977780850, guid: d2073c77e557644c19b9ef4d268c2af1,
         type: 3}
       propertyPath: m_Text
-      value: POINTS
+      value: PUNTS
       objectReference: {fileID: 0}
     - target: {fileID: 4568401288977780851, guid: d2073c77e557644c19b9ef4d268c2af1,
         type: 3}
@@ -24833,7 +24846,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579526516}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -24849,8 +24862,8 @@ RectTransform:
   - {fileID: 470673781}
   - {fileID: 1161523948}
   - {fileID: 1052531895}
-  m_Father: {fileID: 431366571}
-  m_RootOrder: 6
+  m_Father: {fileID: 689690968}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -24945,7 +24958,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: THE CARDS
+  m_Text: LES CARTES
 --- !u!222 &1579526521
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25564,7 +25577,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1604614919}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -25572,8 +25585,8 @@ RectTransform:
   - {fileID: 1873480012}
   - {fileID: 1069449731}
   - {fileID: 2124037179}
-  m_Father: {fileID: 431366571}
-  m_RootOrder: 3
+  m_Father: {fileID: 689690968}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -25668,7 +25681,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: THE GRID
+  m_Text: LA GRAELLA
 --- !u!222 &1604614924
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25855,10 +25868,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You can also drag the squares of the same color to gain free space in the
-    grid and also get points for it. It doesn't matter if they are primary, secondary
-    or tertiary colors, as long as they are both the same color. This will be very
-    useful in high speed levels.
+  m_Text: "Tamb\xE9 pots arrossegar les caselles del mateix color per guanyar espai
+    a la graella y, a m\xE9s a m\xE9s, aconsseguir punts per fer-ho. No importa si
+    son colors primaris, secundaris o terciaris, sempre que siguin els dos del mateix
+    color. Aix\xF2 et ser\xE0 molt \xFAtil en nivells de velocitat elevada."
 --- !u!222 &1619808050
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25894,15 +25907,15 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620355552}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1302448119}
   - {fileID: 1619808047}
   - {fileID: 840168572}
-  m_Father: {fileID: 431366571}
-  m_RootOrder: 5
+  m_Father: {fileID: 689690968}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -25997,7 +26010,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DRAGGING COLORS
+  m_Text: ARROSSEGANT COLORS
 --- !u!222 &1620355557
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26286,7 +26299,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: THE GRID
+  m_Text: LA GRAELLA
 --- !u!222 &1637020343
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26494,7 +26507,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DOUBLE
+  m_Text: DOBLE
 --- !u!222 &1662205040
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26614,7 +26627,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Send Feedback
+  m_Text: Enviar Comentaris
 --- !u!222 &1664386063
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27080,10 +27093,10 @@ RectTransform:
   m_Father: {fileID: 759057911}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -370.00003, y: -212}
-  m_SizeDelta: {x: 180, y: 300}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -382, y: -152}
+  m_SizeDelta: {x: 170, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1709799359
 MonoBehaviour:
@@ -27233,7 +27246,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1000 POINTS
+  m_Text: 1000 PUNTS
 --- !u!222 &1710350802
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27294,7 +27307,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: POINTS
+  m_Text: PUNTS
 --- !u!114 &1710386690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27473,7 +27486,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MORE
+  m_Text: "M\xC9S"
 --- !u!222 &1711863749
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27677,10 +27690,10 @@ RectTransform:
   m_Father: {fileID: 738068736}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.0821048, y: 0.14515875}
+  m_AnchorMax: {x: 0.92800003, y: 0.8752254}
+  m_AnchoredPosition: {x: -5.5, y: -19.5}
+  m_SizeDelta: {x: -813, y: -1299}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1735321756
 MonoBehaviour:
@@ -28059,7 +28072,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LEVEL 1
+  m_Text: NIVELL 1
 --- !u!222 &1736787595
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28155,7 +28168,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Language
+  m_Text: Idioma
 --- !u!222 &1747284395
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28629,6 +28642,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776242986}
   m_CullTransparentMesh: 0
+--- !u!114 &1776603268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96a6c3ea7d28744aacc367115a71af5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mTarget: {fileID: 5779083944655429803}
 --- !u!1 &1785917869
 GameObject:
   m_ObjectHideFlags: 0
@@ -28880,7 +28906,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BACKPACK
+  m_Text: MOTXILLA
 --- !u!222 &1796282353
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29190,7 +29216,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: MORE
+  m_Text: "M\xC9S"
 --- !u!222 &1827453632
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29428,7 +29454,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SPEED
+  m_Text: VELOCITAT
 --- !u!222 &1856795115
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29637,7 +29663,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: "SEG\xDCENT"
 --- !u!222 &1869822347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -29961,7 +29987,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: INVENTORY
+  m_Text: INVENTARI
 --- !u!222 &1881212759
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30218,7 +30244,7 @@ PrefabInstance:
     - target: {fileID: 7109781379897342778, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
       propertyPath: m_Text
-      value: DOUBLE
+      value: DOBLE
       objectReference: {fileID: 0}
     - target: {fileID: 7109781379897342779, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
@@ -30228,7 +30254,7 @@ PrefabInstance:
     - target: {fileID: 7109781378511775367, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
       propertyPath: m_Text
-      value: SCORE
+      value: "PUNTUACI\xD3"
       objectReference: {fileID: 0}
     - target: {fileID: 7109781378511775416, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
@@ -30482,7 +30508,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NOT ENOUGH COMBI$
+  m_Text: COMBI$ INSUFICIENTS
 --- !u!222 &1908946939
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30701,10 +30727,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The game ends when the grill is full or when the time is up. For the first
-    case, try cleaning the grill with the same colors. For the second case, try to
-    finish the levels by leaving extra time, this will make you earn time bonuses
-    for the next level. Keep in mind that the levels are accelerating as you progress.
+  m_Text: "La partida finalitza quan s'omple la graella o quan s'acaba el temps. Per
+    al primer cas, intenta netejar la graella de colors iguals. Per al segon cas,
+    intenta acabar els nivells deixant temps sobrant, aix\xF2 far\xE0 que guanyis
+    bons de temps per al seg\xFCent nivell. Tingues en compte que els nivells van
+    accelerant a mesura que vas avan\xE7ant."
 --- !u!222 &1916703660
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30824,7 +30851,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SCORE
+  m_Text: "PUNTUACI\xD3"
 --- !u!222 &1918453363
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31151,7 +31178,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Rate '
+  m_Text: 'Qualifica '
 --- !u!114 &1943865519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31306,7 +31333,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sound
+  m_Text: So
 --- !u!222 &1953647013
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31470,11 +31497,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: During the game you can collect diamonds that will be generated in the boxes
-    with tertiary colors. They will only appear in those boxes, so you must create
-    them before and be lucky that they appear. Once they do, to collect them you only
-    have to join the square of the diamond with another of the same color or take
-    it to one of the upper boxes of the combination.
+  m_Text: "Durant el joc podr\xE0s recollir diamants que s'aniran generant en les
+    caselles amb colors terciaris. Nom\xE9s apareixeran en aquestes caselles, de manera
+    que has de crear-les abans i tenir la sort que apareguin. Un cop ho facin, per
+    recollir-los nom\xE9s has de ajuntar la casella del diamant amb una altra del
+    mateix color o portar-la a una de les caselles superiors de la combinaci\xF3."
 --- !u!222 &1958162660
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31520,10 +31547,10 @@ RectTransform:
   m_Father: {fileID: 738068736}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.0821048, y: 0.14515875}
+  m_AnchorMax: {x: 0.92800003, y: 0.8752254}
+  m_AnchoredPosition: {x: -5.5, y: -19.5}
+  m_SizeDelta: {x: -815, y: -1299}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1958283456
 MonoBehaviour:
@@ -31902,7 +31929,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LEVEL 1
+  m_Text: NIVELL 1
 --- !u!222 &1963072165
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -32297,10 +32324,10 @@ RectTransform:
   m_Father: {fileID: 738068736}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.10841391, y: 0.14515875}
+  m_AnchorMax: {x: 0.9065861, y: 0.8606968}
+  m_AnchoredPosition: {x: -8.5, y: -5}
+  m_SizeDelta: {x: -791, y: -1230}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1984650705
 GameObject:
@@ -32478,7 +32505,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 720}
+  m_AnchoredPosition: {x: 0, y: 664}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1987092944
@@ -32732,7 +32759,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BACKPACK
+  m_Text: MOTXILLA
 --- !u!114 &1995703146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32840,7 +32867,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001892910}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -32851,8 +32878,8 @@ RectTransform:
   - {fileID: 770560802}
   - {fileID: 1834825560}
   - {fileID: 1507713913}
-  m_Father: {fileID: 431366571}
-  m_RootOrder: 8
+  m_Father: {fileID: 689690968}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -32947,7 +32974,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: THE DIAMONDS
+  m_Text: ELS DIAMANTS
 --- !u!222 &2001892915
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33249,7 +33276,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: DRAGGING COLORS
+  m_Text: ARROSSEGANT COLORS
 --- !u!114 &2015993086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33320,7 +33347,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2015993084}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -33328,8 +33355,8 @@ RectTransform:
   - {fileID: 1758877638}
   - {fileID: 1154545716}
   - {fileID: 275007842}
-  m_Father: {fileID: 431366571}
-  m_RootOrder: 4
+  m_Father: {fileID: 689690968}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -33642,7 +33669,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SCORE
+  m_Text: "PUNTUACI\xD3"
 --- !u!222 &2030061153
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33763,8 +33790,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1 minute letter With this letter you will increase the time you have to
-    finish the level by one minute.
+  m_Text: "Carta d'1 minut. Amb aquesta carta aumentar\xE0s un minut m\xE9s el temps
+    de qu\xE8 disposes per finalitzar el nivell."
 --- !u!222 &2037262551
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33937,8 +33964,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1500}
+  m_AnchoredPosition: {x: -1.3575, y: 3.9}
+  m_SizeDelta: {x: 997.39, y: 1385.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2050362193
 MonoBehaviour:
@@ -34088,7 +34115,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CLEAN THE GRID
+  m_Text: NETEJA LA GRAELLA
 --- !u!222 &2055100017
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34133,7 +34160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 720}
+  m_AnchoredPosition: {x: 0, y: 664}
   m_SizeDelta: {x: 600, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2059372943
@@ -35072,7 +35099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTarget: {fileID: 2030061152}
+  mTarget: {fileID: 1009455063}
 --- !u!1001 &77461291331041283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35193,7 +35220,7 @@ PrefabInstance:
     - target: {fileID: 77461290902152690, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
       propertyPath: m_Text
-      value: 1 MINUTE
+      value: 1 MINUT
       objectReference: {fileID: 0}
     - target: {fileID: 77461290902152691, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
@@ -35203,7 +35230,7 @@ PrefabInstance:
     - target: {fileID: 77461290680751723, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
       propertyPath: m_Text
-      value: MORE
+      value: "M\xC9S"
       objectReference: {fileID: 0}
     - target: {fileID: 77461290680751716, guid: db18f1e02500146b7847ed2cee7c9a21,
         type: 3}
@@ -35332,7 +35359,7 @@ PrefabInstance:
     - target: {fileID: 78238838433162771, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
       propertyPath: m_Text
-      value: LEVEL 1
+      value: NIVELL 1
       objectReference: {fileID: 0}
     - target: {fileID: 78238838433162770, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
@@ -35342,7 +35369,7 @@ PrefabInstance:
     - target: {fileID: 78238838249856294, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
       propertyPath: m_Text
-      value: SPEED
+      value: VELOCITAT
       objectReference: {fileID: 0}
     - target: {fileID: 78238838249856289, guid: ba9023e95ba5c482fb37cec74896ffd4,
         type: 3}
@@ -35471,7 +35498,7 @@ PrefabInstance:
     - target: {fileID: 4568401288977780850, guid: d2073c77e557644c19b9ef4d268c2af1,
         type: 3}
       propertyPath: m_Text
-      value: POINTS
+      value: PUNTS
       objectReference: {fileID: 0}
     - target: {fileID: 4568401288977780851, guid: d2073c77e557644c19b9ef4d268c2af1,
         type: 3}
@@ -35496,6 +35523,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944459932063, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_Text
+      value: Reclamar
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944621153334, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_Text
+      value: TANCAR
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944618466123, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_Text
+      value: 'TORNA EN '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083945280770450, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_Text
+      value: "RECOMPENSA DI\xC0RIA"
       objectReference: {fileID: 0}
     - target: {fileID: 5779083945715759031, guid: 4ec639376a4794e6f8c613d775c20fcb,
         type: 3}
@@ -35555,7 +35602,7 @@ PrefabInstance:
     - target: {fileID: 5779083945167520648, guid: 4ec639376a4794e6f8c613d775c20fcb,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000000007451028
+      value: -0.00012206607
       objectReference: {fileID: 0}
     - target: {fileID: 5779083945167520648, guid: 4ec639376a4794e6f8c613d775c20fcb,
         type: 3}
@@ -35618,8 +35665,82 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -119.99988
       objectReference: {fileID: 0}
+    - target: {fileID: 5779083945057787736, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944853276069, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.058187507
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944853276069, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.11724074
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944853276069, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.964125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944853276069, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.90651864
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944853276069, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -1641
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944853276069, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -2589
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944853276069, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -41.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5779083944853276069, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -21.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6140389708341392906, guid: 4ec639376a4794e6f8c613d775c20fcb,
+        type: 3}
+      propertyPath: m_Text
+      value: "PER LA TEVA PR\xD3XIMA RECOMPENSA."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ec639376a4794e6f8c613d775c20fcb, type: 3}
+--- !u!114 &5779083944655429803 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7622333113132405366, guid: 4ec639376a4794e6f8c613d775c20fcb,
+    type: 3}
+  m_PrefabInstance: {fileID: 5779083944655429802}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5779083944655429804 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5779083946214695638, guid: 4ec639376a4794e6f8c613d775c20fcb,
+    type: 3}
+  m_PrefabInstance: {fileID: 5779083944655429802}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7109781379719419047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35740,7 +35861,7 @@ PrefabInstance:
     - target: {fileID: 7109781379897342778, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
       propertyPath: m_Text
-      value: DOUBLE
+      value: DOBLE
       objectReference: {fileID: 0}
     - target: {fileID: 7109781379897342779, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
@@ -35750,7 +35871,7 @@ PrefabInstance:
     - target: {fileID: 7109781378511775367, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
       propertyPath: m_Text
-      value: SCORE
+      value: "PUNTUACI\xD3"
       objectReference: {fileID: 0}
     - target: {fileID: 7109781378511775416, guid: 7c140afcd34ab466cba5b33daa568161,
         type: 3}
@@ -35879,7 +36000,7 @@ PrefabInstance:
     - target: {fileID: 7193915206561047603, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
       propertyPath: m_Text
-      value: CLEAN
+      value: NETEJA
       objectReference: {fileID: 0}
     - target: {fileID: 7193915206561047602, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
@@ -35889,7 +36010,7 @@ PrefabInstance:
     - target: {fileID: 7193915204885449827, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}
       propertyPath: m_Text
-      value: THE GRID
+      value: LA GRAELLA
       objectReference: {fileID: 0}
     - target: {fileID: 7193915204885449826, guid: 585440fe3fa0d4fb89afc7a00bef46d8,
         type: 3}

@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 6397850625564530736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.30218068, y: 0.30218068, z: 0}
+  m_LocalScale: {x: 0.26791278, y: 0.26791278, z: 0}
   m_Children:
   - {fileID: 6468823754049863639}
   m_Father: {fileID: 0}
@@ -71,6 +71,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 843026d5bb772469fb4e4272693367f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onGoal: 0
+  onDiamond: 0
 --- !u!1 &6826605506687439501
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,7 +173,7 @@ MonoBehaviour:
   isColored: 0
   color: 20
   messages: {fileID: 0}
-  initPosition: {x: 0, y: 0, z: 0}
+  initPosition: {x: 1.7063816, y: 1.5099714, z: 0}
   sameColor: 0
   newColor: 0
   newColorNumber: 0
@@ -181,6 +183,7 @@ MonoBehaviour:
   onGoal: 0
   value: 0
   typeColor: 0
+  positionGoal: {x: 0, y: 0, z: 0}
 --- !u!61 &1298974800759279542
 BoxCollider2D:
   m_ObjectHideFlags: 0

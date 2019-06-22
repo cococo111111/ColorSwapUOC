@@ -259,7 +259,15 @@ public class GameManager : MonoBehaviour
     {
         playing = false;
         gameOver = true;
+        Invoke("FXGameOver", 0.5f);
+    }
+
+    public void FXGameOver()
+    {
         PlayEffects.Instance.GameOver();
+        PlayEffects.Instance.grid.SetActive(false);
+        PlayEffects.Instance.gridBackGround.SetActive(false);
+        PlayEffects.Instance.gridResult.SetActive(false);
     }
 
     private void ShowLevel()
