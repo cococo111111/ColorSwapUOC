@@ -98,6 +98,12 @@ public class PlayEffectsMenu : MonoBehaviour
         GSui.Instance.PlayInAnims(buttonCards.transform, true);
         GSui.Instance.PlayInAnims(buttonSocial.transform, true);
         GSui.Instance.PlayInAnims(buttonRate.transform, true);
+        Invoke("ResetPanelsTutorial", 1f);
+    }
+
+    public void ResetPanelsTutorial()
+    {
+        TutorialManager.Instance.ResetPanels();
     }
 
     public void LoadShopPanel()

@@ -311,7 +311,7 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 fefb468d0ed403c583ac8876634b46be Assembly-CSharp.dll:I2.Loc.LocalizeTarget_UnityStandard_TextMesh
 e80c1450883443c68d6c2dade213536f Assembly-CSharp.dll:TMPro.Examples.TMPro_InstructionOverlay
 5edb0056ed9ab11b65e93f830e75d6ed Assembly-CSharp.dll:I2.Loc.LocalizationParamsManager
-1e9993a859cfdd0e24765bda4bd52841 Assembly-CSharp.dll:.TutorialManager
+db1f0f6a280fa8f92db87190d275c524 Assembly-CSharp.dll:.TutorialManager
 f34322977a2c099f5e876d50c96816f8 Assembly-CSharp.dll:Cubequad.SwipyMenu
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:GooglePlayGames.OurUtils.PlayGamesHelperObject
 fd9b6d804a2cf66852f46e89cfc7e8bd Assembly-CSharp.dll:I2.Loc.LocalizeTarget_TextMeshPro_Label

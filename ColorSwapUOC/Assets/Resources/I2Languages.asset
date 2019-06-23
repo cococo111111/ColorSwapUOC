@@ -1323,6 +1323,18 @@ MonoBehaviour:
         Punktzahl, die Sie in diesem Moment haben.
       Flags: 000000000000
       Languages_Touch: []
+    - Term: MEZCLA DE COLORES
+      TermType: 0
+      Description: 
+      Languages:
+      - MIX OF COLORS
+      - MEZCLA DE COLORES
+      - BARREJA DE COLORS
+      - MISTURA DE CORES
+      - "M\xC9LANGE DE COULEURS"
+      - MISCHUNG VON FARBEN
+      Flags: 000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
